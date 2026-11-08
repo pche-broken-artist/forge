@@ -1,6 +1,6 @@
 ---
-version: 7.0
-status: approved
+version: 7.1
+status: draft
 project: forge
 audience: principal + Claude only
 ---
@@ -2164,10 +2164,11 @@ position that already stands elsewhere.
   from the recipe. In the commands of git, `/save`, `/pull`,
   `forge-branch` and `/release`, `forge` names the whole, the engine's
   repository and the project beside it where it is cloned, each its own
-  commit with the prefix `forge:`; in the commands over documents
-  `forge` is the project. The repository starts clean, one commit naming
-  the engine commit it was cut from, the history before it the engine's.
-  Present shape 2026-11-08 (THR.0780).
+  commit with the prefix `forge:` and a tag of a release on both with
+  one name, so that one release is one tag in both repositories; in the
+  commands over documents `forge` is the project. The repository starts
+  clean, one commit naming the engine commit it was cut from, the
+  history before it the engine's. Present shape 2026-11-08 (THR.0780).
 - **POS.1490** The forge looks at the remote and offers, it never pulls
   or merges on its own. The `/forge` map and `/pull` ask `forge-status
   --remote` for the state of the engine and of the project against its
@@ -3095,6 +3096,12 @@ worked out by Claude; what Claude has worked out is never a FCT
   wordings of one requirement, a translation at every render, and the
   document the stakeholders approve would not be the one the chain
   holds (POS.0250, THR.0810).
+- **REJ.0550** A global ignore of the Office lock files per machine,
+  registered by `/setup` like the driver `ours` and reported by
+  `forge-status` when missing (the brief `pptx-gitignore`). Dropped
+  2026-11-02: it would not travel with git, every clone depending on its
+  owner remembering a setup of his own; the line travels in every
+  project's own `.gitignore` instead (POS.1690).
 
 ## Candidate structure for the layer below
 

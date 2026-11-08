@@ -2,7 +2,7 @@
 project: forge
 purpose: readme
 audience: humans arriving at the repository of the forge's own project
-version: 0.1
+version: 0.2
 output: README.md
 ---
 
@@ -39,17 +39,19 @@ renders the engine's README (POS.1980, SOL.0930). -->
   status, date) and one line with the count of open threads.
 - Every claim derivable from the inputs; invent nothing. Tone plain
   and direct. Language: English.
-- Title: `# Forge of Thought, the forge's own project <intent
-  version>`. Nothing from any other project; no instance facts.
+- Title: `# Forge of Thought: the design record <intent version>`;
+  the subtitle in italics: the intent, the solution design, the
+  decisions and the reviews behind the engine, kept as a project of
+  the engine's own process. Nothing from any other project; no instance facts.
 - Close with "About this README": a render of
   `recipes/readme-project.md`, regenerated at every release, never
   edited by hand; then the fixed sentence of the readme genre,
   verbatim, and the dated footer.
 
 ## Template
-# Forge of Thought, the forge's own project <intent version>
+# Forge of Thought: the design record <intent version>
 
-*<one line: the thinking behind the engine, kept as a project of the engine's own process>*
+*The intent, the solution design, the decisions and the reviews behind the engine, kept as a project of the engine's own process.*
 
 <the first sentence: the engine is what you install, with the link>
 
