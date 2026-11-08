@@ -50,6 +50,13 @@ the positions since 5.0 gone through by the test and cut, rather than
 the present state accepted. The split of large files asked above is one
 answer to the same pressure.
 
+2026-11-08: the pass was not made in 6.x; twelve positions born since
+carry mechanism the test of POS.1390 would move down (CHL.0690,
+accepted). 7.0 is approved with the cut carried into 7.x knowingly, said
+in its approval record; the pass of this thread is the first round of
+7.x after the release, before a new position is written outside the open
+threads (DEC.0440).
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:

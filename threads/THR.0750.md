@@ -40,6 +40,11 @@ managed settings, who the user is), which DEC.0190 sent to
 `forge-rollout` and to the brief `next-gen`, has its home in `next-gen`
 alone.
 
+2026-11-08: the author's own projects since 6.0 use the workbench,
+renders, work products and research; the chain is used by others
+(CHL.0710). That is the fact the `workshop` kind has to answer, not a
+defect of the chain.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:

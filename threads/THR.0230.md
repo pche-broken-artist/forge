@@ -142,6 +142,15 @@ chain by name (ledger, check, migrate), the forge skill and the
 walkthrough hook; every "between" is one shape, a mechanism that names
 the forge's artefacts instead of reading them from the definitions.
 
+2026-11-08: a trial kit of the core without the chain stands beside the
+engine since 2026-10-29 (`forge-core-trial`; the brief `plugin` of the
+project forge-rollout is the principal's text of what he wants). It
+stands outside the forge on purpose: a test, made where it cannot touch
+the forge's files or become a position by accident. It decides nothing
+of this thread: what it shows on a real project enters the chain as a
+source and is weighed in the brief `engine-split` (POS.1380), where the
+split is decided (CHL.0680).
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:

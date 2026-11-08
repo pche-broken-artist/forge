@@ -760,3 +760,67 @@ verdict on the whole ID, the rest a `changed` record of the history
 - **Verdict:** FND.3910 resolved (the closed record in the intent's
   history, 6.21)
 - **Date:** 2026-11-08
+
+## DEC.0440 — The cut between intent and design is carried into 7.x, with a dated condition
+- **Decision:** CHL.0640, parked by DEC.0310 until 6.x, was not passed
+  in 6.x; 7.0 is approved with the cut carried knowingly, said in the
+  approval record, and the pass of THR.0640 is the first round of 7.x
+  after the release, before a new position is written outside the open
+  threads. CHL.0690, which named the expiry, is accepted.
+- **Reason:** The principal's word of 2026-11-08: the pass is a round of
+  its own, not a fix for the day of a major; what was wrong was the
+  silence, not the carrying. Weighed against it: the pass before the
+  tag, which would have moved the release by a round.
+- **Verdict:** CHL.0640 parked until the pass of THR.0640, the first round of 7.x after the release of 7.0
+- **Date:** 2026-11-08
+
+## DEC.0450 — The re-test of the walls is carried into 7.x
+- **Decision:** CHL.0650, parked by DEC.0320 until 6.x, was not taken up
+  in 6.x; it is carried into 7.x in THR.0600 and named in the approval
+  record of 7.0, so that the parking expires by a word (CHL.0730,
+  POS.0300).
+- **Reason:** The principal's word of 2026-11-08, at the walk of the
+  parked items before the tag; the tests of 6.x test the scripts, not
+  the behaviour, which THR.0600 keeps.
+- **Verdict:** CHL.0650 parked until the re-test of the walls is taken up in 7.x (THR.0600)
+- **Date:** 2026-11-08
+
+## DEC.0460 — The single-source findings of the test of 7.0 are worked as one pass right after the tag
+- **Decision:** The findings of the check single-source-of-truth of
+  2026-11-08 on the operating layer, the four medium and the nine low,
+  FND.2890 reopened among them, are parked together and worked as one
+  pass on the operating layer in the first round after the tag v7, the
+  six immediate fixes as one step there, as the check says.
+- **Reason:** The principal's word of 2026-11-08: each is real and none
+  changes behaviour; each is a multi-file edit of CLAUDE.md, the skills,
+  the templates or the agents, and an edit of the operating layer right
+  before the tag of a major carries a risk the user gains nothing from.
+  Weighed against it: the immediate fixes tonight as one step, declined
+  for the same reason.
+- **Verdict:** FND.4190 parked until the first round after the tag v7, one pass on the operating layer
+- **Verdict:** FND.4200 parked until the first round after the tag v7, one pass on the operating layer
+- **Verdict:** FND.4210 parked until the first round after the tag v7, one pass on the operating layer
+- **Verdict:** FND.4220 parked until the first round after the tag v7, one pass on the operating layer
+- **Verdict:** FND.4230 parked until the first round after the tag v7, one pass on the operating layer
+- **Verdict:** FND.4240 parked until the first round after the tag v7, one pass on the operating layer
+- **Verdict:** FND.4250 parked until the first round after the tag v7, one pass on the operating layer
+- **Verdict:** FND.2890 parked until the first round after the tag v7, one pass on the operating layer
+- **Verdict:** FND.4260 parked until the first round after the tag v7, one pass on the operating layer
+- **Verdict:** FND.4270 parked until the first round after the tag v7, one pass on the operating layer
+- **Verdict:** FND.4280 parked until the first round after the tag v7, one pass on the operating layer
+- **Verdict:** FND.4290 parked until the first round after the tag v7, one pass on the operating layer
+- **Verdict:** FND.4300 parked until the first round after the tag v7, one pass on the operating layer
+- **Date:** 2026-11-08
+
+## DEC.0470 — The want of the brief pptx-gitignore is in the intent; the rejection of the global ignore waits for its reason
+- **Decision:** FND.4170 settled in part: POS.1690 says that every
+  project's .gitignore from templates/gitignore keeps the ledger and the
+  Office lock files out of git (intent 6.24). The REJ for the global
+  ignore through /setup, which the brief asked for and the principal
+  declined on 2026-11-02, is not written, since the mining record of
+  6.10 carries no reason and a reason is never guessed; the finding
+  stays parked until the principal gives it.
+- **Reason:** The principal handed the low findings to Claude on
+  2026-11-08; a REJ without its reason would be an invention.
+- **Verdict:** FND.4170 parked until the principal gives the reason for declining the global ignore
+- **Date:** 2026-11-08
