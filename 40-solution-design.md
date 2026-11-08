@@ -1,5 +1,5 @@
 ---
-version: 0.61
+version: 0.62
 status: draft
 project: forge
 audience: whoever realises the solution, a person or an agent
@@ -1097,9 +1097,10 @@ boundary kept by hand or an order of work.
   project. The forge's own project, `projects/forge`, is a repository
   of its own beside it, public under the same account and named
   `forge` (SOL.0930). The engine is a clone; the projects are nested
-  git repositories in a gitignored `projects/*`, nothing re-included
-  (the pattern is `projects/*`, not `projects/`, so that a project's
-  own files are never the engine's by accident); the engine's
+  git repositories in a gitignored `projects/*`, the directory's own
+  `README.md` the one file re-included, so that a clone has the
+  directory and a line on what belongs in it (the pattern is
+  `projects/*`, not `projects/`, or the re-include fails silently); the engine's
   `.gitignore` carries no line of any project, the ledger of each
   being its own `.gitignore`'s (SOL.0680). A per-project `CLAUDE.md`
   is polish only where genuinely needed. How the scripts recognise a
