@@ -824,3 +824,15 @@ verdict on the whole ID, the rest a `changed` record of the history
   2026-11-08; a REJ without its reason would be an invention.
 - **Verdict:** FND.4170 parked until the principal gives the reason for declining the global ignore
 - **Date:** 2026-11-08
+
+## DEC.0480 — A decision keeps the word it was written with
+- **Decision:** FND.4310 rejected: DEC.0430's Verdict line reads
+  `FND.3910 resolved`, a word the templates give a history record and
+  not a decision; the decision is append-only and is not edited, and
+  the state of FND.3910 is carried where the rule puts it, the closed
+  record of the intent's history at 6.21, which the ledger reads.
+- **Reason:** The principal's word of 2026-11-08 at the light check of
+  the release of 7.0: nothing to rewrite; a Verdict here so that the
+  check does not raise it again.
+- **Verdict:** FND.4310 rejected
+- **Date:** 2026-11-08
