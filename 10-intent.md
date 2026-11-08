@@ -1,5 +1,5 @@
 ---
-version: 6.22
+version: 6.23
 status: draft
 project: forge
 audience: principal + Claude only
