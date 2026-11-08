@@ -1,5 +1,5 @@
 ---
-version: 0.62
+version: 0.63
 status: draft
 project: forge
 audience: whoever realises the solution, a person or an agent
@@ -1620,7 +1620,11 @@ boundary kept by hand or an order of work.
   recipe (SOL.0680). The README says where the project lives and
   that a user never needs it, CONTRIBUTING that a contributor clones
   it beside the engine and that a change of behaviour is two pull
-  requests, one per repository, each naming the other. The project's
+  requests, one per repository, each naming the other, merged both or
+  neither in one sitting, the project first and the engine second and
+  no release between them, since git merges no two repositories as
+  one and the release is where the engine and the intent are read
+  together. The project's
   own README on GitHub is the render of `recipes/readme-project.md`,
   a recipe of the readme genre named apart because `recipes/
   readme.md` of this project renders the engine's README; it says

@@ -2,7 +2,7 @@
 project: forge
 purpose: CONTRIBUTING.md of the engine's repository - how a visitor gives feedback, brings an idea or sends a change
 audience: a visitor of the repository on GitHub who has used the forge or read about it and wants to say, ask or change something; he arrives from the Contributing tab, the sidebar, or the page where an issue or a pull request is created
-version: 0.9
+version: 0.10
 output: /CONTRIBUTING.md
 ---
 
@@ -95,6 +95,10 @@ output: /CONTRIBUTING.md
   pull requests where the change touches both repositories, one on
   the engine with the change itself, one on the forge's own project
   with the position and the design item, each naming the other. Say
+  how the two are merged, since git cannot merge two repositories as
+  one: both or neither, in one sitting, the project first and the
+  engine second, no release between them; one of them declined means
+  both closed with the reason. Say
   what it does not carry: no release, no regenerated README, release
   notes or documentation, which the author makes at the next
   release. A brief may come first and need not. Say that everything
