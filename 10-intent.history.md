@@ -851,3 +851,5 @@ word `<file> | changed | state: by hand`.
 - 2026-11-08 | 7.1 | PCHe | FND.4290 | closed | resolved: the operating layer, the pass of DEC.0460 after the tag v7 (intent 7.1)
 - 2026-11-08 | 7.1 | PCHe | FND.4300 | closed | resolved: the operating layer, the pass of DEC.0460 after the tag v7 (intent 7.1)
 - 2026-11-08 | 7.1 | PCHe | FND.4340 | closed | resolved: the operating layer, the pass of DEC.0460 after the tag v7 (intent 7.1)
+- 2026-11-09 | 7.2 | PCHe | THR.0850 | created
+- 2026-11-10 | 7.2 | PCHe | FND.4390 | closed | resolved: the comment of templates/history.md whole in both companions
