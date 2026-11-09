@@ -57,6 +57,15 @@ in its approval record; the pass of this thread is the first round of
 7.x after the release, before a new position is written outside the open
 threads (DEC.0440).
 
+2026-11-09: the pass made on the twelve positions of CHL.0690, POS.1910
+to POS.2020, one by one, the test of POS.1390 applied and the mechanism
+left to the design, the definitions, the templates and the files that
+already carry it. Nine are cut (POS.1920, POS.1930, POS.1940, POS.1950,
+POS.1960, POS.1970, POS.2000, POS.2010, POS.2020), POS.1910 passes as it
+stands, POS.1980 and POS.1990 are parked by the principal. The wider
+run over the positions since 5.0 outside the twelve is not made. Open
+stays whether large files are split, and that run.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:

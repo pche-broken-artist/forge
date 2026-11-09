@@ -1,5 +1,5 @@
 ---
-version: 0.64
+version: 0.65
 status: draft
 project: forge
 audience: whoever realises the solution, a person or an agent
@@ -1517,7 +1517,8 @@ boundary kept by hand or an order of work.
   (SOL.0900, POS.1960); the conversions are tested for their failure
   without the tool alone, the per-prompt hook not at all. A script
   takes a project by its slug or by the path of its directory,
-  `forge_repos.project_path` the one resolver, `is_path` the rule (a
+  `forge_repos.project_path` the one resolver, every script through it,
+  `forge-status` by one repository as well, `is_path` the rule (a
   separator or an absolute path), `project_label` how a report names
   the target, `project_file` the name (POS.1950; 2026-11-07). Where:
   `scripts/`.
@@ -1572,7 +1573,11 @@ boundary kept by hand or an order of work.
   `ubuntu-latest` and `windows-latest`, Python 3.8 and the newest
   stable, `3.x`, resolved by `setup-python` at each run, `pip install
   pytest`, `python -m pytest`; the run's token has `contents: read`
-  and nothing more. `/release` of the engine runs
+  and nothing more. The git tests run git with an empty global
+  configuration and no system one, the identity set in the throwaway
+  repository alone, so that the user's guard, his stanzas and his
+  registration of the merge driver change nothing (POS.1960).
+  `/release` of the engine runs
   `/test` as its step 1a; `/save` never. Realises: POS.1930, POS.1950,
   POS.1960, POS.1100. Choice: pytest against unittest, the convention
   of the language and the one install; the scripts run as

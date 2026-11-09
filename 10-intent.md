@@ -1,5 +1,5 @@
 ---
-version: 7.1
+version: 7.2
 status: draft
 project: forge
 audience: principal + Claude only
@@ -1048,58 +1048,52 @@ position that already stands elsewhere.
   0.4; built by a user of the forge in a clone of their own and accepted
   into the engine from pull request #8.
 - **POS.2000 How the stories are made.** Handed over by default: Claude
-  walks the Map alone and returns first the cut — the name of every
-  story with a short description of what it covers, in words, and the
-  items of the parent no story serves, named by what they say — and only
-  on the cut agreed drafts the whole stories, asks nothing, and returns
-  the draft, which is then walked story by story; where the parent does
-  not suffice for a story, the walk turns into an interview on it. A
-  story is one function as the one who uses it meets it; its variants by
-  condition, its qualities and its transitions are its acceptance
-  criteria and edge cases, never stories of their own; the usual course
-  is a criterion, a situation at the border an edge case. Claude writes
-  no behaviour, value, technical solution, priority or estimate the
-  parent does not carry; what is missing stands as a question with an
-  owner, and an answer that changes substance goes to the parent first
-  (intent-first). Reason: the trial of 2026-11-02, where a draft of six
-  stories cut variants of one function apart and the principal merged
-  them into two, and where the walk of the stories answered three open
-  questions of the BRD, carried up into the intent and the BRD before
-  the stories were written. Present shape 2026-11-02.
-- **POS.2010 The shape of a story.** One prefix of its own, US. A story
-  is a heading `US.NNNN — <name>`, a free sentence carrying who or what
-  wants it, what happens and why (the form "As a… I want… so that…"
-  neither required nor forbidden), its acceptance criteria as bullets in
-  the indicative, one behaviour each, and then only the parts it has,
-  under fixed English labels: `Edge cases` (situation → what happens),
-  `Risks` (each with its mitigation or its consequences), `Note` (a link
-  to an attachment or a technical analysis with what lies behind it),
-  `Questions` (question → owner), `Reference`. Reference is the one part
-  every story has: the BR, NFR, UC or DEP it serves, or in a small
-  change the POS; a dependency is a DEP in the Reference, or a question.
-  No vague word in a criterion, no priority, no estimate, no technical
-  solution, no section of notes, dependencies or introduction. A quality
-  cutting across the whole is a story of its own, one concerning one
-  function a criterion of its story. Reason: the shape of the instance's
-  export, kept by the render, and the principal's word at the brief of
-  2026-11-02; a section of dependencies was rejected since the Reference
-  carries them. Decided 2026-11-02.
+  works the parent alone and returns first the cut, the stories each
+  with what it covers and the items of the parent no story serves, and
+  only on the cut agreed drafts the whole stories and returns the draft
+  to be walked story by story. A story is one function as the one who
+  uses it meets it; its variants by condition, its qualities and its
+  transitions are its acceptance criteria and edge cases, never stories
+  of their own. Claude writes no behaviour, value, technical solution,
+  priority or estimate the parent does not carry; what is missing stands
+  as a question with an owner, and an answer that changes substance goes
+  to the parent first (intent-first). Reason: the trial of 2026-11-02,
+  where a draft of six stories cut variants of one function apart and
+  the principal merged them into two, and where the walk of the stories
+  answered three open questions of the BRD, carried up into the intent
+  and the BRD before the stories were written. Present shape 2026-11-02.
+- **POS.2010 The shape of a story.** A story has a name and a prefix of
+  its own, US. It carries a free sentence of who or what wants it, what
+  happens and why (the form "As a… I want… so that…" neither required
+  nor forbidden), its acceptance criteria in the indicative, one
+  behaviour each, and then only the parts it has: edge cases, risks,
+  notes, questions and the reference. An edge case is a situation and
+  what happens in it, a risk comes with its mitigation or its
+  consequences, a question with its owner, a note is a link to an
+  attachment or a technical analysis with what lies behind it. The
+  reference is the one part every story has: the BR, NFR, UC or DEP it
+  serves, or in a small change the POS; a dependency is a DEP in the
+  reference, or a question. No vague word in a criterion, no priority,
+  no estimate, no technical solution, no section of notes, dependencies
+  or introduction. A quality cutting across the whole is a story of its
+  own, one concerning one function a criterion of its story. Reason: the
+  shape of the instance's export, kept by the render, and the
+  principal's word at the brief of 2026-11-02; a section of dependencies
+  was rejected since the reference carries them. Decided 2026-11-02.
 - **POS.2020 The reviewers of the stories.** No new critic and no new
   persona: `clarity` reads the stories with their Story style, `essence`
   compares them with their parent, and a challenger already in the
   roster may be sent where the principal wants the substance tried. A
-  check `user-stories` verifies the mechanics: every in-scope item of
-  the parent served or said not to be, counted and never judged; every
-  story with a Reference to an item that exists; the shape and the order
-  of the parts, none present and empty; questions with an owner, risks
-  with a mitigation or consequences, notes with a link; no vague word or
-  conditional in a criterion; no skeleton residue. The stakeholders'
-  approval of the whole is the instance's act, recorded in
-  `decisions.md` where the principal wants it kept. Reason: what a story
-  can get wrong mechanically is what the check finds, as its first run
-  on the trial of 2026-11-02 found a sentence without its why; what a
-  persona would hunt in stories, the business-analyst persona already
-  hunts in the BRD above them. Decided 2026-11-02.
+  check `user-stories` verifies their mechanics, counted and never
+  judged: that the parent is served, that every story points at what it
+  serves and that its parts stand as they must; what it verifies in full
+  is its agent file's. The stakeholders' approval of the whole is the
+  instance's act, recorded in `decisions.md` where the principal wants
+  it kept. Reason: what a story can get wrong mechanically is what the
+  check finds, as its first run on the trial of 2026-11-02 found a
+  sentence without its why; what a persona would hunt in stories, the
+  business-analyst persona already hunts in the BRD above them. Decided
+  2026-11-02.
 
 ### Structure and style of an assignment
 - **POS.0200** Structured items with stable IDs beat prose, even at very
@@ -2357,83 +2351,61 @@ position that already stands elsewhere.
   2026-11-01 after six trial questions in the conversation
   (THR.0680).
 
-- **POS.1930 The scripts have tests.** `tests/` at the engine root,
-  beside the scripts they test, run with pytest from the engine root;
-  `/test` is the one door and `python -m pytest` the command it runs;
-  pytest is the one thing a contributor installs beyond `python`, and a
-  user of the engine never runs them and installs nothing for them. In
+- **POS.1930 The scripts have tests.** `/test` is the one door. A
+  contributor installs one thing beyond `python` to run them, and a user
+  of the engine never runs them and installs nothing for them. In
   proportion: enough to catch what a change of a script breaks, never a
   suite for its own sake, no coverage figure as a target (kind, not
-  count). What is tested, in the order it was built: the deterministic
-  cores, the front-matter, the records of a history, the reader of the
-  documentation map, the git hook's judgement over a command, the ledger
-  made from the documents, the light check as a program; then the git
-  scripts on the fixture, status, save, branch, pull, the step of a
-  conflict and the ways of merging; what calls pandoc, markitdown or the
-  model is tested for its failure without the tool alone, naming the
-  tool and how it is installed. The git hook's built-in cases became the
-  first test and its `--test` flag went: one place for tests. Never a
-  live repository (DEC.0240). A script is changed with its test, and a
-  pull request on a script carries it; that is possible in one
-  repository only, and CI runs where the code is. Why: a tree of scripts
-  without one test is the first thing a contributor looks for and the
-  first thing a change breaks (THR.0790). Present shape 2026-11-08
-  (brief `tests`).
-- **POS.1940 The fixture is synthetic.** `tests/fixture`, a thought
-  project of the current shape with a made-up subject, one of each
-  kind of document the scripts read, a brief, an intent of two
-  versions, a thread open and one closed, a decision, a critique and
-  a challenge, a source with its index, a recipe and its render;
-  `fixture: true` in its project file; never a copy of a real project
-  and never under `projects/`. A test works on a copy of it in a
-  temporary directory, as a repository with a bare origin beside it
-  where the test needs git, and the fixture itself is never changed
-  by a test; it conforms to the light check, so a template it no
-  longer follows turns a test red, which is the signal wanted; its
-  README says what it is. It replaces the hand-made `projects/fixture`
-  of the cutover (SOL.0830, DEC.0360). Why: real content does not
-  belong in the public engine, and `projects/` is gitignored, so a
-  fixture there would reach neither a contributor nor CI (DEC.0410).
-  Decided 2026-11-07.
-- **POS.1950 A script takes a project by its slug or by the path of
-  its directory.** A bare word is a slug and means `projects/<slug>`;
-  anything with a separator or absolute is the directory itself,
-  taken as given; the project's name is the `project` field of its
-  project file, the directory's name without one; `forge` stays the
-  engine's own project by the name; one resolver,
-  `forge_repos.project_path`, every script through it, `forge-status`
-  by one repository as well. The commands of the forge call by slug
-  as before. Why: a copy in a temporary directory is reached by a
-  path and by nothing else, and a path is an argument like any
-  other, visible in the command; the alternatives REJ.0510 to
-  REJ.0530. Decided 2026-11-07.
-- **POS.1960 The tests run in CI and read nothing of the machine.**
-  GitHub Actions at every push and pull request of the engine, Linux
-  and Windows, Python 3.8 and the newest; macOS not until someone
-  asks for it. The git tests run git with an empty global
-  configuration and no system one, the identity set in the throwaway
-  repository alone, so that the user's guard, his stanzas and his
-  registration of the merge driver change nothing and CI without any
-  of them sees the same; the registration is tested by its presence
-  and by its absence (SOL.0740). Why: the portability rule of
-  POS.0830 becomes a run instead of a writing rule, and a test that
-  depends on the machine it runs on tests the machine. Decided
-  2026-11-06 (brief `tests`).
+  count). What calls pandoc, markitdown or the model is tested for its
+  failure without the tool alone, naming the tool and how it is
+  installed. Never a live repository (DEC.0240). A script is changed
+  with its test, and a pull request on a script carries it; that is
+  possible in one repository only, and CI runs where the code is. Why: a
+  tree of scripts without one test is the first thing a contributor
+  looks for and the first thing a change breaks (THR.0790). Present
+  shape 2026-11-08 (brief `tests`).
+- **POS.1940 The fixture is synthetic.** The tests work on a made-up
+  thought project of the current shape, with one of each kind of
+  document the scripts read; never a copy of a real project and never
+  under `projects/`. A test works on a copy of it and the fixture itself
+  is never changed by a test; it conforms to the light check, so a
+  template it no longer follows turns a test red, which is the signal
+  wanted. It replaces the hand-made `projects/fixture` of the cutover
+  (SOL.0830, DEC.0360). Why: real content does not belong in the public
+  engine, and `projects/` is gitignored, so a fixture there would reach
+  neither a contributor nor CI (DEC.0410). Decided 2026-11-07.
+- **POS.1950 A script takes a project by its slug or by the path of its
+  directory.** A bare word is a slug and means `projects/<slug>`;
+  anything with a separator or absolute is the directory itself, taken
+  as given; the project's name is the `project` field of its project
+  file, the directory's name without one; `forge` stays the engine's own
+  project by the name. The commands of the forge call by slug as before.
+  Why: a copy in a temporary directory is reached by a path and by
+  nothing else, and a path is an argument like any other, visible in the
+  command; the alternatives REJ.0510 to REJ.0530. Decided 2026-11-07.
+- **POS.1960 The tests run in CI and read nothing of the machine.** The
+  tests run at every push and pull request of the engine, on Linux and
+  on Windows; macOS not until someone asks for it. The git tests depend
+  on nothing of the machine they run on, neither the user's guard, nor
+  his stanzas, nor his registration of the merge driver; the
+  registration is tested by its presence and by its absence (SOL.0740).
+  Why: the portability rule of POS.0830 becomes a run instead of a
+  writing rule, and a test that depends on the machine it runs on tests
+  the machine. Decided 2026-11-06 (brief `tests`).
 - **POS.1970 The map says what waits on the remote.** Where a repository
-  has an origin, `forge-status --remote` also asks GitHub, through `gh`
-  on PATH, for what lies there outside git: the open pull requests and
-  the discussions nobody of the repository has answered, each with its
-  number, title, author and date, a pull request with the count of files
-  it changes. The `/forge` map and `/pull` say it as a fact beside the
-  state of the branch, with one offer: look at it before anything is
-  written into the project. The forge reads it only; it merges, answers
-  and closes nothing (POS.1490). Whatever keeps it from reading, the
-  line says so and the map goes on; the remote read is GitHub's for now,
-  and a project on another host gets the one line that it could not be
-  read, as the script prints it (CHL.0720). Why: a contribution seen on
-  the morning it arrives costs nothing, the same contribution seen after
-  a week of one's own rounds costs renumbered items, re-dated versions
-  and a conflict at the merge (THR.0790). Present shape 2026-11-08.
+  has an origin, the `/forge` map and `/pull` also say what lies there
+  outside git: the open pull requests and the discussions nobody of the
+  repository has answered, each with its number, title, author and date,
+  a pull request with the count of files it changes. It is said as a
+  fact beside the state of the branch, with one offer: look at it before
+  anything is written into the project. The forge reads it only; it
+  merges, answers and closes nothing (POS.1490). Whatever keeps it from
+  reading, the line says so and the map goes on; the remote read is
+  GitHub's for now, and a project on another host gets the one line that
+  it could not be read (CHL.0720). Why: a contribution seen on the
+  morning it arrives costs nothing, the same contribution seen after a
+  week of one's own rounds costs renumbered items, re-dated versions and
+  a conflict at the merge (THR.0790). Present shape 2026-11-08.
 
 ### Naming
 - **POS.0600** The system is named **Forge of Thought**: thoughts are
@@ -2587,37 +2559,25 @@ position that already stands elsewhere.
   for it. What enters the forge stays the principal's decision
   (POS.0070). Decided 2026-10-04.
 - **POS.1920 The two fixed files of the root.** Beside the renders of
-  the root stand two files that are no render and derive from nothing
-  in the chain: `SECURITY.md`, the security policy, and
+  the root stand two files that are no render and derive from nothing in
+  the chain: `SECURITY.md`, the security policy, and
   `CODE_OF_CONDUCT.md`, the code of conduct. The policy is the
-  principal's own text: a problem is reported through GitHub's private
-  vulnerability reporting, a setting of the repository switched on
-  before the file points at it, with the profile CONTRIBUTING names as
-  the fallback and never a public issue; the forge promises an
-  acknowledgement within seven days, a fix or a decision at the
-  principal's pace told to the reporter first, credit in the advisory
-  unless declined, and nothing else, no bounty, no safe harbour, no
-  form; supported is the latest release on `main` only, a fix the next
-  release; what the forge does on the machine is said by kind,
-  instruction files, no server, the user's permissions, programs from
-  PATH, nothing sent but what the user sends, data that may carry
-  instructions, permissions a guard and not a sandbox, the specifics
-  left to the documentation pages a release regenerates, so that the
-  file stays true without a recipe; in scope is a script, a hook, a
-  file of the engine or a piece of data making the forge write, run,
-  send or publish what its rules do not say, out of scope Claude Code
-  and the tools the scripts call, the user's permission mode and the
-  content of his projects. The code of conduct is the Contributor
-  Covenant 3.0 word for word, under its own licence CC BY-SA 4.0 named
-  in the README beside CC BY 4.0, its reporting sentence pointing at
-  the private way of CONTRIBUTING, its suggested remedies kept. Neither
-  file is a render; neither has a companion, a row or a check, as
-  POS.1910 holds for the principal's own files; a change to either is
-  the principal's word. Why: a policy whose threat model is derived
-  from the design stays true only when re-rendered, and a release
-  re-renders the documentation, not a policy; a standard adopted is
-  worth exactly its unchanged text. Research 2026-10-05 and
-  2026-11-01. Decided 2026-11-01.
+  principal's own text, and what it promises is what he holds: a problem
+  is reported privately and never through a public issue, acknowledged
+  within a stated time and settled at the principal's pace told to the
+  reporter first, with credit unless declined and nothing else promised;
+  only the latest release is supported; what the forge does on the
+  machine is said by kind and its specifics left to the documentation a
+  release regenerates, so that the file stays true without a recipe. The
+  code of conduct is the Contributor Covenant 3.0 word for word, under
+  its own licence named in the README beside the engine's. Neither file
+  is a render; neither has a companion, a row or a check, as POS.1910
+  holds for the principal's own files; a change to either is the
+  principal's word. Why: a policy whose threat model is derived from the
+  design stays true only when re-rendered, and a release re-renders the
+  documentation, not a policy; a standard adopted is worth exactly its
+  unchanged text. Research 2026-10-05 and 2026-11-01. Decided
+  2026-11-01.
 - **POS.1000** Every project has a README and, if it is a thought
   project, release notes — both renders of the project's own recipes
   (`recipes/readme.md`, `recipes/release-notes.md`, `output:` in the

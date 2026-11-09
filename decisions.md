@@ -836,3 +836,16 @@ verdict on the whole ID, the rest a `changed` record of the history
   check does not raise it again.
 - **Verdict:** FND.4310 rejected
 - **Date:** 2026-11-08
+
+## DEC.0490 — The pass of THR.0640 is made on the twelve positions of CHL.0690
+- **Decision:** CHL.0640 is accepted and mended by the pass of THR.0640:
+  the test of POS.1390 applied to POS.1910 to POS.2020, nine positions
+  cut to the intent and the mechanism left where it already stands,
+  POS.1910 unchanged, POS.1980 and POS.1990 parked by the principal.
+  The condition of DEC.0440 has come. The positions since 5.0 outside
+  the twelve are not passed and stay in THR.0640.
+- **Reason:** The principal's word of 2026-11-09 at the walkthrough of
+  the pass: the round of its own that DEC.0440 promised, taken position
+  by position; weighed against it the whole of the positions since 5.0
+  in one round, left out so that the round could end.
+- **Date:** 2026-11-09

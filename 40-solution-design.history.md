@@ -306,3 +306,4 @@ word `<file> | changed | state: by hand`.
 - 2026-11-08 | 0.64 | PCHe | FND.4110 | closed | resolved: SOL.0130 and SOL.0120 (design 0.64)
 - 2026-11-08 | 0.64 | PCHe | FND.4140 | closed | resolved: SOL.0330, SOL.0680 and SOL.0500 (design 0.64)
 - 2026-11-08 | 0.64 | PCHe | FND.4150 | closed | resolved: SOL.0520 (design 0.64)
+- 2026-11-09 | 0.65 | VSv | SOL.0900, SOL.0620 | changed | the pass of THR.0640 (CHL.0640, DEC.0440): two sentences the intent gave up when POS.1960 and POS.1950 left the mechanism to the design: the git tests run with an empty global configuration and no system one, the identity set in the throwaway repository alone (SOL.0900); every script goes through the one resolver, `forge-status` by one repository as well (SOL.0620) | Was: SOL.0900 went from "…and nothing more." to "`/release` of the engine runs…" without the sentence; SOL.0620 named the resolver without saying that every script goes through it
