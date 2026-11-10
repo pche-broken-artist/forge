@@ -1,5 +1,5 @@
 ---
-version: 7.2
+version: 7.3
 status: draft
 project: forge
 audience: principal + Claude only
@@ -2070,7 +2070,11 @@ position that already stands elsewhere.
   pair.
 - **POS.0590** Everything the forge produces is Markdown, renders
   included: a presentation is a `.md` saying what is on each slide
-  (mermaid for pictures). The forge still ends at content, but it
+  (a picture in the format its recipe names, the principal's choice
+  recipe by recipe: mermaid inside the Markdown, or `png`, drawn by the
+  renderer itself beside a render that carries the provenance and a
+  link to it, the recipe its one source; further formats may be added,
+  2026-11-10). The forge still ends at content, but it
   carries its delivery-format tools at its edge: one turns a Markdown
   deck render into a `.pptx`, another a Markdown render into a `.docx`,
   a third turns a screenplay render into a video or into the events its

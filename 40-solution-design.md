@@ -1,5 +1,5 @@
 ---
-version: 0.64
+version: 0.65
 status: draft
 project: forge
 audience: whoever realises the solution, a person or an agent
@@ -867,6 +867,24 @@ boundary kept by hand or an order of work.
   is its skill's alone. Realises: POS.0590. Choice: two commands divided
   by cost; what they were chosen against is not recorded. Where:
   `.claude/skills/render/SKILL.md`, `.claude/skills/publish/SKILL.md`.
+- **SOL.0940 A picture in the format its recipe names.** The format
+  of a picture is the principal's choice, recipe by recipe: mermaid
+  inside the Markdown render, or `png`. A recipe whose Format names
+  `png` renders a picture: the renderer of `/render` draws it itself
+  with Pillow, the library `scripts/md2video.py` already needs, its
+  drawing code written into `tmp/` and left there, the recipe the one
+  source of the picture. The picture lands beside the render as
+  `renders/<recipe>.png`; the Markdown render carries the provenance
+  and a link to the picture, nothing else, so that the ledger reads it
+  as any render and GitHub shows the picture. The picture is drawn anew
+  at every render, as a Markdown render is written anew; `/publish` has
+  no part, there is no designed step. The width of the picture stands
+  in the recipe's Format; the height follows the content. Further
+  formats may be added beside these two. Realises: POS.0590. Choice: the renderer draws,
+  against a description format of the engine's own drawn by a script
+  and against SVG converted through resvg-py, each a format or a
+  library more. Where: `.claude/skills/render/SKILL.md`,
+  `templates/recipe.md`, `CLAUDE.md`.
 - **SOL.0430 The PowerPoint conversion.** `scripts/md2pptx.py`
   makes a PowerPoint file from a Markdown deck render, by one of two
   engines. `--engine claude`, the default and the engine of

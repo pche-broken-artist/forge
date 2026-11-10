@@ -853,3 +853,4 @@ word `<file> | changed | state: by hand`.
 - 2026-11-08 | 7.1 | PCHe | FND.4340 | closed | resolved: the operating layer, the pass of DEC.0460 after the tag v7 (intent 7.1)
 - 2026-11-09 | 7.2 | PCHe | THR.0850 | created
 - 2026-11-10 | 7.2 | PCHe | FND.4390 | closed | resolved: the comment of templates/history.md whole in both companions
+- 2026-11-10 | 7.3 | PCHe | POS.0590 | changed | the principal's word of 2026-11-10: the format of a picture is the recipe's, chosen by the principal recipe by recipe, mermaid one format and `png` a second, more to be added; prompted by the picture of THR.0850, which mermaid could not draw with blocks of one height and a box across rows, and drawn by Claude with Pillow the same day; SOL.0940 realises it | Was: (mermaid for pictures).

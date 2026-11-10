@@ -26,17 +26,19 @@ existing files left to the split into three blocks. What prompted
 it: `engine` today means the whole repository, a model of another
 family (`--engine`, `forge-engine.py`) and a converter (`md2pptx
 --engine`), `core` stands beside it and the operating layer has no
-name. Open: the vocabulary as a whole, not to be hurried into a
-decision; the picture of the four steps: the recipe
-`recipes/forge-evolution.md` 0.1 and its render exist since
-2026-11-09 and the principal judged the render not good, to be
-finished; what is wrong with it he has not yet said, and how the
-mermaid grid draws is unverified. The renderer reported where the
-legend and this thread differ: the names shown as settled though
-they are working names, Anvil as the base of every AI project (the
-principal's words) against "under every forge" here, a solid
-outline called a repository; and the recipe's "equal boxes" against
-the Anvil of step 4 spanning three columns. Opened 2026-11-09.
+name. Open: the vocabulary as a whole, not to be hurried into a decision.
+The picture of the four steps: the render of the recipe 0.1 was
+judged not good on 2026-11-09, and on 2026-11-10 the principal said
+why: the blocks were not separated. The picture as tuned with him
+that day: each block a box of its own, every step of one height, in
+step 4 Anvil one long box at the left with the frameworks and the
+definitions in two columns beside it, the forges by their whole
+names, a legend. Mermaid could not draw it, so the format of a
+picture became the recipe's choice (POS.0590, SOL.0940) and the
+recipe renders a `png` 3840 px wide (0.4). Where the legend and
+this thread differ, to be settled with the vocabulary: the names
+shown in the picture though they are working names, which the
+legend says. Opened 2026-11-09.
 
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is

@@ -306,3 +306,5 @@ word `<file> | changed | state: by hand`.
 - 2026-11-08 | 0.64 | PCHe | FND.4110 | closed | resolved: SOL.0130 and SOL.0120 (design 0.64)
 - 2026-11-08 | 0.64 | PCHe | FND.4140 | closed | resolved: SOL.0330, SOL.0680 and SOL.0500 (design 0.64)
 - 2026-11-08 | 0.64 | PCHe | FND.4150 | closed | resolved: SOL.0520 (design 0.64)
+- 2026-11-10 | 0.65 | PCHe | SOL.0940 | created
+- 2026-11-10 | 0.65 | PCHe | SOL.0940 | changed | the principal's word of 2026-11-10: a picture needs a stated size, so that the renderer knows how large to draw; the width in the recipe, the height from the content, since a fixed 16:9 would leave empty bands or stretch a picture of another shape | Was: no part, there is no designed step. Further formats may be added
