@@ -22,6 +22,9 @@ What it would touch: POS.1680, the thread's template, the intent's
 definition, the ledger script and the map. Not decided. Opened
 2026-11-10.
 
+2026-11-10: the skill is wanted, the principal's word: threads get a
+skill of their own, `/thread`. What it does is open.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:

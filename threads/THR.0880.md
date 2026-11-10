@@ -2,7 +2,7 @@
 id: THR.0880
 concerns: intent
 origin: the principal
-status: open
+status: closed
 ---
 
 A script for every write that only appends. The principal's word of

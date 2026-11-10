@@ -329,3 +329,4 @@ word `<file> | changed | state: by hand`.
 - 2026-11-10 | 0.66 | PCHe | SOL.0110 | changed | The way to the part moved to the history; one date kept (FND.4700). | Was: from 2026-09-05 to 2026-11-03
 - 2026-11-10 | 0.66 | PCHe | SOL.0650 | changed | The way to the part moved to the history; one date kept (FND.4700). | Was: Trial 2026-10-14 in `tmp/video-trial/`.
 - 2026-11-10 | 0.66 | PCHe | FND.4670, FND.4700 | closed | resolved: the plans and the way to the parts moved to this history (design 0.66)
+- 2026-11-10 | 0.67 | PCHe | SOL.0950 | created

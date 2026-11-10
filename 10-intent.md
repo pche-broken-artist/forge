@@ -1,5 +1,5 @@
 ---
-version: 7.5
+version: 7.6
 status: draft
 project: forge
 audience: principal + Claude only
@@ -1239,7 +1239,10 @@ position that already stands elsewhere.
   and the work specification alike. The history is a log. One record is
   one change and one line; records are appended at the end of the file
   and never rewritten, so the order of the file is the order of the
-  changes. A version may hold several records, of the same item too.
+  changes. The end of an append-only file, a history or the decisions,
+  is found by a mechanism and never by hand: a record placed by an
+  editor that can put a line anywhere breaks the order the file is read
+  by (THR.0880). A version may hold several records, of the same item too.
   `Was` is word for word the part of the wording that ceased to hold. A
   record of creation needs no reason: the wording is in the document.
   The history of every versioned document is the same log. Where a

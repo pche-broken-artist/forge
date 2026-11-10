@@ -1,5 +1,5 @@
 ---
-version: 0.66
+version: 0.67
 status: draft
 project: forge
 audience: whoever realises the solution, a person or an agent
@@ -597,6 +597,39 @@ boundary kept by hand or an order of work.
   scheme, Repository layout), `.claude/skills/forge/states/intent.md`,
   `.claude/skills/walkthrough/SKILL.md`, `.claude/skills/end/SKILL.md`,
   `scripts/forge-ledger.py`, `scripts/forge-migrate.py`.
+- **SOL.0950 Appending a record.** `scripts/forge-record.py` writes
+  every record of a history and every decision, at the end of its file
+  and nowhere else. `history <project> <document>` takes the versioned
+  document by its path in the project and appends one line to its
+  companion `<file>.history.md`, which must exist: the date today, the
+  version the document's header carries now (raised in the header
+  first), the author the `**Author:**` handle of the instance file,
+  then the subject, the kind, the reason, `Action:` and `Was:` as given,
+  in the shape of `templates/history.md`. `decision <project>` appends
+  one DEC to `decisions.md`, its number ten above the highest there, the
+  Decision and the Reason wrapped at 72 columns with continuation lines
+  indented by two, one Verdict line per `--verdict`, the date today. It
+  refuses, the file untouched: a missing project, document or
+  companion; a kind outside the five; a record other than `created`
+  without a reason; a line break in any field; ` | `, `Action: ` or
+  `Was: ` in the subject, the kind, the reason or the action, `Was`
+  coming last and free of the rule; an instance file without an author,
+  naming `/setup`. It keeps the file's line endings and adds a missing
+  last line break; it reads the last record back and refuses if it is
+  not the one it wrote. `--instance` names the instance file, the
+  default `CLAUDE.local.md` at the engine root, so that a test reads its
+  own; `--dry-run` prints what would be written, the form the
+  reflection before a write shows. One record per call. The handle is
+  read by `forge_docs.instance_author`, which `forge-migrate` shares.
+  Tested on a copy of the fixture (`tests/test_forge_record.py`).
+  Realises: POS.0310, POS.0120, POS.1050. Choice: a script against
+  conduct, since an editor that can place a line anywhere misplaced
+  records often enough to be noticed; the editor not denied on these
+  files for now, the script the rule, a hook a later step if conduct
+  still fails; one record per call against a batch, the cost being many
+  calls in a large round. Where: `scripts/forge-record.py`,
+  `scripts/forge_docs.py`, `tests/test_forge_record.py`, `CLAUDE.md`
+  (Versioning & status, Repository layout).
 
 - **SOL.0850 The BRD.** The pair `states/brd.md` and
   `templates/brd.md` in the shape of SOL.0120, one more definition the
