@@ -38,7 +38,9 @@ picture became the recipe's choice (POS.0590, SOL.0940) and the
 recipe renders a `png` 3840 px wide (0.4). Where the legend and
 this thread differ, to be settled with the vocabulary: the names
 shown in the picture though they are working names, which the
-legend says. Opened 2026-11-09.
+legend says. "AI engine" above Anvil in the picture is a label of
+the picture only, the principal's word of 2026-11-10; the
+vocabulary stays open. Opened 2026-11-09.
 
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
