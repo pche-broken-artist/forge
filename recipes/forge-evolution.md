@@ -2,7 +2,7 @@
 project: forge
 purpose: the picture of the forge's parts in four steps
 audience: anyone the principal explains the plan of the forge to
-version: 0.5
+version: 0.6
 ---
 
 # Recipe — the picture of the forge's parts in four steps
@@ -37,8 +37,9 @@ size and scaled down so that the edges are smooth:
   column of the definitions, one per forge; one forge per row:
   Forge of Thought, Forge of Proof, Forge of Form.
 - A box names its layer above, plain, and its forge below, bold, by
-  the forge's whole name: "Forge of Thought", never "Thought". Anvil
-  carries its name alone, bold, as a forge's name is.
+  the forge's whole name: "Forge of Thought", never "Thought". Anvil's
+  box names its layer above, plain, "AI engine", and below, bold,
+  "Anvil", as a framework's box names its forge.
 - One fill per layer, the same in every step: definition a light
   beige, framework a light blue, Anvil a light grey.
 - The legend under the picture, a term in bold and its meaning: a
