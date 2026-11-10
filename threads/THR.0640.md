@@ -57,6 +57,45 @@ in its approval record; the pass of this thread is the first round of
 7.x after the release, before a new position is written outside the open
 threads (DEC.0440).
 
+2026-11-10: Claude read the intent at 7.3 whole (163 positions) against
+the test of POS.1390, on the principal's request; Claude's reading, not
+judged, nothing decided. Three groups. Whole into the design, the
+position left with what is wanted and why, almost every one already
+with its SOL, so that the move is mostly a cut of the intent and a check
+that the SOL carries the detail: the git hook (POS.1200, SOL.0520), the
+attributes and ignore of a project (POS.1690, SOL.0730, SOL.0740), the
+path through git (POS.1710, SOL.0780, SOL.0840), the migration (POS.1740,
+SOL.0800), the link to another engine (POS.1880, SOL.0870), the citation
+check (POS.1890, SOL.0880), `tmp/` (POS.1900, SOL.0890), the tests, the
+fixture, the resolver and CI (POS.1930 to POS.1960, SOL.0900, SOL.0830),
+what waits on GitHub (POS.1970, SOL.0910), the forge's own project
+beside the engine (POS.1980, SOL.0930), the screenplay (POS.1530,
+SOL.0650), the public folder of videos (POS.1540, SOL.0660), the history
+of an item (POS.1510, SOL.0630), the ledger at read time (POS.1600,
+POS.1640, POS.1650, SOL.0680), where the state lives (POS.1610,
+SOL.0690), the header (POS.1570, SOL.0700), threads as files (POS.1680,
+SOL.0720), the names of reports (POS.1720, SOL.0810), the project file
+(POS.1590, SOL.0670). Split, the want kept and the mechanism moved:
+POS.0550 (how the top of a repository is found), POS.1100 (the order
+inside a release, the flags), POS.1110 (the syntax of forge-branch),
+POS.1560 (the three ways are design, the promise is POS.1750's),
+POS.1790 and POS.0220 (how a clash is found and reported), POS.1750
+(what verifies it), POS.0310 (the line shape, owned by
+templates/history.md), POS.1860, POS.1870 and POS.0800 (the bundle, the
+depth flags, the order of filing, the quota), POS.0180, POS.0840 and
+POS.1040 (the sweep, the two levels, doc2md), POS.0590 (the list of
+tools), POS.1450 (the run: hashing, plan, map, writer), POS.0930 (the
+writer's model by entry), POS.1050 (forge-config, HOME), POS.1090 and
+POS.1140 (the rosters). A second stream belongs to the history and not
+to the design: dates of trials, measurements and counts inside
+positions, as in POS.0830, POS.0930, POS.1780 and POS.0440, which is
+FND.2760. What stays: the collaboration model, the working methods,
+elicitation, the definitions of the layers, the style of an assignment,
+the principles of review, naming, the growth path. Taking this up is
+the first way of CHL.0640; proposed next, a walkthrough position by
+position from group one, each with its new wording and what the SOL
+receives, written once at the round's end.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:
