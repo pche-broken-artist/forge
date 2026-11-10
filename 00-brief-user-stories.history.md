@@ -39,7 +39,6 @@ word `<file> | changed | state: by hand`.
 `rejected`, `parked` and `obsolete` are a decision's Verdict
 (templates/decisions.md), never a record here (POS.1610). -->
 
-
 - 2026-11-02 | 0.1 | FT- | 00-brief-user-stories.md | created
 - 2026-11-02 | 0.1 | FT- | Co chci, Proč, Z čeho vychází, Tvar story, Formulace, Kdy jsou hotové, Jak vznikají, Kontrola a výstup, Co nechci, Změna enginu navíc, Postup | created
 - 2026-11-02 | 0.2 | FT- | Tvar story | changed | at the judgement of the handed-over definition: only Reference is mandatory, the other parts left out where empty; the export leaves out references to a POS, which the stakeholders never see | Was: `Risks` volitelně, vždy s mitigací nebo důsledky; `Note` volitelně, jen odkaz na přílohu či technickou analýzu s vysvětlením, co se za ním skrývá; `Questions` (otázka → vlastník); `Reference` povinně (BR, NFR, DEP… nebo POS).

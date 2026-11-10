@@ -2,7 +2,7 @@
 project: forge
 purpose: CONTRIBUTING.md of the engine's repository - how a visitor gives feedback, brings an idea or sends a change
 audience: a visitor of the repository on GitHub who has used the forge or read about it and wants to say, ask or change something; he arrives from the Contributing tab, the sidebar, or the page where an issue or a pull request is created
-version: 0.10
+version: 0.11
 output: /CONTRIBUTING.md
 ---
 
@@ -83,7 +83,12 @@ output: /CONTRIBUTING.md
   change does, never by its size. A change of how the forge behaves,
   a command, a rule, a convention, what a reviewer looks for, goes
   through the chain. A change that alters no behaviour, a wording, a
-  broken path, a slip, does not, and is sent as it is.
+  broken path, a slip, does not, and is sent as it is, with one
+  sentence saying what it fixes.
+- Say once, for both kinds of change, that a pull request carries one
+  matter and what it needs, never several unrelated changes; a second
+  matter goes in a second pull request, so that each can be judged,
+  merged or declined on its own.
 - Say in one sentence who decides what: in your own clone you
   decide everything, the forge there is yours; what is merged into
   the public engine its author decides (POS.0070). For a change of
@@ -91,8 +96,11 @@ output: /CONTRIBUTING.md
   `projects/forge/10-intent.md` saying what is wanted and why, with
   its record in the history beside it; the item in
   `projects/forge/40-solution-design.md` where the change solves
-  something; the change itself; and one line on what you ran; two
-  pull requests where the change touches both repositories, one on
+  something; the change itself; and a description in the pull
+  request, in plain words, of what it changes and why, item by item,
+  and of what you ran, so that it can be judged without reading the
+  change line by line; say that a pull request without it is sent
+  back to be described; two pull requests where the change touches both repositories, one on
   the engine with the change itself, one on the forge's own project
   with the position and the design item, each naming the other. Say
   how the two are merged, since git cannot merge two repositories as

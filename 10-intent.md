@@ -1,5 +1,5 @@
 ---
-version: 7.6
+version: 7.7
 status: draft
 project: forge
 audience: principal + Claude only
@@ -2460,7 +2460,13 @@ position that already stands elsewhere.
   on the forge's own rule: a change of how the forge behaves goes
   through the chain before it is built, a document that is a render
   through its recipe, and nobody sends a change he has not tried
-  himself. A visitor is told how, where the readers of GitHub look
+  himself. A pull request says in its description what it changes and
+  why, item by item, and what was run, so that whoever merges it judges
+  it without reconstructing it from the diff; one that does not is sent
+  back to be described. A pull request carries one matter, the change
+  of one thing the forge does or of one document, and whatever that
+  matter needs, never several unrelated changes; a second matter is a
+  second pull request. A visitor is told how, where the readers of GitHub look
   for it. What enters the forge stays the principal's decision
   (POS.0070). Decided 2026-10-04.
 - **POS.1920 The two fixed files of the root.** Beside the renders of
