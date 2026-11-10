@@ -2,7 +2,7 @@
 id: THR.0780
 concerns: intent
 origin: the principal
-status: open
+status: closed
 ---
 
 The forge's own project as a repository of its own, so that a user
