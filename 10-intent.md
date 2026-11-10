@@ -1,5 +1,5 @@
 ---
-version: 7.3
+version: 7.5
 status: draft
 project: forge
 audience: principal + Claude only
@@ -148,9 +148,7 @@ position that already stands elsewhere.
   has just written: three points at most, marked as Claude's own,
   nothing written or filed. It is not the isolated challenger, who does
   not know the conversation, and it adds to Claude's duty to say at once
-  what does not fit (POS.0020), never replaces it. Decided 2026-09-27;
-  one sentence under this method and no method of its own, for the size
-  of CLAUDE.md (THR.0240).
+  what does not fit (POS.0020), never replaces it. Decided 2026-09-27.
 - **POS.0870 Elicitation interview.** Claude draws out by questions
   what the principal has not yet articulated, rather than filling
   gaps by assumption (POS.0020); the heart of `/forge intent`. The
@@ -181,7 +179,7 @@ position that already stands elsewhere.
   word stands for a mechanism of the forge: the thing is said in a plain
   clause. Reason: the principal reads the first lines and expects the
   point there; he carries no IDs in his head, and a word Claude made up
-  explains nothing (2026-09-05, 2026-09-29). Decided 2026-10-09, brought
+  explains nothing. Decided 2026-10-09, brought
   from the assistant's memory into the forge.
 - **POS.1480 A rule says the kind, never the count.** A rule Claude
   proposes says what kind of content belongs and what does not; it never
@@ -190,9 +188,7 @@ position that already stands elsewhere.
   stricter number but the question what kind of content slipped through.
   Reason: a numeric limit is easy to check and so Claude reaches for it,
   but it cuts meaning where the matter needs more words and answers a
-  problem of kind with a rule of amount; the principal named "reason in
-  one sentence" as Claude's typical extreme (2026-09-29), and the same
-  swing before it (the brief `elicitation` 0.4). The division by kind,
+  problem of kind with a rule of amount. The division by kind,
   never amount, already governs what an intent, a brief and an
   assignment hold. Decided 2026-10-09, brought from the assistant's
   memory into the forge.
@@ -202,21 +198,17 @@ position that already stands elsewhere.
   stated, and runs on his word; a plan he has seen is not consent for
   its steps, and a batch of sensitive operations is never run as one.
   The birth of a new versioned document, a brief, a recipe, a layer of
-  the chain, is such a step since 2026-09-14: it happens on the
-  principal's word, never as a by-product of another operation
+  the chain, is such a step: it happens on the principal's word, never
+  as a by-product of another operation
   (`sources/forge-run-record-health.md`, P.05, F.06). Reason: consent is
   given to a concrete operation, never to its description, because a
   step hard to reverse must be seen by the principal at the moment it
   happens, not in a plan read earlier. A yes is a yes and nothing else
   is: a remark, a question or a counter-thought in answer to "shall I
   change it?" is input for a revised proposal shown again, never a
-  licence to edit, in handed-over work as in joint work; on 2026-10-03 a
-  remark that opened a larger question was taken as a go-ahead and the
-  core file was edited six times before the principal stopped it, and
-  handing over covers making the proposal, never changing it while he
-  judges it. The method stood in CLAUDE.md, Working methods, since
-  2026-09-05 without a position of its own; given one 2026-10-09 when
-  the documentation writers found no reason to give for it.
+  licence to edit, in handed-over work as in joint work; and handing
+  over covers making the proposal, never changing it while he judges
+  it. Present shape 2026-10-09.
 - **POS.1160 In pieces.** The principal may send one longer thought
   as several messages, a piece at a time, and close it with a word
   such as "done". Until that word Claude answers each piece with at
@@ -230,17 +222,14 @@ position that already stands elsewhere.
   (`sources/forge-run-record-health.md`, P.02, P.14, F.02, G.08), in
   the principal's own words.
 - **POS.1170 A rule that must hold in a long conversation is repeated at
-  every prompt by a hook, not trusted to CLAUDE.md alone.** The run
-  record of `health` showed the one-item walkthrough breaking about
-  thirteen times with the rule fully in context and a memory note beside
-  it (F.02): text loaded once dissolves as the conversation grows. What
-  is repeated is the one-item rule itself, with the verdict line that
-  closes a proposition (POS.0850) and a pointer to the full shape, and
-  four lines of conduct, the principal's rules. That is also the first
+  every prompt, not trusted to CLAUDE.md alone.** Text loaded once
+  dissolves as the conversation grows
+  (`sources/forge-run-record-health.md`, F.02). What is repeated is the
+  one-item rule with the verdict line (POS.0850), a pointer to its full
+  shape, and the principal's rules of conduct. That is also the first
   instance of the pattern THR.0240 asks for: always-on is one sentence
   and a pointer, the detail is a file read when its situation arises. A
-  hook is context, not enforcement — the nearest thing to a wall the
-  harness offers. A trial, judged by behaviour (P.04).
+  trial, judged by behaviour (P.04).
 - **POS.1210 One write per round.** A working conversation is one
   round, and what is agreed in it is carried and written once at its
   end, on the principal's word (POS.0190, which owns the rule, its
@@ -263,8 +252,8 @@ position that already stands elsewhere.
   process (how the map is walked) and the template (where the result
   lands); the map stands before the template, because a template can
   be filled and still miss what the artefact is for: the map says what
-  has to be found, the template only where it lands (reason given
-  2026-10-09). Elicitation differs by
+  has to be found, the template only where it lands. Elicitation differs
+  by
   artefact: the talk over a brief, over an intent and over a BRD are
   three different talks, and every artefact type has a definition of
   its own (POS.1310). Not elicitation: composing a recipe, which is
@@ -367,7 +356,7 @@ position that already stands elsewhere.
   assignment is not out of scope: out of scope is never done, later is
   done, only not now. The shape for the intent and the assignment is not
   solved here, and the whole is the principal's stance for now,
-  confirmed on 2026-10-23 with the BRD's definition (POS.1800): where
+  confirmed with the BRD's definition (POS.1800): where
   the parent forbids deriving an order, the BRD's phasing is one row,
   `not phased`, with the reason and the open question it waits on. The
   division is the forge's own and is tried, not assumed. Decided
@@ -385,7 +374,7 @@ position that already stands elsewhere.
   `00-brief-elicitation.md`.
 - **POS.1380 The order of the work.** The elicitation came first, then
   the brief `brd`, the first new kind defined through the shape of
-  POS.1310, mined at 5.35; what remains is the brief `engine-split`
+  POS.1310; what remains is the brief `engine-split`
   (THR.0230). The elicitation can be solved in today's engine without
   deciding the split, and self-contained definitions are the
   prerequisite of a later split, never the other way round: once the
@@ -396,10 +385,7 @@ position that already stands elsewhere.
   whatever goes wrong is restored from git, and a trial would mean
   changing every definition twice, in the intent and in its file, and
   moving it over afterwards. A change of what a definition is to achieve
-  goes through the intent first. What in CLAUDE.md contradicted the
-  definitions was brought current with them, and the other rules of
-  particular artefacts left CLAUDE.md for the definitions after the
-  `single-source-of-truth` check (POS.1140). Artefacts already approved
+  goes through the intent first. Artefacts already approved
   are untouched by the change. Present shape 2026-10-03, from
   `00-brief-elicitation.md` and the principal's word.
 - **POS.1410** How an artefact is composed is the principal's
@@ -556,8 +542,8 @@ position that already stands elsewhere.
   delegation (a DEL or TBC item). There is no size target in either
   direction: length is whatever fidelity requires, and the defect is
   excess of the wrong kind (solving instead of assigning), never length
-  as such (the size targets dropped 2026-08-15: the goal is to have it
-  right, not short). The name "assignment" was kept deliberately; it
+  as such (the goal is to have it right, not short). The name
+  "assignment" was kept deliberately; it
   does not preclude further layers below it.
 - **POS.0140** Substance changes go intent-first and then propagate
   down the whole chain the project has: the assignment, the BRD, the
@@ -616,7 +602,7 @@ position that already stands elsewhere.
   bundle grows, a new file added with its own entry in the bundle's
   index on the principal's word through `/ingest`, each file immutable
   from its own registration, the bundle's opening paragraph saying which
-  of the two it is (decided 2026-10-21, THR.0730). File-level detail is
+  of the two it is (THR.0730). File-level detail is
   not lost: provenance in the intent cites individual files by path, and
   the bundle's index or extract lists its contents. Isolated files stay
   directly in `sources/`. Every bundle carries a `00-INDEX.md` catalogue
@@ -643,8 +629,8 @@ position that already stands elsewhere.
   pointing into it: two levels, never deeper, and the top index never
   repeats the bundle's contents. The bundle index is the same catalogue
   one level down. One shape for every index, because Role and Use for
-  are what an index is for and a table does not carry them (decided
-  2026-09-04). The index is freely rewritten like the ledger while the
+  are what an index is for and a table does not carry them. The index
+  is freely rewritten like the ledger while the
   files under it stay immutable.
 - **POS.0190** Artefacts are written once per iteration round, not once
   per answer — and this holds for any working conversation over the
@@ -656,15 +642,15 @@ position that already stands elsewhere.
   record in the history per change (POS.0310). The principal may at
   any moment order a write of whatever is agreed so far. Writing after
   every exchange buries the substantive change under changelog churn
-  and makes the history unreadable. Clarified 2026-09-26: a correction that lands on text
+  and makes the history unreadable. A correction that lands on text
   written moments ago belongs to the round that wrote it and is carried
   like any other answer; an ordered write of what is agreed so far does
   not close the round unless he says so. The name the method carries is
   POS.1210's. "Written" means a file: whenever Claude reports something
   as written, it names the file and section; whatever is carried in the
   conversation only is said to be nowhere yet, and Claude never says
-  nothing is lost while anything lives only in the conversation. Added
-  2026-09-14 from the run record of `health` (P.01, F.01).
+  nothing is lost while anything lives only in the conversation. Present
+  shape 2026-09-26, from the run record of `health` (P.01, F.01).
 - **POS.0710** A project may spawn renders: audience-specific outputs
   generated from the chain — a pitch for the group, an architecture
   picture, an executive summary, the repository README. A render is
@@ -763,7 +749,7 @@ position that already stands elsewhere.
   delta before the release commit without reading a full diff. A render is
   regenerated only by `/release` (POS.1100) or by the principal's
   explicit `/render`; Claude never regenerates on its own judgement — it
-  reports staleness and offers (decided 2026-08-30). The README and the
+  reports staleness and offers. The README and the
   release notes are regenerated by every `/release`; every other
   render is as stale as the principal lets it be. No check reports
   the staleness of any render, those two included (POS.0570): the
@@ -778,10 +764,7 @@ position that already stands elsewhere.
   read wherever the ledger's header was read (POS.0060, POS.0960). Why:
   once the ledger leaves git (POS.1600) they would have no home, and a
   library's repository is at its creation this file alone. Decided
-  2026-10-17 (brief `collaboration`). The fixture project (POS.1940)
-  carries `fixture: true` in its project file; it is no repository, so
-  no save meets it (2026-11-07; the design had said the opposite of
-  the skip since 0.39).
+  2026-10-17 (brief `collaboration`).
 - **POS.0970** A library is a project of kind `library` — no chain: a
   ledger, `sources/` and `research/` with their indexes,
   `recipes/readme.md` and the README it renders (POS.1000) — a
@@ -836,7 +819,10 @@ position that already stands elsewhere.
   with an assignment handed to them is their own run of the forge
   (POS.0700). From the artefacts of the chain the thing must be
   buildable without a look at the finished product: the product is
-  what is built, never a source of its own design. How deep the chain
+  what is built, never a source of its own design. What is designed
+  stands in the solution design, whole enough to build from; a file that
+  realises a part may repeat it, never be its only place. How deep the
+  chain
   must go for that is the project's: the solution design gives the
   architecture, a technical specification the detail where the one
   who builds needs it. Present shape 2026-10-04.
@@ -852,11 +838,10 @@ position that already stands elsewhere.
   item says the choice, what it was chosen against and what it costs;
   where there was no real alternative, it says so and invents none. What
   is open is a TBC with its owner, with what would close it and with
-  whether it blocks realisation. Where a part is realised in a file of
-  its own, the item names the file and the detail is the file's; where
-  it is only part of a file, or no file exists yet, the item carries the
-  detail. The document holds what cannot be read off the thing itself:
-  why, against what, at what price, and how the parts fit. It is to be
+  whether it blocks realisation. Every item carries the detail of its
+  part and names the file that realises it (POS.1400). The document
+  holds what is designed, and why, against what, at what price, and how
+  the parts fit. It is to be
   kept true against what realises it by a check (THR.0520). When it is
   complete is its definition's. Decided 2026-10-03.
 - **POS.1520 A work product.** A project may make outputs that are
@@ -906,19 +891,15 @@ position that already stands elsewhere.
   brief that says what the videos are for. Its Format names one of two
   formats, never both: `video`, an MP4 painted frame by frame from the
   render, or `html-player`, the timed events for the player page of the
-  engine, wrapped as a script (`renders/<recipe>.<lang>.html-player.js`)
-  so that the page plays a file from disk as well as from Pages. Both
-  are made by one script, `scripts/md2video.py`, deterministic, the same
-  file from the same render every time, no model in it: the plain file
+  engine, playable from disk as well as from Pages. Both are made
+  deterministically, the same file from the same render every time, no
+  model in it: the plain file
   of `/render` (POS.0590), landing beside the render; `/publish` has no
   part, since there is no designed step a model could add. The pace of
   reading — words a second for the principal's lines, Claude's answers
   and the lines that only report a file — the look of the terminal and
-  the labels of the captions stand in the recipe's Format section and
-  reach the script as its arguments, never in the render (SOL.0420). The
-  parsing of the screenplay and the pace live in the script alone; the
-  player page plays what the script computed. Proved on the first
-  teaching video, 2026-10-14; the principal's word of the same day.
+  the labels of the captions stand in the recipe's Format section, never
+  in the render (SOL.0420). The principal's word of 2026-10-14.
 
 - **POS.1800 The BRD.** The BRD is an artefact of the chain,
   `30-brd.md`, below the assignment and above the solution design: the
@@ -940,8 +921,7 @@ position that already stands elsewhere.
   principal of a project of his own: a subject project has one principal
   (POS.0700), and the several hands of POS.1770 meet in the forge's own
   project. Present shape 2026-10-25, from `00-brief-brd.md` 0.5 and the
-  challenge of 2026-10-25 (CHL.0660); the challenge of DEC.0060 was
-  revisited and the decision stands.
+  challenge of 2026-10-25 (CHL.0660).
 - **POS.1810 How a BRD starts.** Three ways in. The assignment, read
   with the intent and the threads for the reasons it does not carry, the
   parent of an item a REQ; the intent alone where the project has no
@@ -965,9 +945,8 @@ position that already stands elsewhere.
   the map, what he assumed and what must come from outside; nothing is
   derived from the draft before the principal has judged it. Reason: the
   principal's mode of operation, a BRD pulled fast out of a document to
-  see what it shows; and the trial of 2026-10-23 on a vendor meeting's
-  transcript, where items written before the map lost four asks of the
-  room. Present shape 2026-10-25.
+  see what it shows; and items written before the map lose what the
+  parent asks. Present shape 2026-10-25.
 - **POS.1820 What the forge cannot know, it names.** Much of a BRD is
   not in the intent or the assignment: the documentation of the
   supplier and of the systems touched, the standards and the
@@ -982,10 +961,9 @@ position that already stands elsewhere.
   project and of its libraries are an input of every BRD, so that a
   standard, a regulation or a report the forge holds is never called
   unknown. An assumption never settles an open question: what a TBC
-  asks, no ASM answers. Reason: the trial of 2026-10-23, where the
-  regulatory survey and the architecture rules lay in the library and
-  the draft declared them unknown, and where the vendor's answers
-  leaked into rules and use cases. Decided 2026-10-23.
+  asks, no ASM answers. Reason: a draft that does not read what the
+  forge holds calls it unknown, and a source's answers leak into rules
+  and use cases. Decided 2026-10-23.
 - **POS.1830 The items of a BRD.** Four prefixes of its own: BR, a
   business requirement; UC, a use case at user-goal level; DEP, a
   dependency on what the BRD relies on outside itself; NFR, a
@@ -1015,8 +993,7 @@ position that already stands elsewhere.
   on every item, the sections that may not be silent, terms and links,
   skeleton residue. Reason: the fork's one critic did three jobs, and
   the engine has three places for them (POS.0410, POS.0420,
-  POS.1140); the first trial showed the persona finding what the
-  lenses and the check do not. Decided 2026-10-23.
+  POS.1140). Decided 2026-10-23.
 - **POS.1850 The sign-off and the use of a BRD.** The stakeholders'
   approval by RACI happens outside the forge, where the company does
   it; the forge records the principal's approval as an integer
@@ -1061,11 +1038,10 @@ position that already stands elsewhere.
   no behaviour, value, technical solution, priority or estimate the
   parent does not carry; what is missing stands as a question with an
   owner, and an answer that changes substance goes to the parent first
-  (intent-first). Reason: the trial of 2026-11-02, where a draft of six
-  stories cut variants of one function apart and the principal merged
-  them into two, and where the walk of the stories answered three open
-  questions of the BRD, carried up into the intent and the BRD before
-  the stories were written. Present shape 2026-11-02.
+  (intent-first). Reason: a draft cut by condition splits one function
+  into variants the stakeholders read as one, and the walk of the
+  stories answers open questions of the parent, which go up before the
+  stories are written. Present shape 2026-11-02.
 - **POS.2010 The shape of a story.** One prefix of its own, US. A story
   is a heading `US.NNNN — <name>`, a free sentence carrying who or what
   wants it, what happens and why (the form "As a… I want… so that…"
@@ -1096,8 +1072,7 @@ position that already stands elsewhere.
   conditional in a criterion; no skeleton residue. The stakeholders'
   approval of the whole is the instance's act, recorded in
   `decisions.md` where the principal wants it kept. Reason: what a story
-  can get wrong mechanically is what the check finds, as its first run
-  on the trial of 2026-11-02 found a sentence without its why; what a
+  can get wrong mechanically is what the check finds; what a
   persona would hunt in stories, the business-analyst persona already
   hunts in the BRD above them. Decided 2026-11-02.
 
@@ -1106,12 +1081,11 @@ position that already stands elsewhere.
   high abstraction. Narrative is confined to Purpose & Context and
   Objective. Reason: an item with a stable ID can be cited, reviewed,
   traced into the layer below and changed one at a time; prose cannot
-  be pointed at (given 2026-10-09).
+  be pointed at.
 - **POS.0210** An assignment assigns; it does not solve. What keeps a
   document an assignment is the kind of content, never its amount.
-  The formerly enumerated ban — stakeholder matrices, RACI, impact
-  analyses, MECE decompositions, tables of contents — originated in
-  one early case and is not a universal rule: any such apparatus may
+  Stakeholder matrices, RACI, impact analyses, MECE decompositions and
+  tables of contents are not banned: any such apparatus may
   appear where the principal judges it part of setting direction; it
   is the recipients' machinery only when it belongs to executing
   delivery. Decided 2026-08-17.
@@ -1178,10 +1152,8 @@ position that already stands elsewhere.
   kind; the forge names no word of any other language. Reason: an
   obligation in the indicative is testable and binds; the softer verbs
   leave the recipient to guess what is required, and MoSCoW puts a
-  priority where completeness belongs (given 2026-10-09). The English
-  word held in every language until 2026-11-08, when a Czech BRD read
-  "CMS shall editorovi umožnit…" to its stakeholders (THR.0810,
-  THR.0540).
+  priority where completeness belongs. Present shape 2026-11-08
+  (THR.0810).
 - **POS.0260** No priorities and no priority column. Everything in an
   assignment is essential; an exception carries a note reading
   *optional*.
@@ -1325,7 +1297,7 @@ position that already stands elsewhere.
   of files, taken on the user's word (POS.0940), a project of the old
   shape is read, not written, until he migrates it (POS.1740): the
   engine cannot write two shapes, and the migration stays his decision
-  per project (CHL.0300). Narrowed 2026-10-17.
+  per project (CHL.0300). Present shape 2026-10-17.
 
 - **POS.1510** The history of one item is read through one command,
   `/history <ID> [slug]`: a script gathers what the project holds of the
@@ -1341,26 +1313,21 @@ position that already stands elsewhere.
   and differently every time; what is deterministic is a script's, the
   judgement is what remains for the model (THR.0530). Decided
   2026-10-11.
-- **POS.1570** A header carries nothing that changes with a round.
-  `date` and `last_change` leave the headers of the artefacts and the
-  work specifications, `updated` and `last_change` the recipes,
-  `updated` the indexes, `generated` and `previous` the documentation
-  map; all of it is derived from the history or from the run and
-  computed by the scripts that need it. What stays is what does not
+- **POS.1570** A header carries nothing that changes with a round: a
+  date or a last change is derived from the history or from the run by
+  whatever reads it. What stays is what does not
   change with the work: `project`, a brief's `title` and `author`, an
   index's `directory`, and `version` and `status`, which change with a
   version, never with an operation. Why: a header field written at every
   operation is the certain conflict of every pair of rounds in every
   artefact, whatever the rounds were about. Decided 2026-10-17 (brief
   `collaboration`).
-- **POS.1600** The ledger is made at read time and is not kept in git: a
-  script builds it from the documents, the file is gitignored, and the
-  map, `/ledger`, `/end` and the checks call the script. An unparsable
-  file is a finding, not a crash: the row drops aloud, the ledger's
-  header says what was not parsed, the light check reports it, and
-  `/save` commits and pushes on, since checks inform and the save is
-  what does not lose work (prime directive 5); the script tolerates the
-  shape one release back (CHL.0280). Price: the
+- **POS.1600** The ledger is made at read time and is not kept in git:
+  it is built from the documents whenever it is read. An unparsable
+  file is a finding, not a crash: the row drops aloud and the file is
+  named, and `/save` commits and pushes on, since checks inform and the
+  save is what does not lose work (prime directive 5); the shape one
+  release back is tolerated (CHL.0280). Price: the
   ledger is not on the remote (POS.1650). Why: the ledger was the one
   file present at every collision of two people or two windows on one
   project, since every operation writes it; made at read time it stops
@@ -1368,22 +1335,12 @@ position that already stands elsewhere.
   conflicting on it. Decided 2026-10-17 (brief `collaboration`).
 - **POS.1610** What only the ledger knew lives in records, never in a
   header field, so that a branch can write it; a record stands in the
-  history of the document that changed. The mining of a brief and its
-  note: a record in the intent's history with the brief's file as its
-  subject, since the mining changes the intent and not the brief, its
-  version column saying which version mined it. A source's date, origin
-  and form: fields of its index entry; the library a project relies on:
-  citations of `projects/lib-*/`, no field. The provenance of a
-  published file: a companion beside it, the state current or stale
-  computed. The state and the resolution of a finding or a challenge: a
-  record of kind `closed` with the finding as its subject, in the
-  history of the artefact whose version settled it, or of the project's
-  intent where no version did or where the check was of the engine;
-  `rejected`, `parked` and `obsolete` from a DEC, since all three are
-  the principal's verdict. A work product's state: records in the
-  specification's history. Records from before the migration are read
-  from `ledger.archive.md`, immutable, a newer record overriding it.
-  Decided 2026-10-17 (brief `collaboration`).
+  history of the document that changed, and where no history fits, in
+  the document the state belongs to: the index of a source, the
+  companion of a published file, and the principal's decision for his
+  verdict on a finding or a challenge. Records from before the migration
+  are read from the hand-kept ledger, frozen, a newer record overriding
+  it. Decided 2026-10-17 (brief `collaboration`).
 - **POS.1620** Waiting on principal is a rule, not a hand-kept list: the
   open threads; the TBCs whose owner is the principal; the open findings
   of a critic and the open challenges, which wait for his verdict; not
@@ -1407,8 +1364,7 @@ position that already stands elsewhere.
   cited anywhere in the project that has neither a file nor a `closed`
   record. `/check light` compares nothing with the ledger any more and
   reports what the script finds. Decided 2026-10-17 (brief
-  `collaboration`); the reports of a landing dropped 2026-10-23 with the
-  landing (REJ.0330).
+  `collaboration`).
 - **POS.1650** Where the state is wanted on the remote, a release on
   main writes `renders/state.md` from the ledger script's output: a
   tracked render like the README, made only on main. Nothing is added to
@@ -1439,13 +1395,13 @@ position that already stands elsewhere.
   that sometimes says there was nothing to find. Neither runs at a save;
   `/release` offers `critique essence` once and runs no reviewer on its
   own — the one lens that guards what a release publishes, the drift of
-  the chain (decided 2026-09-05, POS.1100). A reviewer runs on the
+  the chain (POS.1100). A reviewer runs on the
   principal's word alone because a run costs tokens, some checks a
   great deal, and what is spent is his to decide; there is no other
   reason. The word may be given once, in a command's definition that
   names the checks it runs, as `/save` and `/release` have it; what is
-  ruled out is a run on Claude's own judgement (the principal's
-  answer, 2026-11-01).
+  ruled out is a run on Claude's own judgement. Present shape
+  2026-11-01.
 - **POS.0410** The critic has two lenses, because one critic hunted
   formalities and never guarded the chain. `clarity` reads each artefact
   on its own. `essence` reads the chain: for every adjacent pair (brief
@@ -1474,8 +1430,8 @@ position that already stands elsewhere.
   organisational reality, failure modes, missing dimensions, the serious
   counter-case; the second is `architect`, for the solution design: he
   takes what is wanted as given and asks whether this is the way to get
-  it; the third is `business-analyst`, for the BRD (POS.1840), born
-  2026-10-23; further personas — a strategist among them — are created
+  it; the third is `business-analyst`, for the BRD (POS.1840); further
+  personas — a strategist among them — are created
   from the lens-file skeleton by the principal's decision when first
   needed, and only where their blind spots genuinely differ: personas
   that would say the same things in different words are noise. Bare
@@ -1511,11 +1467,9 @@ position that already stands elsewhere.
   wanted is decided there. The states the ledger shows carry the words
   of the verdicts (POS.0850), from the records of POS.1610; `open` is a
   state only, not yet judged, and `resolved` stays the critic's, a fix
-  that is in the document. The finding state `overruled` is retired
-  (2026-09-27): it reads as `rejected` wherever it survives, the
-  immutable reviews and the decision records keep the word they were
-  written with; no ledger of a project carried the word by 2026-10-18,
-  so nothing is converted.
+  that is in the document. The finding state `overruled` is retired: it
+  reads as `rejected` wherever it survives, the immutable reviews and
+  the decision records keep the word they were written with.
 - **POS.0450** An artefact is best challenged before the next layer is
   first derived from it — the intent before the first assignment, a BRD before the solution design — while accepted challenges are
   still cheap to absorb. Whether it runs again later — after a draft,
@@ -1559,9 +1513,8 @@ position that already stands elsewhere.
   as they are, immutable. Why: two branches must not make the same name,
   and the first report of a day on two branches would, since `/save`
   runs the light check on every branch; the time alone is not enough for
-  two people. Decided 2026-10-17 (brief `collaboration`; narrowed from
-  the second report of a day to every report on the critique of the
-  design pass, `sources/design-critique.md`).
+  two people. Decided 2026-10-17 (brief `collaboration`,
+  `sources/design-critique.md`).
 
 ### Research
 - **POS.1860 A research is planned before it is searched.** `/research`
@@ -1594,9 +1547,8 @@ position that already stands elsewhere.
   filing; the bundle opens with a summary and every note with its
   answer in a few sentences, in the words the principal would be
   told it in. A second round only for gaps the notes name, run on
-  the principal's word; no third. The four research notes of
-  2026-10-24 on how a research is planned, kept honest and kept wide
-  are the ground. Decided 2026-10-24 (brief `research` 0.3).
+  the principal's word; no third. Decided 2026-10-24 (brief `research`
+  0.3).
 - **POS.1870 Two model families on one plan.** A deep research may run
   on a second engine beside the session model, `/research --deep
   --engine <name>`: the second engine reads the draft plan before the
@@ -1613,57 +1565,45 @@ position that already stands elsewhere.
   same web, stronger than one family's and still never validation
   (POS.0790). Independence is measured, never assumed: an engine with
   its tools allowed reads any path on the disk its profile does not
-  deny, so the first engine's notes are held outside the bundle until
-  the second engine's note of the card has returned, and the URLs and
-  the sentences the two notes share are counted before filing; a note
-  written from the other engine's rather than from the web goes back to
-  its agent once the other note is out of its reach, or is said in the
-  synthesis to be no second voice (notes of one engine were once written
-  from the other's, before the profile and the order of filing existed).
+  deny, so the two answers to one card are kept out of each other's
+  reach until both have returned, and what they share is measured
+  before filing; a note written from the other engine's rather than from
+  the web goes back to its agent once the other note is out of its
+  reach, or is said in the synthesis to be no second voice.
   An engine named but unusable is said in one sentence with the script's
   reason, the research goes on as without it and the bundle's Deviations
   record it: never silently, never a question in the middle of the run.
   One engine's quota is a budget of the research day, unknowable before
   a run, since an engine reports its usage after a run and never before:
   spent one or two runs at a time, never six at once, the reset time
-  said plainly. Present shape 2026-10-25 (brief `research`; the RFP
-  research of 2026-10-24, the first run the whole way).
+  said plainly. Present shape 2026-10-25 (brief `research`).
 - **POS.1880 The link to another engine.** The forge reaches a model of
-  another family through one script, `scripts/forge-engine.py`, with a
-  table of engines, one row each, over the engine's own CLI: the login
-  is the user's, made once outside the forge in the engine's own tool,
-  and the forge carries no key, no account and no configuration of who
-  connects; how the tool is installed and signed in is the tool's own
-  documentation's, the forge asking only that it is on PATH; the forge
-  names engines, never models. The engine is given a
-  packet folder under the engine's `tmp/` as its workspace, never the
-  forge's root, whose hooks and instance file an engine must not see or
-  execute; and since the place alone locks nothing, the script gives the
-  engine a profile of its own for the run, a copy of the user's settings
-  with the forge's tree and the shell denied and the web allowed, the
-  user's own settings untouched and the profile kept in the run folder
-  as its record. A headless run denies a tool call it cannot ask about
-  and returns nothing, so every call is allowed and the engine's sandbox
-  contains it; read-only is verified by comparing the folder before and
-  after, never trusted, and a run that changed anything is refused and
-  nothing is filed. The answer comes back as a note with the engine, the
-  model word, the usage and the run in its front-matter; the command
-  files it, indexes it and remakes the ledger, as for every reviewer
-  (POS.1140). The research is the first job on this link (POS.1870); the
-  challenger, the critic and the consultation of THR.0740 follow on the
-  same one. Antigravity (`agy`), of Gemini's family, is the first row;
-  Codex, Claude Code and Copilot share the one-shot shape and are rows
-  to add when wanted (research of 2026-10-23). Decided 2026-10-24; built
-  and verified by probes the same day (brief `research`, THR.0740).
-  The forge names engines and tiers, never versions, so that a name
-  always means the newest of its kind: `opus` or `sonnet` in a model
-  override, `claude` or `antigravity` in the engine table, and the
-  version is the tool's, resolved at the call. When a new version
-  arrives nothing in the forge changes, and everything that ran on
-  that name runs on the new one (the principal's answer, 2026-11-01).
+  another family through one link, over the engine's own command-line
+  tool: the login is the user's, made once outside the forge in the
+  engine's own tool, and the forge carries no key, no account and no
+  configuration of who connects; how the tool is installed and signed in
+  is the tool's own documentation's, the forge asking only that it is on
+  PATH; the forge names engines, never models. The engine never works in
+  the forge's root, whose hooks and instance file it must not see or
+  execute; since a place alone locks nothing, what it may read and do is
+  denied to it for the run, the user's own settings untouched and what
+  it was given kept as the run's record. Read-only is verified, never
+  trusted: a run that changed anything is refused and nothing is filed.
+  The answer comes back as a note naming the engine, the model word, the
+  usage and the run; the command files it, indexes it and remakes the
+  ledger, as for every reviewer (POS.1140). The research is the first
+  job on this link (POS.1870); the challenger, the critic and the
+  consultation of THR.0740 follow on the same one. The forge names
+  engines and tiers, never versions, so that a name always means the
+  newest of its kind: `opus` or `sonnet` in a model override, `claude`
+  or `antigravity` in the engine table, and the version is the tool's,
+  resolved at the call. When a new version arrives nothing in the forge
+  changes, and everything that ran on that name runs on the new one.
+  Present shape 2026-11-01 (brief `research`, THR.0740).
 - **POS.1890 Every citation is opened before a note is filed.** No
-  research note is filed before a script, `scripts/forge-cite.py`, has
-  opened every URL it cites and read an arXiv page for its title: a dead
+  research note is filed before every URL it cites has been opened
+  mechanically and every paper identifier checked against the title it
+  names: a dead
   page or an identifier that names another paper is the mark of a
   fabricated citation, and the note goes back to its agent once, with
   the report, as a failed run; a note that comes back still failing is
@@ -1674,11 +1614,9 @@ position that already stands elsewhere.
   Before it, Claude reads the note against the template's shape and
   sends back one that rests on a snippet without saying so, cites a
   source it did not open or has an empty search record; and every note
-  is scanned for the instance's facts (POS.0950). Why: a trial showed an
-  engine inventing and misnumbering sources, and nobody checks that by
-  hand across cards and engines; resolving the URL is the one mitigation
-  of fabricated citations with a measured effect (research of
-  2026-10-24, keeping the quality and currency of web sources). A quote
+  is scanned for the instance's facts (POS.0950). Why: nobody checks
+  citations by hand across cards and engines; resolving the URL is the
+  one mitigation of fabricated citations with a measured effect. A quote
   checked against its page is later (brief `research`, Later). Decided
   2026-10-24.
 
@@ -1701,9 +1639,7 @@ position that already stands elsewhere.
   `main` the released line, branches allowed and left to git (POS.1110);
   every user project is likewise a repository of its own where its owner
   wants one, with whatever remote and visibility he gives it (POS.0940).
-  Of its own means that git names the project's directory as the top of
-  its repository: the one question the scripts ask of git, never the
-  presence of a `.git`. A project whose top lies elsewhere, a directory
+  A project that is not the top of a repository of its own, a directory
   of another's repository (GitHub issue #3,
   `sources/github-issues/issue-3-repo-detection.md`), or that has none,
   is for the forge a project outside git: the scripts write its files to
@@ -1728,31 +1664,12 @@ position that already stands elsewhere.
   still would not stop a hand edit. Present shape 2026-10-23.
 - **POS.1200 The door to a write of git is a wall of the harness, not
   conduct alone; a commit carries no attribution.** The rule of POS.0550
-  is enforced by one `PreToolUse` hook of the forge's own,
-  `scripts/hook-git.py`, on the one shell tool through which Claude runs
-  git, Bash; the other shell tool stays closed to git whole by the deny
-  rule of `.claude/settings.json`, so that there is one parser and one
-  door. The hook reads the whole command, finds every call of git in it
-  past the shell's separators and git's own global options, and answers
-  in three ways: allow for a reading verb; ask for the commands that
-  finish the step of a conflict (POS.1710), named one by one, `add`
-  without `--force` and without the interactive flags, `rebase
-  --continue` and `--abort`, `merge --continue` and `--abort`, `merge
-  <branch>` with one name and no flag, `checkout --ours` or `--theirs`
-  on a file, so that the harness puts the command to the principal and
-  runs it on his yes, which holds in the automatic permission mode; deny
-  for everything else, naming the script to use instead: a verb it does
-  not know, an alias, a reading verb with a writing flag or a global
-  option that changes where or how git runs, git inside a substitution
-  or behind a wrapper, and a part it cannot read; the shell's
-  redirections are not git's arguments and are stripped before a verb is
-  judged; a part of the command that is not git is left to the harness,
-  and over a whole command deny outranks ask and ask outranks allow. The
-  prefix deny rules of the harness are not the wall for the writing
-  verbs: a prefix rule matches the text usually typed, not the command,
-  so that `git -C. push` passes it, a deny rule cannot be carved by an
-  allow rule and is not overridden by a hook, and two walls with one
-  hole read worse than one. The rule binds the forge, not the principal:
+  is enforced by the harness itself, on every way Claude can reach git,
+  so that there is one door: a write of git outside the scripts is
+  refused, not merely discouraged; reading git stays open; the few
+  commands that finish the step of a conflict (POS.1710) are put to the
+  principal and run on his yes, in every permission mode; what the wall
+  cannot read, it refuses. The rule binds the forge, not the principal:
   his own git from the shell is his. Claude Code adds or proposes no
   `Co-Authored-By` or `Claude-Session` trailer: the commit message is
   the one the principal confirmed, word for word. Present shape
@@ -1761,9 +1678,8 @@ position that already stands elsewhere.
   root is the one working folder of the forge: the packets, envelopes
   and profiles of runs on another engine (`tmp/research/<run>/`), the
   tasks of a documentation run, a check's report before it is filed,
-  a dry ledger, the manifest of a migration. The folder is in git
-  with its own README and `.gitignore`, so that it exists on every
-  clone; its contents never are. Nothing in it is a source of truth:
+  a dry ledger, the manifest of a migration. The folder exists on
+  every clone; its contents never enter git. Nothing in it is a source of truth:
   no check, no ledger and no history reads from it, and a run is
   kept for inspection and deleted by hand, never by a script.
   Decided 2026-10-24 (brief `research`).
@@ -1775,22 +1691,20 @@ position that already stands elsewhere.
   minutes and a walkthrough every time. The staleness of a render is
   never a check finding, the README and the release notes included: the
   release regenerates those two anyway, so the finding was void at every
-  release and noise everywhere else (decided 2026-09-27); the `/forge`
+  release and noise everywhere else; the `/forge`
   map shows staleness, and a render is regenerated only on the
   principal's word (POS.0810).
 - **POS.1100** Save and release are two commands. `/save` runs the
   `light` check (POS.1140) and then commits and pushes on whatever
-  branch is checked out, through `forge-save`, no render, seconds.
+  branch is checked out, no render, seconds.
   `/save --quick` leaves the `light` check out and nothing else: the
   message is drafted from the records and confirmed as always, or given
   with `-m`; the quick way is the principal's for a save he wants on the
   remote at once, and `/release` has none for itself, its checks being
   the condition of a release; the save it ends with runs without the
-  `light` check, which the release ran already. The order inside every
-  release, by hand or with `--auto`, is checks, documentation, README
-  and release notes, state render, save: the README reads the
-  documentation's index, so the documentation comes first, offered on
-  the principal's word in a release by hand and, with `--auto`, asked
+  `light` check, which the release ran already. A release makes the
+  README from the documentation as the release leaves it; the
+  documentation is offered on the principal's word in a release by hand and, with `--auto`, asked
   once before anything runs, the default yes. `/release --auto` runs the
   whole release through, since a release done step by step was the
   forge's biggest chore: the checks and their agents without asking, the
@@ -1818,10 +1732,9 @@ position that already stands elsewhere.
   two-speed save had existed in practice for weeks; with the renders at
   the release only, the README on `main` is current at every release and
   stale in between visibly (the `/forge` map), never silently (REJ.0160,
-  REJ.0170). A release of the engine runs the tests through `/test`
-  before any check (POS.1930); a red test stops it; where pytest is
-  missing it says that the tests did not run and goes on only on the
-  principal's word. A save never runs them: every push runs them in CI
+  REJ.0170). A release of the engine runs the tests (POS.1930); a red
+  test stops it; where they cannot run it says so and goes on only on
+  the principal's word. A save never runs them: every push runs them in CI
   (POS.1960). Present shape 2026-11-08 (brief `tests`).
 - **POS.1110** Branches are voluntary and belong to git. Whoever wants
   one gets it through one forge command — `forge-branch <slug> <name>`
@@ -1860,38 +1773,28 @@ position that already stands elsewhere.
   immutable and
   unique: reviews, challenges, research, sources and closed threads;
   never conflicts, the name unique across branches too, immutability a
-  process rule as today (POS.0550), nothing locked. Why: at both
-  evidenced merges of the project agentic-platform the ledger was the
-  one file present on both sides, beside it the histories, the
-  decisions, the index of sources and the regenerated renders; the
-  ledger at read time and the threads as files removed most of it
-  (release 5.26). A way of its own for the record files, a driver
+  process rule as today (POS.0550), nothing locked. Why: the ledger and
+  the record files are the files present on both sides of a merge, and
+  the ledger at read time and the threads as files take most of it
+  away. A way of its own for the record files, a driver
   merging them as sets of records, is not taken (REJ.0340): two people
   on one project is the exception, and the exception is handled with
   git. Present shape 2026-10-23 (brief `collaboration` 0.9, DEC.0280).
 
-- **POS.1690** Every project carries a `.gitattributes` from a template
-  of the engine: `merge=ours` on the renders, the documentation, the
-  state render and the published companions, `binary` on the published
-  files, `text=auto` for the line endings; the record files carry no
-  attribute and merge as text (POS.1560). `/new-project` creates it,
-  `/check project` reports a project without it, and the engine carries
-  a list of its own, since its way-2 files lie at its root: `README.md`,
-  `RELEASE-NOTES.md`, `CONTRIBUTING.md` and `docs/` at the root
-  (CHL.0350). Every project carries a `.gitignore` from
-  `templates/gitignore` as well: the ledger, made at read time, and the
-  lock files Office leaves beside an open document never enter git.
-  `forge-save` rebases one's own commits onto the remote only where both
+- **POS.1690** Every project carries from the engine what tells git the
+  way of merging each of its files (POS.1560), and what keeps out of git
+  what never belongs there: the ledger, made at read time, and the lock
+  files an office program leaves beside an open document. The engine
+  carries the same for the way-2 files at its own root (CHL.0350).
+  `/save` rebases one's own commits onto the remote only where both
   sides moved on, the histories diverged; a branch merely ahead of the
   remote, a merge commit among its commits, is pushed as it stands, so
   that the integrator's merge of a branch and a contributor's merge of
   the upstream keep their merge commit and nothing of the other side is
-  replayed (THR.0820). `ours` is not built into git: `/setup` registers
-  it in the global configuration once for every repository of the
-  machine, with the rebase backend that honours drivers and with
-  renormalisation, and the status report says when the registration is
-  missing, because an unregistered clone silently falls back to a
-  conflict. The renders of a release, the documentation, the state
+  replayed (THR.0820). The way of the derived files needs a registration
+  on each machine, once for every repository of it, and the status
+  report says when it is missing, because an unregistered clone silently
+  falls back to a conflict. The renders of a release, the documentation, the state
   render and the published files are made only on main; two branches
   making the same one conflict on the server and are settled by making
   it again. The server merges with no attribute of the forge's: two
@@ -1925,20 +1828,18 @@ position that already stands elsewhere.
   an unknown or stale state never blocks a write, since the network was
   driven out of the write so that an outage cannot spoil the round.
   `/save` pushes a clean repository that is ahead of its origin, a
-  branch without an upstream counted against the remote's branch of the
-  same name after a fetch, so that a rebase finished by hand and a clone
-  switched to a branch have a door to the push. A rebase that conflicts
-  is left standing by `/save`, the commit made and nothing lost: the
-  script prints the files in conflict and the step that follows, and
-  `forge-status` says a rebase or a merge is in progress. The step of a
+  branch never pushed among it, so that a rebase finished by hand and a
+  clone switched to a branch have a door to the push. A rebase that
+  conflicts is left standing by `/save`, the commit made and nothing
+  lost: the user is told which files are in conflict and what follows,
+  and the status report says a rebase or a merge is in progress. The
+  step of a
   conflict is the forge's help, not its mechanism: Claude reads both
   sides, lays them out in a walkthrough, one conflict one question, the
   principal decides, Claude writes the chosen wording into the file, the
   markers being text, and a `changed` record into the history of the
-  artefact as for any change; the commands that finish the step, `git
-  add`, `git rebase --continue` or `--abort`, `git merge --continue` or
-  `--abort`, `git merge <branch>`, `git checkout --ours` or `--theirs`
-  on a file, run on the hook's ask (POS.1200); then `/save` again. A
+  artefact as for any change; the commands of git that finish the step
+  run on the principal's yes (POS.1200); then `/save` again. A
   save that finds a rebase or a merge already standing refuses before it
   stages anything, so that conflict markers are never committed. A
   release, the documentation and a publish, everything that makes files
@@ -1952,38 +1853,29 @@ position that already stands elsewhere.
   migration, run always on the user's word: `/migrate [slug]`, one
   command, a script for every deterministic step and Claude within the
   same command for what needs judgement, so that the result is the same
-  on every clone. The script recognises the shape of a project as a set
-  of marks, one per step, never by an engine version in the project, and
-  runs only the steps that are missing; each step verifies itself and an
-  unfinished project is reported; it commits nothing, `/save` follows;
-  it undoes a changed tracked file from the index, since it stages
-  nothing, and the created files and the removals from the index from
-  its own manifest; `git clean` stays forbidden. It refuses to run when
-  the repository is not clean, is behind its origin or is not on main:
-  the migration is one large change and runs once, on one clone;
-  everyone else pulls before working on. A project outside git
-  (POS.0550) is migrated the same, since being outside git is a
+  on every clone. The shape of a project is recognised from the project
+  itself, never by an engine version in it, and only the steps that are
+  missing run; each step verifies itself and an unfinished project is
+  reported; it commits nothing, `/save` follows; a run can be undone,
+  nothing it did left behind and nothing it did not make removed. It
+  refuses to run when the repository is not clean, is behind its origin
+  or is not on main: the migration is one large change and runs once, on
+  one clone; everyone else pulls before working on. A project outside
+  git (POS.0550) is migrated the same, since being outside git is a
   property, not a defect: none of the refusals of git applies, the way
-  back is the backup the script tells the user to take before `--apply`,
-  and a run that stops midway is finished by running it again, the marks
-  being its memory (`sources/repo-detection-challenge.md`). Decided
-  2026-10-22: the first release's migration refused every project
-  outside git while the ledger script sent such a project to the
-  migration, a dead end nobody saw (THR.0730). The registration of the
-  driver `ours` is `/setup`'s on every machine, not the project's. After
-  a pull of the engine, Action required says to run it on every project,
-  on one clone, then `/save`; the map, `/check project` and every skill
-  that would write into a project of the old shape say "shape before the
-  migration, run `/migrate`" and do not write. Why: the position on
-  upgrades (POS.0940) was made for upgrades of a few lines; this one
-  rewrites files of every project, here and in every colleague's clone,
-  and must come out the same everywhere. Decided 2026-10-17 (brief
-  `collaboration`). The tag before a migration is taken per project
-  immediately before its `/migrate`, the engine's before its own; the
-  way back is the principal's hand through git, a reset and a forced
-  push or a revert, on a protected main a maintainer's, and always the
-  engine and every project together, since the engine refuses the old
-  shape once released (CHL.0420).
+  back is the backup the user is told to take before the migration is
+  applied, and a run that stops midway is finished by running it again
+  (`sources/repo-detection-challenge.md`). After a pull of the engine,
+  Action required says to run it on every project, on one clone, then
+  `/save`; the map, `/check project` and every skill that would write
+  into a project of the old shape say "shape before the migration, run
+  `/migrate`" and do not write. Why: the position on upgrades (POS.0940)
+  was made for upgrades of a few lines; this one rewrites files of every
+  project, here and in every colleague's clone, and must come out the
+  same everywhere. The way back from a migration is always the engine
+  and every project together, since the engine refuses the old shape
+  once released (CHL.0420). Present shape 2026-10-22 (brief
+  `collaboration`, THR.0730).
 - **POS.1750** What the forge promises. One person on one project:
   `/save` and `/pull`, as today. Two people, or two branches: the
   derived state is made anew at read time and never conflicts; a
@@ -1997,14 +1889,13 @@ position that already stands elsewhere.
   server merges with no attribute of the forge's. Two windows of one
   person on one project are not solved (POS.1700). Verified by the
   tests on copies of the fixture (POS.1930, POS.1940), never on a
-  clone of a real project (DEC.0240), the first trials in the cutover
-  plan (`work/collaboration-cutover.md`, POS.1520). A test before a
+  clone of a real project (DEC.0240). A test before a
   release that is red stops it: back to the design, the TBC open, the
   release does not run (CHL.0410, POS.1100). The fixture is
   `tests/fixture` (POS.1940); the tests of this position are the git
   tests of the suite, run by `/test` and in CI, the step of a conflict
   and the ways of merging among them. Present shape 2026-10-23 (brief
-  `collaboration` 0.9, DEC.0280), the tests since 2026-11-07.
+  `collaboration` 0.9, DEC.0280).
 
 - **POS.1770** One integrator and N contributors. A hosted project's
   main is protected by default, on GitLab push and merge are the
@@ -2035,30 +1926,23 @@ position that already stands elsewhere.
   the test would be rewritten after it; the intent is the source of
   truth of what holds, so it is brought to the built state before
   anything is released, and until then the brief and the plan are the
-  authority. The first release of the brief `collaboration` ran so, the
-  marks of the design turned over at its end (R1.24), and the simplified
-  second release too (R6.01 to R6.05). Present shape 2026-10-23, the
+  authority. Present shape 2026-10-23, the
   principal confirming the order he had approved.
 - **POS.1790** IDs and versions after a merge. IDs stay one sequence per
   project, sequential, taken at the write as today, with no block and no
   reading over the branches; two branches that took the same number are
-  reported by the ledger script after the merge (POS.1640) and settled
-  by POS.0220, the younger renumbered with a record in a walkthrough,
-  never by Claude alone. A version given twice, two branches that both
-  raised a document to the same number, is settled by whoever merges:
-  the merged document takes the next number and one `changed` record
-  naming the merge and what was joined, the records of both sides
-  keeping their numbers; it is found by git itself: both sides appended
-  their records to the end of the document's history, which conflicts as
-  text whenever both raised it, while the header's `version:` line
-  conflicts only where the two numbers differ and merges silently where
-  they are the same; it is settled in the step of a conflict (POS.1710),
-  as on the fixture (R6.03). Why: a clash is a few times a year on a
-  project of one or two people and detection with the existing remedy
-  costs nothing, where the blocks of IDs, the allocation over the local
-  branches and the version as a landing (REJ.0330, REJ.0370) cost the
-  most code of the plan. Decided 2026-10-23 (brief 0.9; tested on the
-  fixture, R6.03).
+  reported after the merge (POS.1640) and settled by POS.0220, the
+  younger renumbered with a record in a walkthrough, never by Claude
+  alone. A version given twice, two branches that both raised a document
+  to the same number, is settled by whoever merges: the merged document
+  takes the next number and one `changed` record naming the merge and
+  what was joined, the records of both sides keeping their numbers; it
+  is found at the merge and settled in the step of a conflict
+  (POS.1710). Why: a clash is a few times a year on a project of one or
+  two people and detection with the existing remedy costs nothing, where
+  the blocks of IDs, the allocation over the local branches and the
+  version as a landing (REJ.0330, REJ.0370) cost the most code of the
+  plan. Decided 2026-10-23 (brief 0.9).
 - **POS.0580** Work on the chain is invoked by target state, never by
   verb: `/forge <state>` (`/forge intent`, `/forge assignment`) —
   knowing the name of the target artefact is knowing the command, with
@@ -2071,10 +1955,9 @@ position that already stands elsewhere.
 - **POS.0590** Everything the forge produces is Markdown, renders
   included: a presentation is a `.md` saying what is on each slide
   (a picture in the format its recipe names, the principal's choice
-  recipe by recipe: mermaid inside the Markdown, or `png`, drawn by the
-  renderer itself beside a render that carries the provenance and a
-  link to it, the recipe its one source; further formats may be added,
-  2026-11-10). The forge still ends at content, but it
+  recipe by recipe: mermaid inside the Markdown, or `png`, the recipe
+  its one source; further formats may be added). The forge still ends at
+  content, but it
   carries its delivery-format tools at its edge: one turns a Markdown
   deck render into a `.pptx`, another a Markdown render into a `.docx`,
   a third turns a screenplay render into a video or into the events its
@@ -2084,7 +1967,7 @@ position that already stands elsewhere.
   by hand. All other format conversion stays outside the forge, as git
   is for persistence. An output is made in two steps, each with its own
   command, divided by cost so that the expensive conversion runs as
-  seldom as possible (the principal's, decided 2026-09-27). `/render`
+  seldom as possible (the principal's). `/render`
   generates the Markdown and, where the recipe names a format, the plain
   file beside it: deterministic, cheap, repeated freely. `/publish`
   makes the designed file through a model and its document skills into
@@ -2113,20 +1996,15 @@ position that already stands elsewhere.
   the user's (POS.0950). Portability is verified by a run: the tests
   run in CI on Linux and Windows at every push (POS.1960), the git
   scripts, the ledger, the light check and the git hook's judgement
-  among them; before the suite, the git scripts, the ledger and
-  docs-state had run on Linux in October 2026 on a user's machine
-  (`sources/github-issues/issue-3-repo-detection.md`, his PR #2 of
-  2026-10-21 made there). The conversions are tested for their failure
-  without the tool alone, and the per-prompt hook is a writing rule
-  still, not a claim, until a run says otherwise (2026-11-07).
-  The scripts are Python, decided 2026-10-02 on the feedback of the
-  forge's users and done 2026-10-09, the per-prompt hook included:
-  `python` on PATH is their one prerequisite, the same Python the
-  document conversion needed already, and a system that has only
-  `python3` gives it that name (THR.0150 closed). Nothing has run on
-  macOS: for it the whole set is the writing rule alone, and the
-  documentation says so (2026-11-01). How they are
+  among them. The conversions are tested for their failure without the
+  tool alone, and the per-prompt hook is a writing rule still, not a
+  claim, until a run says otherwise. The scripts are Python: `python` on
+  PATH is their one prerequisite, the same Python the document
+  conversion needed already, and a system that has only `python3` gives
+  it that name. Nothing has run on macOS: for it the whole set is the
+  writing rule alone, and the documentation says so. How they are
   written and what they share is the solution design's (SOL.0620).
+  Present shape 2026-11-07.
 - **POS.0940** The engine does not know the projects. `git init` and the
   remote are the user's one-off act: `/new-project` and `/spinoff`
   create files only and never touch git, and a project starting "not
@@ -2151,28 +2029,28 @@ position that already stands elsewhere.
   `projects/forge` is one project among the others, under git like them,
   public under the same account as the engine, its repository named
   `forge` so that `/import-project` brings it into `projects/forge`
-  without a rename; the last exception to POS.0940 goes with it; the
-  engine's `.gitignore` ignores `projects/*` whole but for the
-  directory's own `README.md`, so that a clone has the directory and a
-  line on what belongs in it. A user clones the engine alone and nothing
-  he runs reads the project. A contributor, and the principal on another
+  without a rename; the last exception to POS.0940 goes with it; a clone
+  of the engine has the directory `projects/` and a line on what belongs
+  in it, and no project. A user clones the engine alone and nothing he
+  runs reads the project. A contributor, and the principal on another
   machine, clone the project beside the engine, since the author's
   commands read it: `/check engine`, `/document`, `/release forge`,
   `/new-artefact` and the renders of the README, the release notes and
   CONTRIBUTING; the paths `projects/forge/...` the documentation cites
   are the paths of that clone, and the README says where the project
-  lives. What stays special is in the recipes, not in the scripts: the
-  project's root renders land in the engine root by their `output:` (the
-  leading slash of `templates/recipe.md`), so a release of the engine
-  lands in two commits, and the ledger reads where a root render lies
-  from the recipe. In the commands of git, `/save`, `/pull`,
-  `forge-branch` and `/release`, `forge` names the whole, the engine's
-  repository and the project beside it where it is cloned, each its own
-  commit with the prefix `forge:` and a tag of a release on both with
-  one name, so that one release is one tag in both repositories; in the
-  commands over documents `forge` is the project. The repository starts
-  clean, one commit naming the engine commit it was cut from, the
-  history before it the engine's. Present shape 2026-11-08 (THR.0780).
+  lives. A change of how the forge behaves that touches both
+  repositories is merged in both or in neither, in one sitting, never
+  with a release between the two, since git merges no two repositories
+  as one and the release is where the engine and the intent are read
+  together. What stays special is in the recipes, not in the scripts:
+  the project's root renders land in the engine root by their `output:`,
+  so a release of the engine lands in two commits. In the commands of
+  git, `/save`, `/pull`, `forge-branch` and `/release`, `forge` names the
+  whole, the engine's repository and the project beside it where it is
+  cloned, each its own commit with the prefix `forge:` and a tag of a
+  release on both with one name, so that one release is one tag in both
+  repositories; in the commands over documents `forge` is the project.
+  Present shape 2026-11-10 (THR.0780).
 - **POS.1490** The forge looks at the remote and offers, it never pulls
   or merges on its own. The `/forge` map and `/pull` ask `forge-status
   --remote` for the state of the engine and of the project against its
@@ -2226,8 +2104,7 @@ position that already stands elsewhere.
   so every agent that writes an outward-facing file says in its
   definition that instance facts are not material and that an input
   is read from disk, and the generated files are scanned mechanically
-  before they are kept (found 2026-10-04 at the release of 4.58 and
-  2026-10-09 in the documentation trial; THR.0580 closed 2026-10-09).
+  before they are kept.
 - **POS.0930** One model for the whole forge, with two exceptions named
   below. Every command, chain state and reviewer runs on the session
   model, so that the strongest model the forge runs on is a decision and
@@ -2254,8 +2131,7 @@ position that already stands elsewhere.
   for: a mirrored page leaves the model no room, so a mirrored page is
   written on a faster model and a derived page, like the planner, on the
   session model, the choice made mechanically by the page's entry, never
-  per run; a trial showed Opus more complete on derived pages and Sonnet
-  sufficient on mirrored ones (THR.0340). Present shape 2026-10-09. A
+  per run. Present shape 2026-10-09. A
   second engine beside the session model (POS.1870, POS.1880) is no
   exception to this: it runs beside, never instead, the session model
   keeps every job of the forge, and the forge names the engine and
@@ -2321,7 +2197,10 @@ position that already stands elsewhere.
   the operating layer, never by `/release` on its own, a project on
   request. The check `history` reads a document with its history and
   reports where the division between them does not hold, by what
-  POS.0120 says belongs where. Run on the principal's word. A rule an
+  POS.0120 says belongs where. The check `boundary` reads an intent
+  with its solution design and reports where the division between them
+  does not hold, by the test of POS.1390, each move proposed in full.
+  Both run on the principal's word. A rule an
   older position attributes to `/check` as one procedure belongs to the
   check that owns its concern by this list — bookkeeping, ledger,
   dependencies and indexes to `light`, structure, recipes and renders to
@@ -2343,9 +2222,8 @@ position that already stands elsewhere.
   save, and two reviewers run at once would otherwise take one ID; the
   agent returns its report with its findings unnumbered, the command
   numbers and files it, and reviewers of any kind may therefore run in
-  parallel (reason given 2026-10-09, widened 2026-10-17). Present shape
-  2026-10-02; the `/research` point of THR.0290 settled 2026-10-24: a
-  research has depths and engines, not kinds (POS.1860, POS.1870).
+  parallel. A research has depths and engines, not kinds (POS.1860,
+  POS.1870). Present shape 2026-11-10.
 - **POS.1190 The forge explains itself from its own definitions.** `/man
   [command|method|question]`, alias `/manual`, is the forge's manual — a reader,
   never a text of its own (POS.1070). Named after the Unix manual,
@@ -2356,16 +2234,13 @@ position that already stands elsewhere.
   retold; where the forge has nothing, the answer says so and marks
   what Claude would do without a mechanism as his own (POS.1370),
   which is where threads are born. One door: no command and no alias
-  of its own (REJ.0500). Decided 2026-09-18 for the newcomer's first
-  hour and for the reader who opens the repository; the question
-  2026-11-01 after six trial questions in the conversation
-  (THR.0680).
+  of its own (REJ.0500). For the newcomer's first hour and for the
+  reader who opens the repository. Present shape 2026-11-01 (THR.0680).
 
-- **POS.1930 The scripts have tests.** `tests/` at the engine root,
-  beside the scripts they test, run with pytest from the engine root;
-  `/test` is the one door and `python -m pytest` the command it runs;
-  pytest is the one thing a contributor installs beyond `python`, and a
-  user of the engine never runs them and installs nothing for them. In
+- **POS.1930 The scripts have tests.** The tests are kept in the engine
+  beside the scripts they test; `/test` is the one door to them; a
+  contributor installs one test runner beyond `python`, and a user of
+  the engine never runs them and installs nothing for them. In
   proportion: enough to catch what a change of a script breaks, never a
   suite for its own sake, no coverage figure as a target (kind, not
   count). What is tested, in the order it was built: the deterministic
@@ -2375,8 +2250,8 @@ position that already stands elsewhere.
   scripts on the fixture, status, save, branch, pull, the step of a
   conflict and the ways of merging; what calls pandoc, markitdown or the
   model is tested for its failure without the tool alone, naming the
-  tool and how it is installed. The git hook's built-in cases became the
-  first test and its `--test` flag went: one place for tests. Never a
+  tool and how it is installed. One place for tests: no script carries
+  tests of its own. Never a
   live repository (DEC.0240). A script is changed with its test, and a
   pull request on a script carries it; that is possible in one
   repository only, and CI runs where the code is. Why: a tree of scripts
@@ -2394,8 +2269,7 @@ position that already stands elsewhere.
   where the test needs git, and the fixture itself is never changed
   by a test; it conforms to the light check, so a template it no
   longer follows turns a test red, which is the signal wanted; its
-  README says what it is. It replaces the hand-made `projects/fixture`
-  of the cutover (SOL.0830, DEC.0360). Why: real content does not
+  README says what it is. Why: real content does not
   belong in the public engine, and `projects/` is gitignored, so a
   fixture there would reach neither a contributor nor CI (DEC.0410).
   Decided 2026-11-07.
@@ -2404,19 +2278,17 @@ position that already stands elsewhere.
   anything with a separator or absolute is the directory itself,
   taken as given; the project's name is the `project` field of its
   project file, the directory's name without one; `forge` stays the
-  engine's own project by the name; one resolver,
-  `forge_repos.project_path`, every script through it, `forge-status`
-  by one repository as well. The commands of the forge call by slug
+  engine's own project by the name; every script alike, `forge-status`
+  among them. The commands of the forge call by slug
   as before. Why: a copy in a temporary directory is reached by a
   path and by nothing else, and a path is an argument like any
   other, visible in the command; the alternatives REJ.0510 to
   REJ.0530. Decided 2026-11-07.
 - **POS.1960 The tests run in CI and read nothing of the machine.**
-  GitHub Actions at every push and pull request of the engine, Linux
-  and Windows, Python 3.8 and the newest; macOS not until someone
-  asks for it. The git tests run git with an empty global
-  configuration and no system one, the identity set in the throwaway
-  repository alone, so that the user's guard, his stanzas and his
+  At every push and pull request of the engine, on Linux and Windows,
+  Python 3.8 and the newest; macOS not until someone asks for it. A test
+  reads nothing of the git configuration of the machine it runs on, so
+  that the user's guard, his stanzas and his
   registration of the merge driver change nothing and CI without any
   of them sees the same; the registration is tested by its presence
   and by its absence (SOL.0740). Why: the portability rule of
@@ -2424,8 +2296,8 @@ position that already stands elsewhere.
   depends on the machine it runs on tests the machine. Decided
   2026-11-06 (brief `tests`).
 - **POS.1970 The map says what waits on the remote.** Where a repository
-  has an origin, `forge-status --remote` also asks GitHub, through `gh`
-  on PATH, for what lies there outside git: the open pull requests and
+  has an origin, the forge also reads from GitHub what lies there
+  outside git: the open pull requests and
   the discussions nobody of the repository has answered, each with its
   number, title, author and date, a pull request with the count of files
   it changes. The `/forge` map and `/pull` say it as a fact beside the
@@ -2434,7 +2306,8 @@ position that already stands elsewhere.
   and closes nothing (POS.1490). Whatever keeps it from reading, the
   line says so and the map goes on; the remote read is GitHub's for now,
   and a project on another host gets the one line that it could not be
-  read, as the script prints it (CHL.0720). Why: a contribution seen on
+  read, in the words of whatever kept it from reading (CHL.0720). Why: a
+  contribution seen on
   the morning it arrives costs nothing, the same contribution seen after
   a week of one's own rounds costs renumbered items, re-dated versions
   and a conflict at the merge (THR.0790). Present shape 2026-11-08.
@@ -2460,7 +2333,7 @@ position that already stands elsewhere.
 
 ### Growth path
 - **POS.0700** The principal intends to keep extending the engine
-  downward: thoughts are forged as far as he needs them taken. The BRD layer exists since 2026-10-23 (POS.1800); integration is
+  downward: thoughts are forged as far as he needs them taken. The BRD layer exists (POS.1800); integration is
   intended; a strategy layer is possible if it proves to make sense. Which layers are added, and in
   what order, is open — possibly all of these, possibly none yet.
   Nothing is approved for construction: the mechanics of a layer
@@ -2473,7 +2346,7 @@ position that already stands elsewhere.
   own forge run: the assignment becomes his brief, by his hand today (an
   assignment is self-contained for exactly that), by a command of its
   own only when that day comes (THR.0090). The chain never spans two
-  principals (2026-09-06).
+  principals.
 - **POS.1430** A new kind of artefact is added to the forge by one
   command, `/new-artefact <name>`, so that the chain grows without
   anyone having to know by heart what a kind of artefact is made of.
@@ -2495,8 +2368,7 @@ position that already stands elsewhere.
   a reviewer, a genre, are not this command's (THR.0480). Where the
   kind needs a trial on real work before its position can hold, the
   order is POS.1780's: the brief, the pair built with its reviewers and
-  tried, then the position and the item of the design; the BRD was
-  born so on 2026-10-23. Reason: a
+  tried, then the position and the item of the design. Reason: a
   kind added by hand took a search for everything it touches, and two
   of the things it needs, a prefix and a challenger, are easily
   forgotten. Decided 2026-10-04.
@@ -2562,14 +2434,12 @@ position that already stands elsewhere.
   of a public version, one step. `docs/videos/` is flat, its files in
   the order of their names, and foreign to `/document` and its checks,
   which generate and verify the documentation around it and leave it
-  alone; the player page, `docs/videos/index.html`, is written anew by
-  the script from a skeleton of the engine, `templates/html-player.html`,
-  with the folder's files, whenever a file is written into the folder,
-  since Pages cannot list a folder.
+  alone; one page of the folder plays its files and is kept current with
+  the folder by the forge, never by hand.
   Video files (`.mp4`) never enter the tree: they go out as assets of a
   release. GitHub Pages is switched on by the principal once, by hand,
-  on `main` and `/docs`, with an empty `docs/.nojekyll` so that the
-  files are served as they lie; the documentation keeps being read in
+  on `main` and `/docs`, the files served as they lie; the
+  documentation keeps being read in
   the repository view as today. Sections and the order of a course:
   THR.0660. The principal's word of 2026-10-14.
 - **POS.0990** The public face. The engine lives at a public repository
@@ -2620,8 +2490,7 @@ position that already stands elsewhere.
   the principal's word. Why: a policy whose threat model is derived
   from the design stays true only when re-rendered, and a release
   re-renders the documentation, not a policy; a standard adopted is
-  worth exactly its unchanged text. Research 2026-10-05 and
-  2026-11-01. Decided 2026-11-01.
+  worth exactly its unchanged text. Decided 2026-11-01.
 - **POS.1000** Every project has a README and, if it is a thought
   project, release notes — both renders of the project's own recipes
   (`recipes/readme.md`, `recipes/release-notes.md`, `output:` in the
@@ -2636,7 +2505,7 @@ position that already stands elsewhere.
   `/new-project` and expected by `/check`; the ledger's Renders table
   carries them like any render. Every README closes with one fixed
   sentence, part of the readme genre, so that whoever finds the project
-  knows what runs it (principal's decision 2026-08-30). The engine's own
+  knows what runs it. The engine's own
   README is the one exception: the sentence exists to point a visitor to
   the engine, and the engine's README is that destination.
 - **POS.1450** The documentation of a project is a set of pages, one
@@ -2681,11 +2550,10 @@ position that already stands elsewhere.
   map and the intent disagree on, a reason a page wants and no file
   records, is a finding of the run: filed in `reviews/` as a check's
   report and settled as a check's findings are, since the
-  documentation finds what no other check does (decided 2026-11-01).
+  documentation finds what no other check does.
   The documentation is made by a command of its own, `/document [slug]`,
   guarded like every command that writes (POS.1090), in one run that
-  asks nothing: a plan of the pages first, the map, then every page made
-  alone from its entry in the map and from the files the entry names,
+  asks nothing: every page made alone from the files that own its topic,
   read from disk, nothing else; what the inputs do not support is left
   out and reported, never guessed. Nothing invented means no fact: an
   example that shows the shape a template or a convention defines,
@@ -2698,10 +2566,9 @@ position that already stands elsewhere.
   reason, where he wants one, enters the intent in its own round and
   reaches the page at the next run. A run regenerates only the pages
   whose inputs changed, decided mechanically from the inputs, never by
-  judgement, so that a run is cheap and the page names stay stable. An
-  input is a file or a named part of one, a section by its heading or an
-  item by its ID, hashed as that part, so that a change elsewhere in the
-  file leaves the page as it is. A page is not a render: no recipe
+  judgement, so that a run is cheap and the page names stay stable. A
+  change elsewhere in a file a page draws on leaves the page as it is. A
+  page is not a render: no recipe
   stands behind it and `/render` is untouched (REJ.0240). No instance
   fact reaches a page (POS.0950). The pages speak in one voice: Claude
   is "it", the reader of a how-to "you", the principal by role; the full
@@ -2756,17 +2623,17 @@ position that already stands elsewhere.
   explicit word. Reason: the repository carries what the forge works
   with — text — and a binary nobody reads from git is weight without
   use; a binary that is used as a thing is kept because it is used.
-  Three additions of 2026-09-14 from the run record of `health`:
+  From the run record of `health`:
   `/ingest` takes text pasted into the conversation as well as a file
   (P.10, G.04); before storing, personal matter — a named private
   person, an identifying detail, health, anything of the kind — stops
   the command and asks (P.11, G.09), because a source is immutable from
   its registration and travels into git, so what has entered cannot be
-  taken back and the question must come before the store (reason given
-  2026-10-09); and the role of a source is the principal's word, never
+  taken back and the question must come before the store; and the role
+  of a source is the principal's word, never
   inferred: before the entry is written Claude always asks "what is it
   for?", so that the entry carries its role from its birth and no later
-  hand changes it (decided 2026-10-17, brief `collaboration`), and he
+  hand changes it, and he
   answers with the role or tells Claude to infer it, which is then
   written marked *(inferred)* (P.06, F.05). A source and a research
   note are immutable because they record a moment, a state of the
@@ -2775,13 +2642,12 @@ position that already stands elsewhere.
   in a new version a further file of a bundle of one origin, whose
   index says which is the newest and which it supersedes, so that
   every citation of the intent keeps pointing at the text it was made
-  from (the principal's answer, 2026-11-01).
+  from. Present shape 2026-11-01.
 - **POS.1050** First run is one command. After cloning the engine,
   `/setup` prepares the instance: it fills the facts of the instance in
   an elicitation interview — the conversation language first, then who
-  the principal is by role, since the first correction of a newcomer's
-  run was the language of the first question
-  (`sources/forge-run-record-health.md`, P.15, G.13, 2026-09-14) — and
+  the principal is by role, since a newcomer must understand the first
+  question (`sources/forge-run-record-health.md`, P.15, G.13) — and
   it sets the session model to **Fable**, without asking: the strongest
   available model is the forge's default (POS.0530), the whole forge
   including the blind reviewers runs on it (POS.0930), and a newcomer's
@@ -2794,8 +2660,7 @@ position that already stands elsewhere.
   and so lands in the file git itself reads, wherever HOME puts it: the
   forge names no path to that file, and an identity stanza points to its
   file by a path relative to it, since a user may keep his profile
-  anywhere and the global file moves with HOME (THR.0720, found
-  2026-10-20 on a domain machine). On a machine whose home differs by
+  anywhere and the global file moves with HOME (THR.0720). On a machine whose home differs by
   place, `/setup` runs once in each. That configuration is the one thing
   `/setup` changes outside the engine, on the user's word. Named `/setup`, not `/init`: Claude Code's built-in
   `/init` generates a CLAUDE.md, and the collision would send a newcomer

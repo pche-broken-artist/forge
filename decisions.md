@@ -836,3 +836,15 @@ verdict on the whole ID, the rest a `changed` record of the history
   check does not raise it again.
 - **Verdict:** FND.4310 rejected
 - **Date:** 2026-11-08
+
+## DEC.0490 — The design is whole enough to build from; FND.4680 is not taken
+- **Decision:** FND.4680 is not taken: SOL.0520, SOL.0650 and SOL.0870
+  keep their detail. The rule that the detail of a part is its file's
+  leaves the design's definition and the check `history`, and POS.1400
+  says it in words.
+- **Reason:** The principal's word of 2026-11-10: a person must be able
+  to build the thing from the solution design, and what is designed
+  must not live only in the source; the cost, the same detail in the
+  design and in a script's header, is accepted.
+- **Verdict:** FND.4680 rejected
+- **Date:** 2026-11-10

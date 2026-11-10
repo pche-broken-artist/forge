@@ -96,6 +96,10 @@ the first way of CHL.0640; proposed next, a walkthrough position by
 position from group one, each with its new wording and what the SOL
 receives, written once at the round's end.
 
+2026-11-10: the split of large files leaves this thread for one of
+its own, THR.0860, on the principal's word; this thread carries the
+cut between the intent and the design alone.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:

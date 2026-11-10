@@ -1,5 +1,5 @@
 ---
-version: 0.65
+version: 0.66
 status: draft
 project: forge
 audience: whoever realises the solution, a person or an agent
@@ -185,8 +185,8 @@ boundary kept by hand or an order of work.
   definition by hand. The descriptions of all commands stay in the
   always-on context.
   Realises: POS.1090. Choice: conduct and the git wall (SOL.0520)
-  against the harness's field, which from 2026-09-05 to 2026-11-03
-  led to the commands being mimicked outside the skill. Decided
+  against the harness's field, which led to the commands being
+  mimicked outside the skill. Decided
   2026-11-03. Where: `.claude/skills/<name>/SKILL.md`.
 - **SOL.0120 The `/forge` dispatcher and the definitions.** A thin
   dispatcher plus one definition file per target state, each declaring
@@ -276,10 +276,8 @@ boundary kept by hand or an order of work.
   through `git config --global` against a path named by the forge, which
   moves with HOME on a domain machine; against `GIT_CONFIG_GLOBAL` set by
   `/setup` (a change to the user's system) and the registration per
-  repository (it reverses SOL.0740) (THR.0720). The registration and
-  `author:` built 2026-10-18, the preparation of the cutover plan
-  (R1.14); the script built 2026-10-20, the skill brought to it
-  2026-10-23 (FND.2260). Where: `.claude/skills/setup/SKILL.md`,
+  repository (it reverses SOL.0740) (THR.0720). Built 2026-10-23.
+  Where: `.claude/skills/setup/SKILL.md`,
   `scripts/forge-config.py`, `templates/CLAUDE.local.md`,
   `.claude/settings.local.json`, `scripts/forge-status.py`.
 - **SOL.0160 A project is born or brought in.** `/new-project` scaffolds
@@ -526,9 +524,7 @@ boundary kept by hand or an order of work.
   says the threads were not read rather than that nothing waits. Called
   by the `/forge` map, `/ledger`, `/end`, `check-light` and `check-
   project`; the readme recipe of a project reads the script's output
-  where it read the ledger; the 26 skills that write a ledger row today
-  stop. CLAUDE.md, Ledger, ceases to say "freely rewritten, keep it
-  current after every operation". Realises: POS.1600, POS.1610,
+  where it read the ledger. Realises: POS.1600, POS.1610,
   POS.1620, POS.1630, POS.1640, POS.0160, POS.0330. Choice: a script
   against the model keeping the file, since the ledger is derived and
   every operation rewrote it; the price is the most complex script of
@@ -612,16 +608,14 @@ boundary kept by hand or an order of work.
   is a work product of SOL.0640, never `30-brd.md`; the resource
   indexes of SOL.0230 are an input of every BRD. The ledger reads a
   TBC of the principal in the BRD's shape (SOL.0210). Built
-  2026-10-23 from the brief `brd` before the positions (POS.1780),
-  tried the same day on a vendor transcript into `work/` and on the
-  assignment of agentic-platform into its chain, the reviewers run on
-  the first. Realises: POS.1800, POS.1810, POS.1820, POS.1830,
+  2026-10-23 from the brief `brd` before the positions (POS.1780).
+  Realises: POS.1800, POS.1810, POS.1820, POS.1830,
   POS.1840, POS.1850, POS.1360, POS.0700. Choice: no critic lens of
   the BRD's own against one, the fork's single critic doing three
   jobs; the cost is that a BRD's quality is read by two lenses that
   know it only through its definition. A persona and a check against
-  the lenses alone: the trial showed the persona finding the world
-  outside the parent and the check the matrix, which no lens hunts;
+  the lenses alone: the persona finds the world outside the parent and
+  the check the matrix, which no lens hunts;
   the cost is two more agent files. Where:
   `.claude/skills/forge/states/brd.md`, `templates/brd.md`,
   `.claude/agents/challenger-business-analyst.md`,
@@ -642,11 +636,8 @@ boundary kept by hand or an order of work.
   SOL.0640, never `35-user-stories.md`. The prefix US widened the
   pattern of the scripts from three letters to two or three
   (`docs_map.py`, `forge-ledger.py`, `forge-check.py`, `forge_check.py`,
-  `forge_docs.py`, `forge-history.py`), the ledgers of three projects
-  identical before and after. Built 2026-11-02 from the brief
-  `user-stories` before the positions (POS.1780), tried the same day on
-  a small project from its brief to the export, the check run on the
-  stories. Realises: POS.1990, POS.2000, POS.2010, POS.2020, POS.0220,
+  `forge_docs.py`, `forge-history.py`). Built 2026-11-02 from the brief
+  `user-stories` before the positions (POS.1780). Realises: POS.1990, POS.2000, POS.2010, POS.2020, POS.0220,
   POS.0230. Choice: a check and no persona of its own against a persona,
   since what a persona would hunt in stories the business-analyst
   persona hunts in the BRD above them; the cost is that the substance of
@@ -773,16 +764,20 @@ boundary kept by hand or an order of work.
   the unit of consent against the finished note as before, the
   principal's wish; one packet for both engines against a packet per
   engine, so that the answers compare; the hold folder and the order of
-  filing against the place of the run, which the probe of 2026-10-24
-  showed to lock nothing. Built 2026-10-24 and run once whole (the RFP
-  research, twelve notes). Where: `.claude/skills/research/SKILL.md`,
+  filing against the place of the run, which locks nothing. Built
+  2026-10-24. Where: `.claude/skills/research/SKILL.md`,
   `templates/research-plan.md`, `templates/research.md`,
   `templates/index.md`.
 - **SOL.0870 The engine adapter.** `scripts/forge-engine.py` runs one
   packet on an engine of its table and brings the answer back as a note;
   what it does in full, the version floor, the profile, the fingerprint
   of the folder, the envelope and the flags `--allow-all`, `--sandbox`
-  and `--no-profile`, is its header's. The profile is a copy of the
+  and `--no-profile`, is its header's. A headless run denies a tool
+  call it cannot ask about and returns nothing, so every call is allowed
+  and the engine's sandbox contains it. Antigravity (`agy`), of Gemini's
+  family, is the first row; Codex, Claude Code and Copilot share the
+  one-shot shape and are rows to add when wanted (research of
+  2026-10-23). The profile is a copy of the
   user's settings file for the engine with `permissions` added: allow
   the web; deny the shell, every write and the reading of every entry of
   the engine root but `tmp/` and of the run's `hold/`, the paths
@@ -811,8 +806,7 @@ boundary kept by hand or an order of work.
   synthesis. Realises: POS.1890, POS.1870. Choice: resolving the URL
   against a count of agreeing sources (REJ.0460), the one mitigation
   with a measured effect; shared URLs and sentences as the measure of
-  independence against trusting the place of the run (the four of six
-  of 2026-10-24); a 403 never a failure, since a site that blocks
+  independence against trusting the place of the run; a 403 never a failure, since a site that blocks
   bots is the normal case. Built 2026-10-24. Where:
   `scripts/forge-cite.py`.
 
@@ -965,8 +959,8 @@ boundary kept by hand or an order of work.
   `research/2026-10-14-terminal-video-from-screenplay.md`) found VHS
   broken on Windows, agg ending at GIF and the browser the most code; a
   painter in the language the scripts already are, with one encoder, was
-  the least to install and runs on the three platforms. Trial 2026-10-14
-  in `tmp/video-trial/`. Where: `scripts/md2video.py`,
+  the least to install and runs on the three platforms. Where:
+  `scripts/md2video.py`,
   `scripts/forge_tools.py`.
 - **SOL.0450 The repository's CONTRIBUTING.** `CONTRIBUTING.md` in
   the repository root is a render of
@@ -1049,25 +1043,14 @@ boundary kept by hand or an order of work.
   run: the state stays computed, never judged; the cost is that a change
   of the writer's definition or the contract regenerates every page. The
   outlines per kind and the one-line field of the index against trusting
-  the writer's judgement: 106 different headings on 24 how-to pages and
-  index entries of 187 words showed the judgement does not converge (the
-  documentation audit of 2026-10-11,
-  `projects/forge/sources/docs-audit-2026-10-11.md`). Built 2026-10-09
-  whole: the skill, the three scripts and the two agents; the first run
-  of `/document` the same day regenerated 83 pages and the index, three
-  pages once more after the check named a failure in each; redrawn
-  2026-10-11 from the audit and run the same day: 86 pages, three new,
-  four regenerated once after the check. The map's shape is the skeleton
+  the writer's judgement: the writer's judgement does not converge
+  (`projects/forge/sources/docs-audit-2026-10-11.md`). Built 2026-10-09
+  whole: the skill, the three scripts and the two agents. The map's
+  shape is the skeleton
   `templates/docs-map.md`. `/document` runs only on main and refuses a
   repository behind or diverged (POS.1690, POS.1710); `generated` and
   `previous` leave the map's header and the run takes the previous map
-  from git (SOL.0700). After the first and the second release of the
-  brief `collaboration` the pages about/persistence-in-git,
-  reference/ledger, reference/document-kinds,
-  about/versioning-and-history, use/work-on-a-branch, use/save-your-work
-  and use/pull-from-the-remote are regenerated and the migration, the
-  branches and the step of a conflict get entries of the map; the
-  release offers the run (POS.1450). Where:
+  from git (SOL.0700). The release offers the run (POS.1450). Where:
   `.claude/skills/document/SKILL.md`,
   `.claude/skills/docs-contract/SKILL.md`, `templates/docs-map.md`,
   `.claude/agents/docs-planner.md`, `.claude/agents/docs-writer.md`,
@@ -1216,10 +1199,9 @@ boundary kept by hand or an order of work.
   and `attribution.sessionUrl` is false, so Claude Code adds and
   proposes no `Co-Authored-By` or `Claude-Session` trailer. Realises:
   POS.0550, POS.1200, POS.1090, POS.1930. Choice: the permission system
-  against an OS-level sandbox, which was tried on 2026-08-04 and
-  deliberately dropped: it is unavailable on Windows, where enforcing it
-  meant no shell at all; the hook against the deny rule `Bash(git *)`
-  that was the wall from 2026-09-21 to 2026-10-21 and against deny rules
+  against an OS-level sandbox, dropped: it is unavailable on Windows,
+  where enforcing it meant no shell at all; the hook against the deny
+  rule `Bash(git *)` and against deny rules
   on the writing verbs: a prefix rule matches the text usually typed and
   `git -C . push` passes it, a deny rule cannot be carved by an allow
   rule and is not overridden by a hook, and two walls with one hole read
@@ -1229,7 +1211,11 @@ boundary kept by hand or an order of work.
 - **SOL.0530 Save and release.** `/release` runs its checks (SOL.0330),
   settles their findings, renders the README and the release notes
   unconditionally, with no staleness test, and ends by running `/save`
-  with the release message and tag: not a second procedure. It never
+  with the release message and tag: not a second procedure. The order
+  inside every release, by hand or with `--auto`, is the tests of the
+  engine, checks, documentation, README and release notes, state render,
+  save: the README reads the documentation's index, so the documentation
+  comes first. It never
   regenerates the documentation: it reports the age of the index against
   the intent's version and offers `/document` (POS.1450), the detail the
   release skill's. The release writes
@@ -1294,15 +1280,18 @@ boundary kept by hand or an order of work.
   `RELEASE-NOTES.md`, `CONTRIBUTING.md` and `docs/**` at the root
   (CHL.0350); the lines on `projects/forge/renders/**` and its published
   files left it at the cut of POS.1980; the forge's own project carries
-  `templates/gitattributes` like every project (SOL.0930).
+  `templates/gitattributes` like every project (SOL.0930). Every project
+  carries `.gitignore` from `templates/gitignore`, created by
+  `/new-project` beside `.gitattributes`: the ledger and the lock files
+  Office leaves beside an open document.
   `check-project` reports a project without the file, with the fix.
   CLAUDE.md, Persistence, carries the ways and the promise. Realises:
   POS.1560, POS.1690, POS.1750. Choice: the attributes per project
   against a global configuration alone, since the attributes travel with
   the repository and the registration (SOL.0740) does not. Built
-  2026-10-19 in the first release (the cutover plan, R1.07, R1.02); the
-  attribute of way 2, `merge=forge- records`, let go 2026-10-23 with the
-  driver (REJ.0340). Where: `templates/gitattributes`, `.gitattributes`,
+  2026-10-19 in the first release (the cutover plan, R1.07, R1.02).
+  Where: `templates/gitattributes`, `templates/gitignore`,
+  `.gitattributes`,
   `CLAUDE.md` (Persistence), `.claude/skills/new-project/SKILL.md`,
   `.claude/agents/check-project.md`.
 - **SOL.0740 The registration on the machine.** `/setup` registers
@@ -1319,11 +1308,7 @@ boundary kept by hand or an order of work.
   POS.1740 (the registration is the machine's, not the project's).
   Choice: one registration per machine against a registration per
   repository, which the migration must not touch. Built 2026-10-18, the
-  preparation of the cutover plan: the report of `forge-status` (R1.12),
-  the registration by `/setup` of `ours`, the backend, renormalize and
-  rerere with the offer of zdiff3 (R1.14); the driver's own key,
-  `merge.forge-records.driver`, let go 2026-10-23 with the driver
-  (REJ.0340), never registered. Where: `.claude/skills/setup/SKILL.md`,
+  preparation of the cutover plan. Where: `.claude/skills/setup/SKILL.md`,
   `scripts/forge-config.py`, `CLAUDE.md` (Persistence),
   `scripts/forge-status.py`,
   `scripts/forge_repos.py`.
@@ -1342,16 +1327,10 @@ boundary kept by hand or an order of work.
   the state read once at the map and the reflection against a fetch at
   the write, so that the network never fails a round; the rebase on a
   diverged branch alone against a rebase before every push, since a
-  rebase drops a merge commit and replays what it brought in, which the
-  contributor of pull request #8 met on 2026-11-06. The roles: a
-  contributor's branch and `/save`, the integrator's merge and `/save`
-  on main (POS.1770, SOL.0840). Built 2026-10-18, the preparation of
-  the cutover plan (R1.12): the ahead counted against the upstream
-  without a fetch, a branch with no upstream reaching the remote with
-  its first commit; the push of a clean branch without an upstream and
-  the conflict left standing 2026-10-23 (R6.02); the rebase narrowed to
-  a diverged branch 2026-11-08, two tests on the fixture reproducing
-  the flattened merge in both roles before the change. Where:
+  rebase drops a merge commit and replays what it brought in, which a
+  contributor's branch meets. The roles: a contributor's branch and
+  `/save`, the integrator's merge and `/save` on main (POS.1770,
+  SOL.0840). Present shape 2026-11-08. Where:
   `.claude/skills/forge/SKILL.md`,
   `.claude/skills/walkthrough/SKILL.md`, `scripts/forge-save.py`,
   `scripts/forge_repos.py`, `tests/test_git_scripts.py`.
@@ -1371,7 +1350,8 @@ boundary kept by hand or an order of work.
   itself; `--undo` restores every changed tracked file from the index
   through `forge_repos`, since the script stages nothing, and the
   created files and the removals from the index from its own manifest;
-  refuses an unclean repository, one behind its origin or not on main,
+  `git clean` is never run; refuses an unclean repository, one behind
+  its origin or not on main,
   where the project is a repository of its own; a project outside git
   (SOL.0510) gets none of these: the dry run and `--apply` say that the
   forge runs no git here and that the way back is the user's backup,
@@ -1424,13 +1404,8 @@ boundary kept by hand or an order of work.
   copy a repository on `main` with a local identity, one commit and a
   bare `origin.git` beside it; `other_clone` a second clone as another
   person's. The scripts reach the copy by its path (POS.1950). The
-  fixture project of the cutover, `projects/fixture`, made by hand
-  from a bare remote in `tmp/` as a copy of a small real project and
-  deleted on 2026-11-01 (DEC.0360), is history: on it the migration,
-  `ours` and the step of a conflict were first tried by hand (R6.03);
-  of the three the suite now tests `ours` and the step of a conflict
-  (SOL.0900), the migration not: it ran once, on that project, and a
-  fixture of the current shape gives it nothing to migrate. Realises:
+  suite does not test the migration: a fixture of the current shape
+  gives it nothing to migrate. Realises:
   POS.1940, POS.1590, POS.1750. Choice: synthetic against a copy of a real
   project (REJ.0530, DEC.0410); in the engine's tree against
   `projects/` (gitignored) and against a bare remote in `tmp/` (per
@@ -1455,7 +1430,12 @@ boundary kept by hand or an order of work.
   hook's ask (SOL.0520); `forge-save` then pushes the clean repository
   that is ahead, a branch without an upstream counted against
   `origin/<branch>` after a fetch or pushed as new. A version given
-  twice and an ID taken twice are settled as POS.1790 says, the ledger
+  twice is found by git itself: both sides appended their records to the
+  end of the document's history, which conflicts as text whenever both
+  raised it, while the header's `version:` line conflicts only where the
+  two numbers differ and merges silently where they are the same. A
+  version given twice and an ID taken twice are settled as POS.1790
+  says, the ledger
   script reporting both (SOL.0680). Realises: POS.1710, POS.1750,
   POS.1790, POS.1560, POS.1770. Choice: the help in `/save` and the
   hook's ask against `/merge` with a script of its own and the worktree
@@ -1464,10 +1444,7 @@ boundary kept by hand or an order of work.
   opened to Claude whole, which would leave the commit message, the
   rebase before the push and the check before a save to text; no driver
   and no `merge=union` for the record files (REJ.0340, REJ.0280). Built
-  2026-10-23 (the cutover plan, R6.01 to R6.03) and tested on the
-  fixture with a second clone: a conflict in a history and in an
-  artefact, two verdicts, `add` and `rebase --continue` on the ask,
-  pushed and pulled back. Where: `scripts/forge-save.py`,
+  2026-10-23 (the cutover plan, R6.01 to R6.03). Where: `scripts/forge-save.py`,
   `scripts/forge_repos.py`, `scripts/forge-status.py`, `scripts/hook-
   git.py`, `.claude/skills/walkthrough/SKILL.md`,
   `.claude/skills/save/SKILL.md`.
@@ -1519,11 +1496,7 @@ boundary kept by hand or an order of work.
   keys and comments a template owns) for forge-check; `forge_repos.py`
   is shared by the scripts of the brief `collaboration` too (SOL.0510).
   The two hooks are Python scripts too, started by `python` from
-  `.claude/settings.json`. Rewritten from PowerShell 7 on 2026-10-09,
-  all nine at once, and tested that day against a fixture: a local bare
-  remote, an engine cloned from it, a project with a remote and one
-  without, 56 cases over every script and its refusals; the `claude`
-  engine of the conversions was not run. Realises: POS.0830. Choice:
+  `.claude/settings.json`. Realises: POS.0830. Choice:
   Python against PowerShell 7, the principal's decision of 2026-10-02 on
   the feedback of the forge's users; `python` as the one command name
   against `python3`, since Windows has only the first and a Unix system
@@ -1537,7 +1510,7 @@ boundary kept by hand or an order of work.
   takes a project by its slug or by the path of its directory,
   `forge_repos.project_path` the one resolver, `is_path` the rule (a
   separator or an absolute path), `project_label` how a report names
-  the target, `project_file` the name (POS.1950; 2026-11-07). Where:
+  the target, `project_file` the name (POS.1950). Where:
   `scripts/`.
 - **SOL.0890 The working folder.** `tmp/` at the engine root, in git
   with `tmp/README.md` and `tmp/.gitignore` (everything but the two
@@ -1652,13 +1625,7 @@ boundary kept by hand or an order of work.
   README; it says that a user needs the engine, what this repository is,
   who clones it and how, and that Discussions, Issues, CONTRIBUTING and
   SECURITY are the engine's. The project carries a copy of the engine's
-  `LICENSE`, CC BY 4.0. Cut 2026-11-08: the engine prepared on the
-  branch `cut-forge-project` with the project still inside, the cut
-  rehearsed on a copy of the engine with a bare repository as a false
-  origin, merged into `main`, the project's repository born with
-  `templates/gitattributes` and its own `.gitignore`, the engine letting
-  the directory go in one save of two commits; the first release in the
-  new shape is 7.0 (THR.0780). Realises: POS.1980, POS.0940. Choice: a
+  `LICENSE`, CC BY 4.0. Realises: POS.1980, POS.0940. Choice: a
   repository of its own against a filtered branch of the engine for
   users (the research of 2026-10-10), possible once the ledger was made
   at read time and the user's path read nothing of the project;
