@@ -2,7 +2,7 @@
 id: THR.0640
 concerns: intent
 origin: Claude's synthesis
-status: open
+status: closed
 ---
 
 What of a thread survives its closing. A thread
