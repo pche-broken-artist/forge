@@ -2,6 +2,8 @@
 id: THR.0610
 concerns: intent
 origin: Claude's synthesis
+owner: PCHe
+priority: medium
 status: open
 ---
 

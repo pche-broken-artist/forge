@@ -2,7 +2,7 @@
 id: THR.0760
 concerns: intent, solution-design
 origin: the principal
-status: open
+status: closed
 ---
 
 The source archive GitHub makes of a tag should hold the engine
@@ -22,6 +22,13 @@ and the archive carries no `.git`; what "the engine alone" leaves in
 the change takes effect only from the next tag, `v6` keeping the
 archive it has. Parked 2026-10-25 at the publication of the v6
 release on GitHub, to decide before the next tag. Opened 2026-10-25.
+
+2026-11-12, closed: overtaken. The forge's own project left the
+engine on 2026-11-08 (POS.1980), and the tag `v7` holds that cut: the
+engine tracks `projects/README.md` alone under `projects/` and its
+README and `.gitignore` alone under `tmp/`, so the source archive of a
+tag holds the engine alone from `v7` on, `docs/` with it. No
+`export-ignore` is needed; `v6` keeps the archive it has.
 
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is

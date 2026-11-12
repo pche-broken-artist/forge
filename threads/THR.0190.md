@@ -2,6 +2,8 @@
 id: THR.0190
 concerns: intent
 origin: research/2026-08-29-claude-code-packaging.md
+owner: PCHe
+priority: medium
 status: open
 ---
 

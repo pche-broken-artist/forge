@@ -2,6 +2,8 @@
 id: THR.0840
 concerns: intent
 origin: challenges/2026-11-08-challenge-cto-1953-b121.md
+owner: PCHe
+priority: medium
 status: open
 ---
 

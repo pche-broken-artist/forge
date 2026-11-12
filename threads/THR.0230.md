@@ -2,6 +2,9 @@
 id: THR.0230
 concerns: intent
 origin: the principal
+owner: PCHe
+priority: high
+blocks: the plugin (THR.0190), where a user's own definitions live (THR.0300)
 status: open
 ---
 

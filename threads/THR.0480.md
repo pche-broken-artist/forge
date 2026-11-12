@@ -2,6 +2,9 @@
 id: THR.0480
 concerns: intent
 origin: the principal
+owner: PCHe
+priority: high
+blocks: the engine split (THR.0230)
 status: open
 ---
 

@@ -2,6 +2,8 @@
 id: THR.0830
 concerns: intent
 origin: sources/github-issues/discussion-6-record-of-what-was-sent.md
+owner: PCHe
+priority: medium
 status: open
 ---
 

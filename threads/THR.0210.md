@@ -2,6 +2,8 @@
 id: THR.0210
 concerns: intent
 origin: challenges/2026-08-29-challenge-cto.md
+owner: PCHe
+priority: low
 status: open
 ---
 

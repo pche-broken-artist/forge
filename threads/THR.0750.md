@@ -2,6 +2,9 @@
 id: THR.0750
 concerns: intent
 origin: the principal
+owner: PCHe
+priority: medium
+blocks: forge-rollout as a workshop
 status: open
 ---
 

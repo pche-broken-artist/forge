@@ -948,3 +948,4 @@ word `<file> | changed | state: by hand`.
 - 2026-11-12 | 7.8 | PCHe | POS.1070 | changed | the principal's word of 2026-11-12, at the walkthrough of THR.0870: what was said of /thread, that the skill holds whenever its situation arises and not only after the command, holds for every skill; a request in free words is the command, and what runs only on his word still does
 - 2026-11-12 | 7.8 | PCHe | THR.0870 | closed | the priority of a thread and the skill /thread written: POS.0120, POS.1680, POS.1070, SOL.0720, SOL.0680, SOL.0960
 - 2026-11-12 | 7.8 | PCHe | FND.4740 | closed | resolved: the Date field of gemini-research-protocol-proposal.md carries one date and one origin, the note on the run id moved to Origin
+- 2026-11-12 | 7.8 | PCHe | THR.0760 | closed | overtaken by POS.1980: from v7 the engine tracks nothing of its own project, the archive of a tag holds the engine alone

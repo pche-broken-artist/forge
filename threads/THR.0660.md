@@ -2,6 +2,8 @@
 id: THR.0660
 concerns: intent
 origin: the principal
+owner: PCHe
+priority: medium
 status: open
 ---
 
@@ -23,6 +25,15 @@ order, a meaningful name per video saying what the viewer will
 learn, and the series named as a whole; order and names the
 principal's, chosen once, not read off the file names or the title
 cards. Where they live remains this thread's.
+
+2026-11-12: found while the threads were sorted, nothing decided. The
+course is built since 2026-10-24: a recipe's Format gives the section
+and the name of its video (`--section`, `--name` of `md2video.py`),
+the player page groups by section, and the numbers of the recipe's
+`output:` order the course. POS.1540 and SOL.0660 still say the
+folder is flat and the list goes by the title cards. Open: bringing
+both to what is built, and the four ideas not taken up, asciicast, an
+animated SVG, GitLab Pages, the documentation as a web.
 
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
