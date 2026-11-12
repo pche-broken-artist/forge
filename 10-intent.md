@@ -1,5 +1,5 @@
 ---
-version: 7.7
+version: 7.8
 status: draft
 project: forge
 audience: principal + Claude only
@@ -511,16 +511,40 @@ position that already stands elsewhere.
   different things, that is a finding, never mended in silence. The
   threads live in files of their own beside the intent, one thread one
   file (POS.1680): the intent says what holds, the threads what is being
-  worked. A thread says what is open and where it came from, and carries
-  the working debate for as long as it is unsettled: what was said, what
-  was tried, the plan of a change under way, the proposals that await a
-  decision. It is where an unfinished conversation is saved. A settled
+  worked. A thread is one matter of a project set aside to be taken up
+  later: a task, a question, a decision to make, an idea; the forge does
+  not ask which. It says what the matter is, where it came from, how
+  much it matters, what waits on it where something does, and what will
+  close it, and carries what is known of it until it is taken up; an
+  unfinished conversation on the matter is saved into it. It holds its
+  one matter and what is known of it while it is unsettled: the
+  situation and its evidence, what was said and tried, the plan of a
+  change under way, the proposals that await a decision, an unfinished
+  conversation, Claude's view marked as his. Every continuation says
+  where the matter stands and what is open now. It does not hold: a
+  second matter, which is a thread of its own; what has been decided,
+  which goes into the artefact it concerns; the text of a source, which
+  is cited by path; its origin a second time, which the header says; and
+  the thing being made, a brief, a specification, a document, which
+  lives in its own file with the thread pointing there. A settled
   thread stays as its file, immutable; what holds goes into the intent,
   and the intent's history records the birth and the closing of a
-  thread, not every saving of its debate. Present shape 2026-09-29.
+  thread, not every saving of its debate. Present shape 2026-11-12.
 - **POS.1680** Threads are files: `threads/THR.NNNN.md`, header `id`,
-  `concerns` (the artefact, today's bracket), `origin`, `status: open |
-  closed`. A thread is not an artefact: its header is its state and
+  `concerns` (the artefact, today's bracket), `origin`, `owner`,
+  `priority`, `blocks`, `status: open | closed`. `owner` is the handle
+  of whoever opened the thread, from the instance's Author, changed when
+  the thread is handed over; never the git identity, which a project
+  outside git lacks and which would put a name and an address into a
+  public file; the author of an issue stays in `origin`. `priority` is
+  `high | medium | low` in every thread written from now on. The
+  priority of a thread says when the matter is taken up, not how much an
+  item binds: the priorities of items stay rejected (REJ.0050). `blocks`
+  is optional and free text, a short name of what waits on the thread, a
+  layer, the next major, a new artefact; without it nothing waits. A
+  thread without `priority` is read as medium and one without `owner` as
+  owner not said, neither a finding, so that no project need be
+  migrated. A thread is not an artefact: its header is its state and
   changes on a branch too, the one header that does. A thread is never
   moved, renamed or deleted, with the one exception of POS.0220: a
   thread whose number clashed at a merge is renamed with its new number,
@@ -528,11 +552,11 @@ position that already stands elsewhere.
   and a `closed` record in the intent's history that says when and by
   what; a closed thread is immutable and is the archive, so `Was` for a
   thread is dropped; what returns is a new thread citing the old one. No
-  title and no further fields; no `threads.md`, the list is made by the
+  title; no `threads.md`, the list is made by the
   ledger script (POS.1620). A thread stays without a version and without
   a history of its own. Why: two people on different threads never
   conflict, Claude reads only the threads he needs, and no merge need
-  handle a block with an inner state. Present shape 2026-11-08 (brief
+  handle a block with an inner state. Present shape 2026-11-12 (brief
   `collaboration`).
 - **POS.0130** `20-assignment.md` is the distilled handover document for
   the recipients: complete, precise, structured, self-contained,
@@ -2145,7 +2169,10 @@ position that already stands elsewhere.
   situation arises, never re-described ad hoc: `/release` regenerates
   the README and release notes through `/render` and ends by running
   `/save`, git is touched through the scripts in `scripts/` (POS.0550),
-  reviews run through the reviewer agents. A command that needs
+  reviews run through the reviewer agents. The principal's request in
+  free words is the command: what he asks for runs through its
+  definition as if he had typed it; what runs only on his word still
+  does. A command that needs
   another's mechanism references it by path and adds nothing of its own
   to how it runs; the rules of a mechanism — isolation, wrapping,
   provenance, what may be read — are written once, in its own

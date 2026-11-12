@@ -848,3 +848,14 @@ verdict on the whole ID, the rest a `changed` record of the history
   design and in a script's header, is accepted.
 - **Verdict:** FND.4680 rejected
 - **Date:** 2026-11-10
+
+## DEC.0500 — The closed records of threads written before threads were files keep their Was
+- **Decision:** FND.4730 rejected: the seven `closed` records of
+  THR.0440, THR.0450, THR.0550, THR.0630, THR.0470, THR.0350 and
+  THR.0560 in the intent's history stand as written.
+- **Reason:** The principal's word of 2026-11-12: they were written
+  between 2026-10-02 and 2026-10-11, before threads became files on
+  2026-10-17 (POS.1680); a thread was then a block of one file, and
+  `Was` is the only copy of its wording; a record is never rewritten.
+- **Verdict:** FND.4730 rejected
+- **Date:** 2026-11-12

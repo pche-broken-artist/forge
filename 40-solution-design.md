@@ -1,5 +1,5 @@
 ---
-version: 0.67
+version: 0.68
 status: draft
 project: forge
 audience: whoever realises the solution, a person or an agent
@@ -499,8 +499,10 @@ boundary kept by hand or an order of work.
   provenance of the recipes and the renders, the published companions,
   the work specifications, the threads and `ledger.archive.md`, the
   archive read for every item without a record of the new shape, a newer
-  record overriding. Waiting on principal by the rule of POS.1620, a
-  thread's line its first sentence and its last dated paragraph. It
+  record overriding. Waiting on principal by the rule of POS.1620, the
+  open threads those something waits on first, then by priority, a
+  thread's line its priority and what waits on it in brackets, its
+  first sentence and its last dated paragraph. It
   reports a duplicate ID, a closed thread touched by a later commit
   (through `forge_repos`), and a THR cited in any file of the project
   with neither a thread file nor a `closed` record (POS.1640). An
@@ -582,9 +584,10 @@ boundary kept by hand or an order of work.
   `templates/recipe-readme.md`.
 
 - **SOL.0720 Threads as files.** `threads/THR.NNNN.md` from
-  `templates/thread.md` (`id`, `concerns`, `origin`, `status`);
-  `templates/threads.md` is dropped; the intent's definition creates and
-  closes threads as files, the walkthrough's write and `/end`, which
+  `templates/thread.md` (`id`, `concerns`, `origin`, `owner`,
+  `priority`, `blocks`, `status`); `templates/threads.md` is dropped;
+  the skill `/thread` (SOL.0960) creates and closes threads as files,
+  the walkthrough's write and `/end`, which
   saves an unfinished conversation into its thread, with it; the ledger
   script makes the list; they merge as text and a thread is never in a
   record file (way 1); a closed thread is immutable and the ledger
@@ -594,7 +597,8 @@ boundary kept by hand or an order of work.
   a block with an inner state; the cost is a directory of many small
   files. Built 2026-10-19 in the first release (the cutover plan, R1.06,
   R1.17, R1.23, R1.29). Where: `templates/thread.md`, `CLAUDE.md` (ID
-  scheme, Repository layout), `.claude/skills/forge/states/intent.md`,
+  scheme, Repository layout), `.claude/skills/thread/SKILL.md`,
+  `.claude/skills/forge/states/intent.md`,
   `.claude/skills/walkthrough/SKILL.md`, `.claude/skills/end/SKILL.md`,
   `scripts/forge-ledger.py`, `scripts/forge-migrate.py`.
 - **SOL.0950 Appending a record.** `scripts/forge-record.py` writes
@@ -630,6 +634,25 @@ boundary kept by hand or an order of work.
   calls in a large round. Where: `scripts/forge-record.py`,
   `scripts/forge_docs.py`, `tests/test_forge_record.py`, `CLAUDE.md`
   (Versioning & status, Repository layout).
+- **SOL.0960 The skill of threads.** `/thread [text | THR.NNNN]
+  [slug]`, `.claude/skills/thread/SKILL.md`: bare, the open threads
+  printed from the ledger; with a text, the birth, one draft of one or
+  several threads with one verdict; with an ID, the thread taken up. The
+  skill owns the rules of a thread, what it holds, its header, its
+  birth, its upkeep, its life and its closing; the intent's definition,
+  the history template and the light check cite it.
+  `forge_docs.thread_files` reads a thread without `priority` as medium
+  and one without `owner` or `blocks` as empty; the light check takes
+  the three fields as optional and finds a priority outside the three
+  words. Realises: POS.0120, POS.1680, POS.1070. Choice: a skill of its
+  own against the rules kept in the intent's definition, since a thread
+  is born outside `/forge intent` too; a missing field read against a
+  migration of every thread, so that nobody's project stops; the cost is
+  a ledger that shows `[medium]` on threads nobody has sorted. Built
+  2026-11-12. Where: `.claude/skills/thread/SKILL.md`,
+  `templates/thread.md`, `templates/ledger.md`, `scripts/forge_docs.py`,
+  `scripts/forge-ledger.py`, `scripts/forge-check.py`,
+  `tests/test_forge_ledger.py`, `tests/test_forge_check_light.py`.
 
 - **SOL.0850 The BRD.** The pair `states/brd.md` and
   `templates/brd.md` in the shape of SOL.0120, one more definition the

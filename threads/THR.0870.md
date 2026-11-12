@@ -2,7 +2,7 @@
 id: THR.0870
 concerns: intent
 origin: the principal
-status: open
+status: closed
 ---
 
 The priority of a thread. The principal's idea of 2026-11-10, when
@@ -102,6 +102,41 @@ open: where the definition stands (POS.0120, the intent's definition
 or the skill), and the first paragraph of this thread, which still
 says that no project is migrated.
 
+2026-11-12, later: the walkthrough finished, everything agreed on
+the principal's verdicts; nothing of it stands in the intent, the
+template or a skill yet, this thread is the only place. Four, what
+Claude asks at the birth, rewritten on the principal's word that
+asking means getting the information into the thread, not a question
+point by point: he may say the priority and the blocking himself, or
+one sentence and Claude proposes the rest; the wording below
+replaces the one shown. Five, what Claude keeps up by himself: the
+wording below. Where the definition stands: what a thread is and
+what it holds in POS.0120; the three fields and the reading of a
+missing priority in POS.1680, whose "no further fields" falls; the
+shape in `templates/thread.md`; the birth, the upkeep, the life and
+the closing in a new skill, `.claude/skills/thread/SKILL.md`, the
+intent's definition citing it; the order of the map and the skill as
+a mechanism in the solution design. What `/thread` does: bare, the
+open threads, those with `blocks` first, then by priority; with a
+text, the birth; with an ID, the thread taken up. A rule beyond
+threads: the principal's request in free words is the command, for
+every skill, added to prime directive 10 and the position that
+carries it; what runs only on his word still does. The threads a
+project has: no `/migrate`; sorted project by project on his word,
+Claude proposing priority, blocks and owner for all open threads as
+one proposal, closed threads untouched, the forge's own project
+first; an open thread without `owner` is read as owner not said, no
+finding. Open: the write itself.
+
+2026-11-12, closed: written. What a thread is and what it holds in
+POS.0120, the header in POS.1680, the request in free words in
+POS.1070 (intent 7.8); the skill `/thread`, the template, the ledger
+script and the light check in the engine; SOL.0720, SOL.0680 and
+SOL.0960 (design 0.68). The first paragraph's "no project is
+migrated" holds as: nothing is forced, a missing field is read. Not
+done here and on the principal's word: the sorting of the threads
+each project has, the forge's own first.
+
 What a thread is, agreed:
 
 > A thread is one matter of a project set aside to be taken up later:
@@ -149,22 +184,31 @@ What a thread holds and what not, agreed:
 > brief, a specification, a document, which lives in its own file with
 > the thread pointing there.
 
-What Claude asks at the birth, shown and not judged:
+What Claude asks at the birth, agreed:
 
-> At the birth of a thread Claude asks for what only the principal
-> knows and for nothing else: its priority, and whether anything waits
-> on it. He drafts the thread whole from what was said: the matter,
-> what is known of it, what it concerns and where it came from; he
-> shows the draft once and closes it with that one question, saying
-> the priority he would give. The principal's answer is the consent to
-> write the thread as shown; a change to the draft is said instead of
-> the answer. An input that holds several matters is shown as several
-> threads in the one draft, and the question is answered for each.
-> Beyond that Claude asks only where the matter itself is unclear,
-> what is being set aside or which of two readings is meant: one
-> question, on the matter, never on the form. He does not ask for the
-> kind of the matter, for what will close it where nobody knows yet,
-> for the owner or the date, and does not confirm one field at a time.
+> At the birth of a thread Claude drafts it whole from what the
+> principal said and shows it once: the matter, what is known of it,
+> what it concerns, where it came from, its priority and what waits on
+> it. What the principal said he takes as said; what he did not say
+> Claude proposes, the priority and the blocking among it, and marks
+> as his proposal. The draft closes with the verdict line, and
+> `accept` writes the thread as shown. An input that holds several
+> matters is shown as several threads in the one draft. Claude asks a
+> question only where the matter itself is unclear, never on the form.
+
+What Claude keeps up by himself, agreed:
+
+> Claude keeps the form of a thread by himself and asks nothing about
+> it: the owner and the date of opening, the first sentence whole,
+> each continuation one dated paragraph that says where the matter
+> stands and what is open now. Before he drafts a new thread he looks
+> whether the project already has one on the matter, and continues
+> that one instead. When he works with a thread and sees that it is
+> settled, that what waited on it is done, or that its priority no
+> longer fits what the principal says, he says so once and proposes
+> the change. He does not close a thread, change its priority or sort
+> the threads on his own judgement: the header changes on the
+> principal's word.
 
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is

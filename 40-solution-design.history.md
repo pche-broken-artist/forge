@@ -330,3 +330,6 @@ word `<file> | changed | state: by hand`.
 - 2026-11-10 | 0.66 | PCHe | SOL.0650 | changed | The way to the part moved to the history; one date kept (FND.4700). | Was: Trial 2026-10-14 in `tmp/video-trial/`.
 - 2026-11-10 | 0.66 | PCHe | FND.4670, FND.4700 | closed | resolved: the plans and the way to the parts moved to this history (design 0.66)
 - 2026-11-10 | 0.67 | PCHe | SOL.0950 | created
+- 2026-11-12 | 0.68 | PCHe | SOL.0720 | changed | intent 7.8, POS.1680 and POS.0120: three fields in the header, and the rules of a thread moved from the intent's definition into the skill /thread (SOL.0960), which changes the place settled on 2026-10-19 under FND.2090, since a thread is born outside /forge intent too | Was: `templates/thread.md` (`id`, `concerns`, `origin`, `status`); … the intent's definition creates and closes threads as files,
+- 2026-11-12 | 0.68 | PCHe | SOL.0680 | changed | intent 7.8, POS.1680: the open threads in the order of what waits and of priority, each with both in brackets | Was: a thread's line its first sentence and its last dated paragraph.
+- 2026-11-12 | 0.68 | PCHe | SOL.0960 | created
