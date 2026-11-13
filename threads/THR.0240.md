@@ -59,6 +59,12 @@ that is still this thread's question.
 2026-10-22: 815 lines, the first release of the brief collaboration
 and the hook on git among what grew it; FND.0650 stays parked.
 
+2026-11-13: worked in the brief `00-brief-engine-split.md` (0.1),
+sections The boundary and The order I see: CLAUDE.md cleaned and
+the include made is the first step the principal pictures, and what
+must be always-on stays among the brief's open points. This thread
+closes when the brief is mined.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:

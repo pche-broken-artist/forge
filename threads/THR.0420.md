@@ -41,6 +41,10 @@ versus instance, the test on CLAUDE.md). Without it a user's local
 additions grow into a derivation, and the one tool that does
 everything comes in through the door for user artefacts.
 
+2026-11-13: cited as context by the brief `00-brief-engine-split.md`
+(0.1), one-way and conditional as said above; the brief carries
+nothing of the derivations themselves, which stay this thread's.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:

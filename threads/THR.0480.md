@@ -47,6 +47,11 @@ can be added by a command has a definition, and the skeleton of
 each is named `templates/<type>-definition.md`, as the four of
 today are; every further type follows that name.
 
+2026-11-13: worked in the brief `00-brief-engine-split.md` (0.1),
+section How a new type is added, which the split inherits; the
+remaining types are settled there. This thread closes when the
+brief is mined.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:

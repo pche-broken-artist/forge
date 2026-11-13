@@ -154,6 +154,14 @@ of this thread: what it shows on a real project enters the chain as a
 source and is weighed in the brief `engine-split` (POS.1380), where the
 split is decided (CHL.0680).
 
+2026-11-13: the brief is born, `00-brief-engine-split.md` (0.1),
+and this thread is worked there: it carries the split and what a
+user makes for himself (THR.0300) as one whole, the vocabulary
+(THR.0850) and the adding of types (THR.0480) with them, the
+material of this thread and of the brief `next-gen` folded in. What
+is settled goes into the brief and, at its mining, the intent; this
+thread closes when the brief is mined.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:

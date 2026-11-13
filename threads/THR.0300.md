@@ -45,6 +45,13 @@ the extension point. Open: where a user's definition lives so that
 `engine-split`: if the mechanism is one, the dispatcher reads both
 roots, the engine's and the local one.
 
+2026-11-13: worked in the brief `00-brief-engine-split.md` (0.1),
+as the second aim of the one mechanism the split needs, every
+dispatcher reading instances from more than one root; the
+principal's word of the day: instances only, in his own repository
+beside the forge, a user-defined artefact of the chain conceivable.
+This thread closes when the brief is mined.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:

@@ -44,6 +44,11 @@ legend says. "AI engine" above Anvil in the picture is a label of
 the picture only, the principal's word of 2026-11-10; the
 vocabulary stays open. Opened 2026-11-09.
 
+2026-11-13: worked in the brief `00-brief-engine-split.md` (0.1),
+section The parts and their names, where the vocabulary is settled
+before anything else of the split. This thread closes when the
+brief is mined.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:

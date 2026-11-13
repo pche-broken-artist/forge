@@ -2,7 +2,7 @@
 project: forge
 title: Next generation, the requirements for a forge that can be rolled out into real operation
 author: PCHe
-version: 0.4
+version: 0.5
 status: draft
 ---
 
@@ -31,46 +31,9 @@ Open in the aim itself:
 
 ## What the forge is
 
-### The shape of the whole
-
-One question that frames the others: one general forge, a core with
-frameworks on it, or several forges that hand artefacts to each
-other. I see the split on two levels: the forge as it is today, to
-which a user adds things of his own, and beneath it a core that is
-separate from the artefacts. Whether to divide it or to call it a
-generalisation of the forge is open; the measure is to be found. The
-ambition itself may need revisiting: whether we are not heading
-somewhere that cannot be managed. Open too is how this stands to my
-word of 2026-09-26 against one tool that does everything.
-
-Research:
-`research/2026-10-03-one-tool-a-core-with-modules-or-several-tools.md`.
-Everyone surveyed ended at a small core that owns mechanism and
-format, with the content outside it; nobody runs several equal tools
-with a designed hand-over, and retreats from too much division are
-common. It advises not to divide now and to try first on one real
-case. This section rests on THR.0520: where the solution lives
-decides what the core is.
-
-### User modifications
-
-The forge is to be highly customisable. It comes as a base
-framework: the core is kept and maintained centrally, and every user
-can add artefacts, elicitations, challengers, critics and checks of
-his own. What is central and what is the user's is never mixed; the
-user's ideally lives in his own git. There is one place with the
-list of every type that can be created, and skills or commands by
-which a user creates new types of his own. Naming conventions are
-needed with it, also against a collision of names. A possible
-support: the boundary between mechanism and instance.
-
-Research:
-`research/2026-10-03-user-extensions-kept-apart-from-the-core.md`.
-The user's things live where an upgrade never writes; the field is
-split on whether a user's thing may shadow a core one of the same
-name or may only be added beside it. When the engine renames a
-contract, a user's agent runs without it and nobody is told. Claude
-Code has no mechanism for artefact definitions and templates.
+The shape of the whole and the user modifications are the brief
+`engine-split` (`00-brief-engine-split.md`, born 2026-11-13 from
+the two sections that stood here).
 
 ### Work without a known artefact
 
@@ -253,9 +216,9 @@ removes the terminal without a change of the architecture; untried.
 
 ## What already stands in the intent
 
-Threads this brief carries whole: THR.0340, THR.0300, THR.0480,
-THR.0230, THR.0420, THR.0500, THR.0090, THR.0240, THR.0150,
-THR.0460.
+Threads this brief carries whole: THR.0340, THR.0500, THR.0090,
+THR.0240, THR.0150, THR.0460; THR.0300, THR.0480, THR.0230 and
+THR.0420 are the brief `engine-split`'s since 2026-11-13.
 
 In part: THR.0200, THR.0410, THR.0190, THR.0360, THR.0170, THR.0490,
 THR.0470; and the parked challenge CHL.0150.
@@ -280,16 +243,17 @@ one project, as the brief `collaboration` (mined 5.13, its first
 release 5.26, the second and the fourth deferred, DEC.0250); the
 solution design as the layer for the solution (THR.0520, intent
 4.52 to 4.57); of Upgrade and compatibility the migration
-(POS.1740), not the format version and not the stable line.
+(POS.1740), not the format version and not the stable line; the
+shape of the whole and the user modifications, as the brief
+`engine-split` (born 2026-11-13).
 
 What waits on this brief's mining, carried over from the plan of
 2026-10-10 (THR.0620, closed into this section): the pilot with a
 first user other than the principal, one real project, the run
 record as a source (the project `forge-rollout` may be its place);
 reading the solution design whole and the second pass of the
-intent, the 22 positions where the solution stayed (THR.0520); a
-user's own extensions (THR.0300, THR.0480) before the engine split
-(THR.0230, THR.0190); the test of behaviour (THR.0600), the rest
+intent, the 22 positions where the solution stayed (THR.0520); the test
+of behaviour (THR.0600), the rest
 of the gate (THR.0400) and the sweep of the boundary (THR.0210);
 the reasons the writers of the documentation wanted and no file
 records (the closed record of THR.0630); the small ones, THR.0460,
@@ -315,9 +279,6 @@ through again, and better, before it is mined.
 
 ## Still open
 
-- Whether user modifications are the engine split or a level of
-  their own; the field treats them as a level of their own on the
-  same mechanism.
 - Where the researches disagree. A plugin cannot carry CLAUDE.md,
   yet it is the only form a locked-down company allows and the
   lowest entry there is. Moving rules out of CLAUDE.md is advised by
