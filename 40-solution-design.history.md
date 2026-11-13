@@ -334,3 +334,4 @@ word `<file> | changed | state: by hand`.
 - 2026-11-12 | 0.68 | PCHe | SOL.0680 | changed | intent 7.8, POS.1680: the open threads in the order of what waits and of priority, each with both in brackets | Was: a thread's line its first sentence and its last dated paragraph.
 - 2026-11-12 | 0.68 | PCHe | SOL.0960 | created
 - 2026-11-13 | 0.69 | PCHe | SOL.0960 | changed | the light check brought to POS.1680, intent 7.9
+- 2026-11-13 | 0.70 | PCHe | SOL.0960 | changed | the principal's word of 2026-11-13: the history template keeps its citation of the intent's definition, since a change of its comment is a change of every history companion of every project | Was: the intent's definition, the history template and the light check cite it.

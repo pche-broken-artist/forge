@@ -960,3 +960,5 @@ word `<file> | changed | state: by hand`.
 - 2026-11-13 | 7.9 | PCHe | the operating layer | changed | the header of a thread described in the template alone, the skill keeping what the priority means and how a missing field is read; the three words of the priority in one module
 - 2026-11-13 | 7.9 | PCHe | the operating layer | changed | the birth of a thread names what will close it and says how an existing thread on the matter is continued
 - 2026-11-13 | 7.9 | PCHe | the operating layer | changed | a thread that closes gets a last dated paragraph saying how it ended, so that the closed file reads as the archive it is
+- 2026-11-13 | 7.10 | PCHe | the operating layer | changed | templates/history.md cites the intent's definition for the rules of a thread again, the change of 2026-11-13 taken back on the principal's word: one line of the comment had made a finding of every history companion, 84 files across the projects, and the old citation still leads to the skill
+- 2026-11-13 | 7.10 | PCHe | FND.4750 | closed | resolved: the comment of templates/history.md taken back to the wording the companions carry

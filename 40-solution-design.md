@@ -1,5 +1,5 @@
 ---
-version: 0.69
+version: 0.70
 status: draft
 project: forge
 audience: whoever realises the solution, a person or an agent
@@ -639,8 +639,9 @@ boundary kept by hand or an order of work.
   printed from the ledger; with a text, the birth, one draft of one or
   several threads with one verdict; with an ID, the thread taken up. The
   skill owns the rules of a thread, what it holds, its header, its
-  birth, its upkeep, its life and its closing; the intent's definition,
-  the history template and the light check cite it.
+  birth, its upkeep, its life and its closing; the intent's definition
+  and the light check cite it; the history template cites the intent's
+  definition, which cites the skill.
   `forge_docs.thread_files` reads a thread without `priority` as medium
   and one without `owner` or `blocks` as empty; the light check takes
   the three fields as optional and finds a priority outside the three
