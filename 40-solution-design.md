@@ -1,5 +1,5 @@
 ---
-version: 0.68
+version: 0.69
 status: draft
 project: forge
 audience: whoever realises the solution, a person or an agent
@@ -644,7 +644,9 @@ boundary kept by hand or an order of work.
   `forge_docs.thread_files` reads a thread without `priority` as medium
   and one without `owner` or `blocks` as empty; the light check takes
   the three fields as optional and finds a priority outside the three
-  words. Realises: POS.0120, POS.1680, POS.1070. Choice: a skill of its
+  words and takes as `concerns` a state of the forge or a path that
+  exists in the project. Realises: POS.0120, POS.1680, POS.1070. Choice:
+  a skill of its
   own against the rules kept in the intent's definition, since a thread
   is born outside `/forge intent` too; a missing field read against a
   migration of every thread, so that nobody's project stops; the cost is

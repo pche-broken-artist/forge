@@ -333,3 +333,4 @@ word `<file> | changed | state: by hand`.
 - 2026-11-12 | 0.68 | PCHe | SOL.0720 | changed | intent 7.8, POS.1680 and POS.0120: three fields in the header, and the rules of a thread moved from the intent's definition into the skill /thread (SOL.0960), which changes the place settled on 2026-10-19 under FND.2090, since a thread is born outside /forge intent too | Was: `templates/thread.md` (`id`, `concerns`, `origin`, `status`); … the intent's definition creates and closes threads as files,
 - 2026-11-12 | 0.68 | PCHe | SOL.0680 | changed | intent 7.8, POS.1680: the open threads in the order of what waits and of priority, each with both in brackets | Was: a thread's line its first sentence and its last dated paragraph.
 - 2026-11-12 | 0.68 | PCHe | SOL.0960 | created
+- 2026-11-13 | 0.69 | PCHe | SOL.0960 | changed | the light check brought to POS.1680, intent 7.9

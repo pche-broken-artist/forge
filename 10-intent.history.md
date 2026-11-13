@@ -949,3 +949,14 @@ word `<file> | changed | state: by hand`.
 - 2026-11-12 | 7.8 | PCHe | THR.0870 | closed | the priority of a thread and the skill /thread written: POS.0120, POS.1680, POS.1070, SOL.0720, SOL.0680, SOL.0960
 - 2026-11-12 | 7.8 | PCHe | FND.4740 | closed | resolved: the Date field of gemini-research-protocol-proposal.md carries one date and one origin, the note on the run id moved to Origin
 - 2026-11-12 | 7.8 | PCHe | THR.0760 | closed | overtaken by POS.1980: from v7 the engine tracks nothing of its own project, the archive of a tag holds the engine alone
+- 2026-11-13 | 7.9 | PCHe | POS.0120 | changed | the principal's word of 2026-11-13: a thread is never born without his command, also where Claude writes it from a document or from his own synthesis
+- 2026-11-13 | 7.9 | PCHe | POS.0120 | changed | a thread born or closed in a project that has no intent yet is recorded in the history of its brief, since the record had nowhere to go
+- 2026-11-13 | 7.9 | PCHe | POS.1680 | changed | the principal's word of 2026-11-13: a thread may concern a recipe, a work product or any other document of the project, not an artefact alone | Was: `concerns` (the artefact, today's bracket)
+- 2026-11-13 | 7.9 | PCHe | POS.1080 | changed | the thread row brought to POS.0120: a matter of a project, not of the intent alone | Was: one open matter of the intent
+- 2026-11-13 | 7.9 | PCHe | the operating layer | changed | the thread skill no longer prescribes the form of sorting a project's threads: it was the principal's one-off choice, not a rule
+- 2026-11-13 | 7.9 | PCHe | the operating layer | changed | the thread skill says that work changing a document runs by its definition and that what was decided is written there before the thread closes
+- 2026-11-13 | 7.9 | PCHe | the operating layer | changed | the map of /forge names the threads something waits on and the high ones and counts the rest, the full list being /thread's; the question THR.0870 left open
+- 2026-11-13 | 7.9 | PCHe | the operating layer | changed | templates/history.md cites the thread skill for the rules of a thread, as SOL.0960 says
+- 2026-11-13 | 7.9 | PCHe | the operating layer | changed | the header of a thread described in the template alone, the skill keeping what the priority means and how a missing field is read; the three words of the priority in one module
+- 2026-11-13 | 7.9 | PCHe | the operating layer | changed | the birth of a thread names what will close it and says how an existing thread on the matter is continued
+- 2026-11-13 | 7.9 | PCHe | the operating layer | changed | a thread that closes gets a last dated paragraph saying how it ended, so that the closed file reads as the archive it is

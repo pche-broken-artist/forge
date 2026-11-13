@@ -1,5 +1,5 @@
 ---
-version: 7.8
+version: 7.9
 status: draft
 project: forge
 audience: principal + Claude only
@@ -516,8 +516,11 @@ position that already stands elsewhere.
   not ask which. It says what the matter is, where it came from, how
   much it matters, what waits on it where something does, and what will
   close it, and carries what is known of it until it is taken up; an
-  unfinished conversation on the matter is saved into it. It holds its
-  one matter and what is known of it while it is unsettled: the
+  unfinished conversation on the matter is saved into it. A thread is
+  born on the principal's command only, whatever the matter came from,
+  his own word, a document or Claude's synthesis; Claude may say that a
+  matter deserves a thread and never opens one on his own judgement. It
+  holds its one matter and what is known of it while it is unsettled: the
   situation and its evidence, what was said and tried, the plan of a
   change under way, the proposals that await a decision, an unfinished
   conversation, Claude's view marked as his. Every continuation says
@@ -529,10 +532,14 @@ position that already stands elsewhere.
   lives in its own file with the thread pointing there. A settled
   thread stays as its file, immutable; what holds goes into the intent,
   and the intent's history records the birth and the closing of a
-  thread, not every saving of its debate. Present shape 2026-11-12.
+  thread, not every saving of its debate; in a project that has no
+  intent yet, the history of its brief does. Present shape 2026-11-13.
 - **POS.1680** Threads are files: `threads/THR.NNNN.md`, header `id`,
-  `concerns` (the artefact, today's bracket), `origin`, `owner`,
-  `priority`, `blocks`, `status: open | closed`. `owner` is the handle
+  `concerns` (what of the project the thread concerns: an artefact as
+  `/forge` names it, or any other document of the project by its path,
+  a recipe or a work specification among them; several where several),
+  `origin`, `owner`, `priority`, `blocks`, `status: open | closed`.
+  `owner` is the handle
   of whoever opened the thread, from the instance's Author, changed when
   the thread is handed over; never the git identity, which a project
   outside git lacks and which would put a name and an address into a
@@ -556,7 +563,7 @@ position that already stands elsewhere.
   ledger script (POS.1620). A thread stays without a version and without
   a history of its own. Why: two people on different threads never
   conflict, Claude reads only the threads he needs, and no merge need
-  handle a block with an inner state. Present shape 2026-11-12 (brief
+  handle a block with an inner state. Present shape 2026-11-13 (brief
   `collaboration`).
 - **POS.0130** `20-assignment.md` is the distilled handover document for
   the recipients: complete, precise, structured, self-contained,
@@ -1210,7 +1217,7 @@ position that already stands elsewhere.
   | records | review, challenge | one dated reviewer run | reviewer agent | — | immutable |
   | state | ledger | single source of truth for state, made at read time | script | — | never in git (POS.1600) |
   | state | project | the project file: slug, kind, language | /new-project | — | written once (POS.1590) |
-  | state | thread | one open matter of the intent | the principal with Claude | — | freely rewritten while open, immutable once closed (POS.1680) |
+  | state | thread | one matter of a project set aside to be taken up later | the principal with Claude | — | freely rewritten while open, immutable once closed (POS.1680) |
   | state | index | catalogue of a resource directory | forge | — | freely rewritten |
   | state | map | the documentation map: one entry per page, everything a page is made from | generated | — | freely rewritten by the documentation run |
   | rendering | recipe | how a render is made | Claude, principal iterates | yes | iterated; an integer only on the principal's word, his own mark, not an approval |
