@@ -2,7 +2,7 @@
 project: forge
 title: The engine split, the base under the forge and what a user makes for himself
 author: PCHe
-version: 0.2
+version: 0.3
 status: draft
 ---
 
@@ -194,18 +194,27 @@ of the forge and works otherwise, is wanted and tempting to run; it
 comes after the division, since before it such a project carries the
 whole context for nothing.
 
+The order of the work, agreed 2026-11-14: a baseline first, the
+measurements kept in `sources/engine-split/`; a test of conduct
+before anything is moved (THR.0600), the smallest set of cases on
+the rules that will move, run on today's state; then the boundary
+between the base and the rest, as my decision in this brief; then
+CLAUDE.md cut, every rule going to one of five places: what stays
+always loaded, a hook for what must hold without exception, a rule
+loaded only with its kind of file, the skill that owns it, or
+nowhere when the tree already says it; then the same measurements
+and the same tests again, compared, and the ways scored again.
+
 ## The ways the base could reach a layer
 
 Compared in the research of 2026-11-14 (source:
 `research/2026-11-14-anvil-carrying-layers/00-plan.md`), none
-decided. The scores were judged again the same day with what the
-research did not weigh, the sustainability of the context, and with
-function first; the rules and the breakdown stand under How the ways
-are scored (remark: a judgement, not a measurement, to be judged
-again as what is tried develops; the research's own scores stand in
-its synthesis).
+decided. The order below is that of the last scoring; the scores,
+their breakdown and the rules they are given by stand in
+`work/ways-scoring.md` and its specification, and are judged again as
+what is tried develops (remark: a judgement, not a measurement).
 
-1. **The whole kept, the base released apart by a script (71).**
+1. **The whole kept, the base released apart by a script.**
    The forge stays one repository in which everything is developed;
    at every release a script writes the files marked as base into a
    public repository of its own, from which projects that are not
@@ -213,35 +222,35 @@ its synthesis).
    alone. Established practice; two public repositories, the base's
    read-only; CLAUDE.md and the mixed files must be parted first.
 2. **One repository, the rules of a kind loaded only in its
-   projects (68).** The root CLAUDE.md carries the base alone; the
+   projects.** The root CLAUDE.md carries the base alone; the
    rules of a kind of project lie in a file of their own that the
    project's CLAUDE.md imports. The central update exists today
    through the pull (remark: a hypothesis until tried, whether the
    rules loaded this way reach the reviewers).
-3. **One repository, everything in one CLAUDE.md (66).** As today, a
+3. **One repository, everything in one CLAUDE.md.** As today, a
    project that is not the forge a further kind of project. Works at
    once and is the cheapest; every kind added lengthens what every
    session and every reviewer carries, 916 lines today against the
    vendor's advice of under 200 (source: the same research, card 2).
 4. **A plugin for the executable parts, the rule text in the
-   project's tree (54).** An update writes into no file a user or a
+   project's tree.** An update writes into no file a user or a
    layer owns; two things are kept in step and every call of a
    script is rewritten.
-5. **The base released in the form of a plugin (52).** Claude Code
+5. **The base released in the form of a plugin.** Claude Code
    checks the version a layer needs; the always-on rules still have
    to be written into every project, and a plugin's updates have
    been seen not to arrive.
-6. **Two repositories side by side joined by an import (51).** The
+6. **Two repositories side by side joined by an import.** The
    layer's CLAUDE.md imports the base's from the folder beside it.
    No packaging; a dialog on the first run whose refusal is silent
    and permanent, and the neighbour's hooks and settings do not
    load.
-7. **The base a package, each layer a repository (49).** The
+7. **The base a package, each layer a repository.** The
    cleanest picture; no carrier of its own in Claude Code, so it
    ends as 4, 5, 6 or a copy; the field retreated from it twice.
-8. **A plugin alone (44).** The user's repository stays clean; the
+8. **A plugin alone.** The user's repository stays clean; the
    rules reach the session or the reviewers, not both.
-9. **User-level configuration (40).** No dialog; one base per
+9. **User-level configuration.** No dialog; one base per
    machine for every project and no channel of update.
 
 What every way needs and the forge lacks: a version number of the
@@ -249,74 +258,6 @@ base that is its own, today it is the intent's; a minimum a
 project or a layer declares; a pull that delivers a release, not
 the head of `main`; a place for a user's own things the pull does
 not look at.
-
-## How the ways are scored
-
-Ten measures, each from 1 to 5 by the rules below, the same rules at
-every scoring; the first three count three times, the fourth twice,
-the rest once; the most is 85. A score changes only when a fact
-behind it changes: a trial, a release of Claude Code, a part built.
-
-- **Function (×3).** 5: the rules reach the session and the
-  reviewers with no dialog and no cap, scripts and hooks run on
-  three systems, by means the forge uses today. 4: the same, resting
-  on a documented mechanism not yet tried here. 3: works with a
-  documented limit or with a copy kept in step. 2: a part does not
-  arrive without an act of the user, or has reported failures. 1:
-  the rules cannot reach both the session and the reviewers.
-- **Central update (×3).** 5: one command of the user, proven here,
-  reaches every project. 4: the same for more than one repository.
-  3: a channel exists, with reports of updates not arriving or with
-  its carrier not chosen. 2: the user's machine decides whether
-  anything arrives, or no channel exists.
-- **Context (×3).** 5: a session carries the rules of the base and
-  of what the project uses, held by the carrier. 4: the same, held
-  by where the files lie. 2: the rules of everything on the machine
-  are loaded in every project. 1: one always-on file that grows with
-  every kind of project.
-- **Cut (×2).** 5: nothing moves. 4: a list of the base's files and
-  the cheap renames. 3: also CLAUDE.md divided and the mixed files
-  parted. 2: also the single root split in every script and every
-  call of a script.
-- **Development loop.** 5: a change is live at once in the clone.
-  4: live at once in two places, or by loading in place as
-  documented. 3: loading in place under rules that changed lately.
-  2: an install or a link before a change can be tried.
-- **A user's own things.** 5: where no update writes, names kept
-  apart by a namespace. 4: where no update writes, names kept apart
-  by convention. 3: inside the clone, in a place still to be made
-  that the pull does not look at. 2: a same name replaces silently.
-- **Version and contract.** 5: Claude Code checks the version a
-  layer needs and the shared reviewer contract crosses the boundary,
-  both documented. 4: the version by Claude Code, the contract
-  across packages unverified. 3: the contract as today, the version
-  by a script still to be written. 2: neither without work of its
-  own.
-- **First day.** 5: clone, start, one dialog, the user's files alone
-  in his tree. 4: the same with the base's files among his. 3:
-  short, with choices to make, a reported silent failure or a write
-  into the user's home. 1: two clones and two dialogs, one whose
-  refusal is permanent.
-- **Migration.** 5: a version in the project and migrations chained
-  from it. 4: a migration command exists, once per project. 3: to be
-  built with the carrier. 2: none possible per project.
-- **Claude Code's changes.** 5: stands on memory files, skills and
-  agents in the tree alone. 4: also on hooks in the project's
-  settings. 3: also on imports across directories or added
-  directories. 2: in part on plugin loading. 1: wholly on plugin
-  loading and a marketplace.
-
-| Way | Function | Update | Context | Cut | Dev | Own | Version | First day | Migration | Changes | Sum |
-|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 The whole kept, the base released apart | 5 | 5 | 4 | 3 | 5 | 3 | 3 | 4 | 4 | 4 | 71 |
-| 2 One repository, rules of a kind on demand | 4 | 5 | 4 | 3 | 5 | 3 | 3 | 4 | 4 | 4 | 68 |
-| 3 One repository, one CLAUDE.md | 5 | 5 | 1 | 5 | 5 | 3 | 3 | 4 | 4 | 4 | 66 |
-| 4 Plugin for the executables, text in the tree | 3 | 3 | 4 | 2 | 3 | 5 | 4 | 3 | 3 | 2 | 54 |
-| 5 The base released as a plugin | 2 | 3 | 4 | 2 | 4 | 5 | 4 | 3 | 3 | 2 | 52 |
-| 6 Two repositories and an import | 2 | 4 | 4 | 2 | 4 | 4 | 2 | 1 | 3 | 3 | 51 |
-| 7 The base a package | 2 | 3 | 4 | 2 | 2 | 4 | 3 | 3 | 3 | 3 | 49 |
-| 8 A plugin alone | 1 | 2 | 4 | 2 | 3 | 5 | 4 | 3 | 3 | 1 | 44 |
-| 9 User-level configuration | 3 | 2 | 2 | 2 | 3 | 2 | 2 | 3 | 2 | 3 | 40 |
 
 ## Threads this brief carries
 

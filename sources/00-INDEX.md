@@ -257,3 +257,11 @@ to its own 00-INDEX.md. -->
 - **Form:** text
 - **Role:** the pattern of the export of user stories without a table, because a Markdown table cannot break lines in a cell: a heading per story, the sentence, criteria and each labelled part on lines of their own; its texts placeholders, no content
 - **Use for:** the template of the render recipe of the user-stories layer; checking that a render pastes into Jira and Confluence with the story's parts on lines of their own
+
+### `engine-split/`
+- **What:** measurements and outputs of checks made while the split of the forge into a base and layers is worked; a growing bundle, each file immutable from its registration, catalogued by its own `00-INDEX.md`. Holds the baseline of 2026-11-14 before the rebuild of CLAUDE.md: the output of `/context all`, the report of `/doctor`, the report of `/doctor prompt-audit` and the quality report of the plugin `claude-md-management`.
+- **Origin:** sessions of the forge; outputs of Claude Code's own commands, pasted or written by Claude, ingested on the principal's word.
+- **Date:** 2026-11-14, from the ingest
+- **Form:** text
+- **Role:** material for the split of the forge into a base and layers (brief `engine-split`): measurements and outputs of checks that will be repeated and compared as the work goes on; what each file is for is its entry in the bundle's index.
+- **Use for:** the figures and findings before a step of the split, to compare with the same measurement after it.
