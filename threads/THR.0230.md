@@ -162,6 +162,40 @@ material of this thread and of the brief `next-gen` folded in. What
 is settled goes into the brief and, at its mining, the intent; this
 thread closes when the brief is mined.
 
+2026-11-15: the boundary between the AI engine and the framework
+taken up as a walkthrough over the map (`work/engine-map.xlsx`, of
+THR.0240); unfinished, nothing of it in the brief yet. The
+principal's word of that day: the AI engine is the mechanics, the
+history made, the ledger counted, git looked into so that nothing
+tangles, speech put so that the verdict line can answer it; it gives
+functions and forces no conduct, since a project may be anything, a
+budget or an analysis of network logs. The framework is the logic:
+how the conversation runs, what is to be drawn out, that there is an
+artefact. A rule such as "Claude only proposes, the principal
+approves everything" is not the AI engine's; `??`, the verdict line,
+a recommendation, the walkthrough and work step by step written at
+once are. The check is the AI engine's, the critic and the challenger
+the framework's. The map carries this as Claude's proposal in 29
+rows, each saying so in its impact (the records of
+`work/engine-map.spec.history.md`): 25 rows to the framework, three
+to be parted, one with a note. The principal took the rows of
+conduct as a first shot and has not judged the rest. Open: whether
+the mechanism of definitions and of an artefact (`/forge`,
+`/new-artefact`; rows 68, 70, 71, 73, 223, 230) goes with his word on
+the artefact; the groups not walked yet, the threads, the recipe
+genres, the tables of kinds and of prefixes, the kinds of project
+with `/new-project`, the mechanisms that carry both layers, what is
+the framework definition's; the areas of git, renders, documentation,
+tests, the tree and the public face not read by this rule. Claude's
+remarks, his own: a second framework is then no longer written as
+content only, as the brief's idea has it; the walkthrough hook would
+print lines the framework supplies; a text of conduct per project
+rests on rules loaded per project, untried (TBC.0200 of
+`work/ways-scoring.spec.md`). Not written yet: the brief's section
+The boundary and the rule of filling in the map's specification.
+Next: the principal's verdict on the rows of the reviewers, then the
+definitions.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:
