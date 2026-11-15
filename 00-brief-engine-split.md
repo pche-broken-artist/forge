@@ -2,7 +2,7 @@
 project: forge
 title: The engine split, the base under the forge and what a user makes for himself
 author: PCHe
-version: 0.3
+version: 0.4
 status: draft
 ---
 
@@ -40,7 +40,8 @@ everything is not wanted (my word of 2026-09-26).
 Whether the split is within our powers at all is the question. The
 technical shape is unknown; a further git-inside-git nesting is not
 wanted; the base should ideally be a thing of its own, through which
-I release substantial new functionality on git.
+I release substantial new functionality on git. It is to be a
+standalone public project as well (my word of 2026-11-15).
 
 Two ideas of the split, a thin base of its own and a large forge
 into which layers are installed, are one thing seen from two ends;
@@ -49,23 +50,48 @@ what they open is the unit of installation (from the brief
 
 ## The parts and their names
 
-Three parts, later a family: a general base under every forge; an
-operating layer per forge (the elicitation, the concrete lenses,
-personas and checks, the chain); and the project in which an
-operating layer is designed by its own process. Working names of
-2026-11-09, temporary: Anvil for the base, Forge of Proof for
-tests, Forge of Form for UX/UI and the prototype. Proposed and not
-decided: `framework` for an operating layer, `definition` for its
-project; the word `engine` no longer for the base or the
-repository, kept where it means a model or a converter. Today
-`engine` means the whole repository, a model of another family and
-a converter at once; `core` stands beside it and the operating
-layer has no name. The vocabulary is settled before anything else
-is, and not hurried (THR.0850).
+Four layers, each called by its name (my word of 2026-11-15): the
+AI engine, the general mechanics under every framework; the
+framework, what makes one forge that forge (the elicitation, the
+concrete lenses, personas and checks, the chain), Forge of Thought
+being the first; the framework definition, the project in which a
+framework is designed by its own process, today `projects/forge`;
+and the projects, what a user makes. Later a family; Forge of Proof
+for tests and Forge of Form for UX/UI and the prototype are working
+names of 2026-11-09, temporary.
 
-What a user clones today, base and forge layer in one repository,
-is said outward as the forge framework, one word for the user; the
-inner division is the author's (my word of 2026-11-07).
+The word engine never stands alone: the AI engine is always written
+in full, and any other engine carries its own qualifier, the
+render engine, pandoc or Claude in a conversion, the model engine,
+a model of another family.
+
+Anvil stays a working name of the AI engine and does not stand as
+its public name: at least fifteen tools for AI coding agents carry
+the name, several of them for Claude Code (source:
+`research/2026-11-15-the-name-anvil-for-a-standalone-ai-engine.md`).
+The public name is open.
+
+The vocabulary holds for what is written from now on. Older texts
+are brought to it by what the old word can harm, in this order:
+first where it bears on how the forge functions, the instructions
+Claude acts on; second where it bears on development, the texts
+Claude reads when the forge is worked on, the intent and the
+solution design among them, which must not mislead him; third where
+it bears on understanding, the README, the documentation and
+whatever else a user reads. The intent and the solution design are
+brought to it only once the cut is made and found to hold (my word
+of 2026-11-15). The names of scripts and identifiers are no
+priority. Records and immutable documents are never changed. In
+texts written before 2026-11-15 the bare word engine means the whole
+repository. (remark: the rest of this brief still says base,
+operating layer and forge layer; it is brought to these words when
+it is next worked.)
+
+What a user clones today, the AI engine and the framework in one
+repository, is said outward as the forge framework, one word for the
+user; the inner division is the author's (my word of 2026-11-07).
+(remark: framework now names the second layer alone; what the whole
+is called is open.)
 
 ## The boundary
 
@@ -280,3 +306,7 @@ name its layer waits for this brief to say what the layers are.
   from colliding with an upgrade of the base.
 - What must be always-on in CLAUDE.md, measured by conduct and never
   by line count.
+- The public name of the AI engine.
+- What the whole a user clones is called.
+- Whether the AI engine has a definition of its own beside that of
+  Forge of Thought.

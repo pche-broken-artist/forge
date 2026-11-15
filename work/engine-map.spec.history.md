@@ -42,3 +42,7 @@ word `<file> | changed | state: by hand`.
 - 2026-11-15 | 0.1 | PCHe | work/engine-map.spec.md | created
 - 2026-11-15 | 0.1 | PCHe | ASM.0200, ASM.0210, ASM.0220, ASM.0230, ASM.0240, ASM.0250, TBC.0300 | created
 - 2026-11-15 | 0.1 | PCHe | work/engine-map.xlsx | changed | state: current; made 2026-11-15 from CLAUDE.md (920 lines, commit e0deca3) and the engine's tree at that commit, 00-brief-engine-split.md v0.3, research/2026-11-07-engine-and-forge-framework-by-file.md, 10-intent.md v7.10, 40-solution-design.md v0.70, threads/THR.0240.md
+- 2026-11-15 | 0.2 | PCHe | Method | changed | The layers of a target called by the names the brief engine-split settled on 2026-11-15 (0.4): the AI engine, the framework, the framework definition. | Was: the target: the layer (the base, the forge layer, the forge's own project, the repository, to be parted, the user's)
+- 2026-11-15 | 0.2 | PCHe | ASM.0220 | changed | The same names: the AI engine for the base, the framework for the forge framework. | Was: the brief gives the shape of the conversation to the base, the research of 2026-11-07 the methods to the forge framework
+- 2026-11-15 | 0.2 | PCHe | work/engine-map.xlsx | changed | state: stale
+- 2026-11-15 | 0.2 | PCHe | work/engine-map.xlsx | changed | state: current; made 2026-11-15 from the file as it stood, its cells brought in place to the names of the layers of 00-brief-engine-split.md v0.4; the inputs otherwise those of the first making

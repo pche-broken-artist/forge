@@ -79,6 +79,15 @@ decisions; he doubts this is the right way and is thinking it over.
 Next: his word on how to go on, before any item of the draft is taken
 up again. Nothing here is to be read as agreed.
 
+2026-11-15: the principal's word on how to go on: a map of the whole
+first, so that the division is seen whole before any piece is
+decided. Made the same day as a work product, `work/engine-map.xlsx`
+with its specification: 323 rows, CLAUDE.md taken apart into 215
+pieces and the rest of the tree into 108 mechanisms, the targets
+Claude's proposals until judged. The work runs on the branch
+`claude-md-optimisation` of both repositories. Open: the principal's
+judgement of the map (TBC.0300), then the boundary.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:

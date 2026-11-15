@@ -1,5 +1,5 @@
 ---
-version: 0.1
+version: 0.2
 status: draft
 project: forge
 file: work/engine-map.xlsx
@@ -51,8 +51,8 @@ The columns, their names and values carried by the file's legend:
   count, and where the same is said a second time;
 - when it must hold: in every message, when a command runs, when a
   kind of file is worked, without exception, on demand;
-- the target: the layer (the base, the forge layer, the forge's own
-  project, the repository, to be parted, the user's), the carrier
+- the target: the layer (the AI engine, the framework, the framework
+  definition, the repository, to be parted, the user's), the carrier
   (always loaded, a hook, a rule loaded with its kind of file, a
   skill, a script, a template, an agent, nowhere) and the place;
 - the certainty of the target, the effort of the move, its impact,
@@ -88,7 +88,7 @@ the brief `engine-split` first.
 ## Assumptions
 - **ASM.0200** The file is in Czech, its addresses (files, sections, IDs, commands) as they are, chosen by Claude for a working tool the principal reads row by row; against English, the language of the project, in which a row could be quoted into the brief without translation and the file would read like the rest of a public repository.
 - **ASM.0210** Where one piece ends and the next begins is Claude's cut of a first version: the repository layout is taken block by block, the table of commands and the table of kinds as one row each, the table of prefixes by layer.
-- **ASM.0220** Where the inputs disagree on a layer, the row follows the brief or Claude's reading, says so in its impact and carries medium or low certainty: the walkthrough and the working methods (the brief gives the shape of the conversation to the base, the research of 2026-11-07 the methods to the forge framework), the threads, the recipe genres, the critic's contract.
+- **ASM.0220** Where the inputs disagree on a layer, the row follows the brief or Claude's reading, says so in its impact and carries medium or low certainty: the walkthrough and the working methods (the brief gives the shape of the conversation to the AI engine, the research of 2026-11-07 the methods to the framework), the threads, the recipe genres, the critic's contract.
 - **ASM.0230** A rule loaded with its kind of file and every hook named as a candidate are untried here: a row that names one proposes a place and does not claim the mechanism works (the trial of rules loaded on demand: TBC.0200).
 - **ASM.0240** The second place a piece is said in and the origin of a piece are filled from what CLAUDE.md itself cites and from what the reading showed, never from a search of every file: an empty cell does not say the piece is stated once or has no position. The counts of mentions of the chain in three scripts are those of the research of 2026-11-07, not counted again.
 - **ASM.0250** The first try at the cut of 2026-11-14 (THR.0240; its drafts in the engine's working folder, outside git, nothing in them agreed) was read; a row that follows it or departs from it says so in its impact as the earlier draft.

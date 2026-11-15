@@ -49,6 +49,22 @@ section The parts and their names, where the vocabulary is settled
 before anything else of the split. This thread closes when the
 brief is mined.
 
+2026-11-15: the layers are named in the brief `engine-split` (0.4),
+section The parts and their names: four layers, the AI engine, the
+framework, the framework definition and the projects; the word
+engine never alone; older texts brought to the vocabulary by what
+the old word can harm, function first, then development, then
+understanding. The intent takes the vocabulary only after the cut is
+made and found to hold. The AI engine is to be a standalone public
+project, and Anvil does not stand as its public name
+(`research/2026-11-15-the-name-anvil-for-a-standalone-ai-engine.md`).
+Open now: the public name of the AI engine; what the whole a user
+clones is called; whether the AI engine has a definition of its own;
+the working names Forge of Proof and Forge of Form. Left as they
+are: layer for the chain, operating layer for the files that
+operate, instance, kind of project, core. Next: the boundary between
+the AI engine and the framework.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:
