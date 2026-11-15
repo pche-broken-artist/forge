@@ -65,6 +65,20 @@ the include made is the first step the principal pictures, and what
 must be always-on stays among the brief's open points. This thread
 closes when the brief is mined.
 
+2026-11-14: a first try at the cut, in progress, nothing decided.
+Drafts only, in `tmp/split/` (not in git): `CLAUDE.anvil.md`, the
+rules of every project, 171 lines; `forge-layer.md`, the rules of the
+forge alone, 91 lines; `kam-co-slo.cs.md`, where each section of
+today's 920 lines went. Said in the conversation and not decided: a
+division of the rules of conduct between the base and the forge
+layer, with one write per round in the base and elicitation in the
+layer; intent-first widened to what is built from an intent outside
+the chain. The principal stopped the walk: the division was made
+without being shown whole and was then put to him as isolated
+decisions; he doubts this is the right way and is thinking it over.
+Next: his word on how to go on, before any item of the draft is taken
+up again. Nothing here is to be read as agreed.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:

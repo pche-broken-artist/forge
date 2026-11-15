@@ -1,0 +1,119 @@
+---
+version: 0.1
+status: draft
+project: forge
+file: work/engine-map.xlsx
+---
+
+# Engine map — Work specification
+
+## Task
+A map of everything the forge does, for the principal and Claude, to
+work the engine split and the cut of CLAUDE.md over (the brief
+`engine-split`, THR.0240): the functionality of the forge laid out in
+its smallest meaningful pieces, each with what it is, where it lives
+today and where it would belong, so that the division is seen whole
+before any piece of it is decided. The file shows one row per piece,
+the principal's verdict on the row beside it, and a summary of how
+much of CLAUDE.md would go where.
+
+## Inputs
+- CLAUDE.md of the engine, as it stands (920 lines at commit e0deca3)
+- the engine's tree at that commit: `.claude/skills/`, `.claude/agents/`, `.claude/settings.json`, `scripts/`, `templates/`, `tests/`, the files of the root
+- 00-brief-engine-split.md: the sections The boundary, The parts and their names, The order I see (the five places a rule of CLAUDE.md goes to)
+- research/2026-11-07-engine-and-forge-framework-by-file.md (which file is which layer's)
+- 10-intent.md and 40-solution-design.md: the titles of the positions and of the parts, for the origin of a row
+- threads/THR.0240.md (what the first try at the cut said and left undecided)
+
+## Method
+The unit is a row: one smallest meaningful piece of what the forge
+does or says, a rule, a fact, the description of a mechanism, a
+catalogue or a pointer that could be moved on its own. The map has
+two depths. CLAUDE.md is taken apart to that unit, and every line of
+it belongs to exactly one row, blank lines, headings and the fences
+of code blocks aside. Everything else is one row per mechanism: a
+skill, a definition with its template, a genre with its skeleton, an
+agent, a script, a hook, a template, a setting, the tests, a file of
+the root.
+
+The columns, their names and values carried by the file's legend:
+- the number of the row, a plain running number that is the row's
+  address in conversation and not an ID of the forge's scheme;
+- the area, a theme that runs across the carriers; the name; what
+  the piece is;
+- the kind: conduct, a rule about files, the description of a
+  mechanism, the shape of a file, a fact, a catalogue, a pointer;
+  and in the second depth a mechanism, an instance, a skeleton, a
+  file of the repository;
+- the origin, the positions and the parts of the solution design the
+  piece comes from, empty where none was found;
+- today: the carrier, the place, the lines of CLAUDE.md with their
+  count, and where the same is said a second time;
+- when it must hold: in every message, when a command runs, when a
+  kind of file is worked, without exception, on demand;
+- the target: the layer (the base, the forge layer, the forge's own
+  project, the repository, to be parted, the user's), the carrier
+  (always loaded, a hook, a rule loaded with its kind of file, a
+  skill, a script, a template, an agent, nowhere) and the place;
+- the certainty of the target, the effort of the move, its impact,
+  and the rows that move with it;
+- the verdict and the note, which are the principal's.
+
+The rules of filling:
+- The target layer follows the boundary of the brief, mechanism
+  against instance; a mechanism that names the chain is to be
+  parted.
+- The target carrier of a piece of CLAUDE.md is one of the five
+  places of the brief, the skill that owns it widened to the owner
+  whatever it is: a skill, the header of a script, the comment of a
+  template, the contract of an agent. What must hold in every
+  message stays always loaded; what must not fail is a hook; what
+  is tied to a kind of file is a rule loaded with it; a procedure
+  goes to its owner; a catalogue the tree already says goes nowhere.
+- A mechanism keeps its carrier; only its layer is judged.
+- Certainty is high where the inputs agree, medium where the target
+  is Claude's judgement, low where the inputs disagree or the target
+  needs a new convention.
+- Effort is none, small for a move of text, medium for text with a
+  change in its owner or a new hook, large where scripts change.
+- A line on the border of two pieces is counted to one of them.
+- Everything in the target, the certainty, the effort and the impact
+  is a proposal of Claude's until the principal's verdict stands
+  beside it.
+
+The map decides nothing: a verdict is the principal's judgement of a
+row, and what follows from the verdicts is written where it belongs,
+the brief `engine-split` first.
+
+## Assumptions
+- **ASM.0200** The file is in Czech, its addresses (files, sections, IDs, commands) as they are, chosen by Claude for a working tool the principal reads row by row; against English, the language of the project, in which a row could be quoted into the brief without translation and the file would read like the rest of a public repository.
+- **ASM.0210** Where one piece ends and the next begins is Claude's cut of a first version: the repository layout is taken block by block, the table of commands and the table of kinds as one row each, the table of prefixes by layer.
+- **ASM.0220** Where the inputs disagree on a layer, the row follows the brief or Claude's reading, says so in its impact and carries medium or low certainty: the walkthrough and the working methods (the brief gives the shape of the conversation to the base, the research of 2026-11-07 the methods to the forge framework), the threads, the recipe genres, the critic's contract.
+- **ASM.0230** A rule loaded with its kind of file and every hook named as a candidate are untried here: a row that names one proposes a place and does not claim the mechanism works (the trial of rules loaded on demand: TBC.0200).
+- **ASM.0240** The second place a piece is said in and the origin of a piece are filled from what CLAUDE.md itself cites and from what the reading showed, never from a search of every file: an empty cell does not say the piece is stated once or has no position. The counts of mentions of the chain in three scripts are those of the research of 2026-11-07, not counted again.
+- **ASM.0250** The first try at the cut of 2026-11-14 (THR.0240; its drafts in the engine's working folder, outside git, nothing in them agreed) was read; a row that follows it or departs from it says so in its impact as the earlier draft.
+
+## Open
+- **TBC.0300** (owner: PCHe) The first version is to be judged: whether the unit is right, which columns are missing or not needed, and the language of the file (ASM.0200, ASM.0210). Closed by: the principal's look at the file and the write of this specification that follows.
+
+## Making
+Claude makes `work/engine-map.xlsx`, one workbook of three sheets, in
+Czech (ASM.0200). `Mapa` has one row per piece in the columns of the
+Method: filters on, the first three columns frozen, a list of the
+allowed values on every column that has them, the principal's two
+columns marked. `Souhrn` sums `Mapa` by formula, so that it moves as
+the map is worked: the lines of CLAUDE.md by target carrier and
+layer, the rows by today's carrier and target layer, the certainty,
+the verdicts. `Legenda` says what each column and value means, which
+columns are the principal's and that the targets are proposals. Of
+this specification the file carries the names of the columns and
+their values and the rule on what is a proposal, and nothing else.
+
+The first making writes the file from the inputs by a script of
+Claude's, which checks before it writes that every content line of
+CLAUDE.md belongs to exactly one row. From then on the file is the
+single truth and has no second copy: a later making reads the file,
+keeps the principal's verdicts, notes and whatever else he changed,
+and changes rows in place, never writing the file anew over his
+work. The number of a row is stable: a new row takes the next
+number, and the number of a removed row is not given again.

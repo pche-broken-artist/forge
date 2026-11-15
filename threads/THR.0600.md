@@ -28,6 +28,20 @@ profile's probes as one script run at `/pull` of the engine or at
 failures, with a date. The rollout among people widens the harness
 versions the walls meet.
 
+2026-11-14: taken up for the engine split; in progress, nothing
+decided. A form was discussed (a sentence of the principal, the
+answer and the tools called checked by code, run on a temporary copy
+of the engine with the fixture) and a first set of twelve cases. One
+headless trial run (`claude -p`) took 34 s and cost 0.86 USD: nothing
+was written, the forge skill was called on a free sentence, the
+answer was a question. What it showed: code asserts firmly only
+whether a tool was called or a file written; a pass of twelve cases
+would cost about 10 USD; the forge's scripts are denied in a headless
+run. The principal's leaning at the end of the day was to drop the
+test; this is a leaning in an unfinished conversation, not a
+decision, and the order of the work in the brief `engine-split`
+stands unchanged. The probe: `tmp/conduct-probe.py`.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:
