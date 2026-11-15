@@ -963,3 +963,4 @@ word `<file> | changed | state: by hand`.
 - 2026-11-13 | 7.10 | PCHe | the operating layer | changed | templates/history.md cites the intent's definition for the rules of a thread again, the change of 2026-11-13 taken back on the principal's word: one line of the comment had made a finding of every history companion, 84 files across the projects, and the old citation still leads to the skill
 - 2026-11-13 | 7.10 | PCHe | FND.4750 | closed | resolved: the comment of templates/history.md taken back to the wording the companions carry
 - 2026-11-13 | 7.10 | PCHe | THR.0890 | created
+- 2026-11-15 | 7.11 | PCHe | the operating layer | changed | scripts/forge_docs.py, front_value: a pair of quotes around a whole header value is stripped and a quote that only ends or only begins the value is kept, so that the ledger's Research table no longer drops the closing quotation mark of a derived_from; its test with it
