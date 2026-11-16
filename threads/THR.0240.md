@@ -139,7 +139,10 @@ documentation to be looked at when it is made again on `main`. Next:
 the principal's word on the three decisions, or step 2 of the plan.
 First in the next session, on the branch: look that nothing of
 `.claude/reference/` is loaded, and run the engine check as the test
-of the day's changes.
+of the day's changes. Seen that day, for the measure: the line on
+skills in the per-prompt hook did not stop one case of a skill's work
+done by hand, the tests run beside another command in the middle of a
+turn, where the hook's reminder does not reach.
 
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
