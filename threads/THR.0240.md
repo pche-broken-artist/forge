@@ -137,6 +137,9 @@ by one. The map carries the record of what is done
 and a log of the steps), and its log names the pages of the
 documentation to be looked at when it is made again on `main`. Next:
 the principal's word on the three decisions, or step 2 of the plan.
+First in the next session, on the branch: look that nothing of
+`.claude/reference/` is loaded, and run the engine check as the test
+of the day's changes.
 
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
