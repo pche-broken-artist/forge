@@ -1,5 +1,5 @@
 ---
-version: 0.5
+version: 0.6
 status: draft
 project: forge
 file: work/engine-map.xlsx
@@ -64,8 +64,8 @@ The columns, their names and values carried by the file's legend:
 - for a piece of step 1, its verification: the verdict, and the
   evidence, the owner's file and line and whoever cites or reads the
   piece;
-- the state of a piece, struck, left standing or moved, empty while
-  it waits for its step, and what was done to it, when and in which
+- the state of a piece, struck, moved or deferred, empty while it
+  waits for its step, and what was done to it, when and in which
   batch;
 - the verdict and the note, which are the principal's.
 
@@ -116,6 +116,9 @@ The rules of filling:
   step: the state of each piece it touched and what was done to it,
   and one row of the log for the step itself, also where the step
   belongs to no one piece.
+- A deferred piece is left for now and not decided: it is neither a
+  solution nor a judgement that the piece stays, and the reason and
+  the step it returns in stand beside it.
 - Everything in the target, the certainty, the effort, the impact,
   the step and the risk is a proposal of Claude's until the
   principal's verdict stands beside it; the verification is what the
