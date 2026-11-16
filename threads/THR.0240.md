@@ -106,8 +106,21 @@ nowhere else. Before the strike the documentation map and the
 citations of a directive by its number were read, which the agents
 had not read; the recipes that take CLAUDE.md whole were not, and are
 covered by the renders made again on `main` and read before a
-release. Next: the second batch, the 35 strikes with citations to
-repoint.
+release. The rest of step 1 is then taken by the sections of CLAUDE.md
+and no longer by the kind of verification, since the sentences of a
+section are interleaved: whatever of step 1 remains in a section is
+done together, a strike, a citation repointed, an owner completed.
+Done the same day: four pieces of the second batch, the section Ledger
+and the section Persistence. CLAUDE.md stands at 811 lines; 35 pieces
+are struck, 4 moved to their owners, 5 left standing with the reason,
+58 wait. The map carries the record of what is done
+(`work/engine-map.xlsx`: the state of each piece, what was done to it,
+and a log of the steps), with two pages of the documentation to be
+looked at when it is made again on `main`. Next: the section Isolated
+reviewers, which moves rules into the three contracts every reviewer
+loads; then Versioning & status, Document chain, the directives and
+methods, the ID scheme with the small sections, and last Repository
+layout and Commands with their readers.
 
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
