@@ -1,5 +1,5 @@
 ---
-version: 0.3
+version: 0.4
 status: draft
 project: forge
 file: work/engine-map.xlsx
@@ -25,6 +25,7 @@ would go where.
 - research/2026-11-07-engine-and-forge-framework-by-file.md (which file is which layer's)
 - 10-intent.md and 40-solution-design.md: the titles of the positions and of the parts, for the origin of a row
 - threads/THR.0240.md (what the first try at the cut said and left undecided)
+- the verification of step 1 of 2026-11-16: six isolated read-only agents on the session model, one per group of sections of CLAUDE.md, each piece checked against its proposed owner and against whoever cites or reads it; their reports are not kept, the file carries what they found
 
 ## Method
 The unit is a row: one smallest meaningful piece of what the forge
@@ -60,6 +61,9 @@ The columns, their names and values carried by the file's legend:
   and the rows that move with it;
 - the step of the plan in which the row is first touched, and the
   risk of that;
+- for a piece of step 1, its verification: the verdict, and the
+  evidence, the owner's file and line and whoever cites or reads the
+  piece;
 - the verdict and the note, which are the principal's.
 
 The rules of filling:
@@ -91,10 +95,24 @@ The rules of filling:
   always loaded, sorted into one of two files by its layer and its
   wording judged again in step 4, 3 for a mechanism, which the list
   of the export names by its layer.
+- The verification of a piece of step 1 has one of four verdicts: a
+  clean strike, where its owner says all of it, nothing reads it in
+  CLAUDE.md, and neither the documentation nor the manual would lose
+  anything by it; a strike with citations to repoint; the owner to
+  be completed first; not low risk, where a reader depends on the
+  text standing in CLAUDE.md or the rule must hold when its owner is
+  not being read. A piece found not low risk goes to step 4 at the
+  higher risk, but for a catalogue that is not low risk only because
+  the manual, a check or a page of the documentation reads it: it
+  stays in step 1 as its last batch, moved together with its
+  readers.
+- A piece is struck by its sentences, not by its lines: the lines
+  say where it stands, and several pieces share a line.
 - A line on the border of two pieces is counted to one of them.
 - Everything in the target, the certainty, the effort, the impact,
   the step and the risk is a proposal of Claude's until the
-  principal's verdict stands beside it.
+  principal's verdict stands beside it; the verification is what the
+  agents found, checked by nobody else.
 
 The map decides nothing: a verdict is the principal's judgement of a
 row, and what follows from the verdicts is written where it belongs,
@@ -109,19 +127,26 @@ the brief `engine-split` first.
 - **ASM.0250** The first try at the cut of 2026-11-14 (THR.0240; its drafts in the engine's working folder, outside git, nothing in them agreed) was read; a row that follows it or departs from it says so in its impact as the earlier draft.
 - **ASM.0260** The layer of the rows outside the areas read on 2026-11-15, conduct and the reviewers, was filled by the earlier rule, mechanism against instance, and has not been read again by the boundary of the brief 0.5.
 - **ASM.0270** The tree of a project and of a library in Repository layout is raised to the higher risk by a named doubt: the tree on disk shows the files and not what each is for, and the notes stand in no one other place; chosen against the rule alone, by which a catalogue read on demand is low.
+- **ASM.0280** The verification read `.claude/`, `templates/`, `scripts/`, `tests/` and the recipes of the forge's own project, and ran nothing: a reader in the documentation map, in the intent or in another project is not in the evidence, and what the agents say of code they read and did not run.
+- **ASM.0290** A clean strike holds while the other lines of CLAUDE.md it rests on stay; the evidence names them, and a later step that moves those lines judges the piece again.
+- **ASM.0300** Four pieces the agents found a clean strike, whose wording stands nowhere else (117, 145, 157, 171), are entered as the owner to be completed first, by the rule that the documentation loses nothing; Claude's judgement, said in their evidence, chosen against the agents' verdict as it came.
 
 ## Open
 - **TBC.0300** (owner: PCHe) The first version is to be judged: whether the unit is right, which columns are missing or not needed, and the language of the file (ASM.0200, ASM.0210). Closed by: the principal's look at the file and the write of this specification that follows.
 
 ## Making
-Claude makes `work/engine-map.xlsx`, one workbook of three sheets, in
+Claude makes `work/engine-map.xlsx`, one workbook of four sheets, in
 Czech (ASM.0200). `Mapa` has one row per piece in the columns of the
 Method: filters on, the first three columns frozen, a list of the
 allowed values on every column that has them, the principal's two
 columns marked. `Souhrn` sums `Mapa` by formula, so that it moves as
 the map is worked: the lines of CLAUDE.md by target carrier and
 layer, the rows by today's carrier and target layer, the certainty,
-the verdicts, the steps of the plan with their risk. `Legenda` says what each column and value means, which
+the verdicts, the steps of the plan with their risk, the
+verification of step 1 by verdict. `Ověření` carries what the
+verifying agents noted beside the rows, group by group: the pieces
+that move together, the templates not to be touched, what was not
+established. `Legenda` says what each column and value means, which
 columns are the principal's and that the targets are proposals. Of
 this specification the file carries the names of the columns and
 their values and the rule on what is a proposal, and nothing else.

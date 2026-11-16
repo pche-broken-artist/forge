@@ -2,7 +2,7 @@
 project: forge
 title: The engine split, the base under the forge and what a user makes for himself
 author: PCHe
-version: 0.5
+version: 0.6
 status: draft
 ---
 
@@ -76,7 +76,12 @@ again after each; every step saved on its own, so that it can be
 traced and taken back; a trial whether an isolated agent sees the
 included file, before the cut; a citation of CLAUDE.md by section
 means the always-loaded text with the included file, and a rule that
-moves takes its citations along in the same step.
+moves takes its citations along in the same step. Neither the
+documentation nor the manual grows poorer by the cut: what leaves
+CLAUDE.md stands where `/document` and `/man` read it, the two
+brought to read it there, and when `main` takes a step the
+documentation is made again and what changed in it is read before
+the release (my word of 2026-11-16).
 
 ## The parts and their names
 

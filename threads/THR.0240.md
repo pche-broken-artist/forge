@@ -90,8 +90,11 @@ judgement of the map (TBC.0300), then the boundary.
 
 2026-11-16: the cut is steps 1 and 4 of the plan in the brief
 `00-brief-engine-split.md` (0.5), section The plan. By the map
-(`work/engine-map.xlsx`, Claude's proposal, not judged) step 1 takes
-105 pieces and 420 lines of 866. Not done yet: the cases in which
+(`work/engine-map.xlsx`) step 1 takes 102 pieces and 412 lines of
+866; by the verification of 2026-11-16, 26 are a clean strike, 35 a
+strike with citations to repoint, 38 need their owner completed
+first, and three catalogues go last, with their readers. Not done
+yet: the cases in which
 the forge went worse, which the plan wants written down before step
 1. Next: those cases, then step 1 group by group, on the branch.
 
