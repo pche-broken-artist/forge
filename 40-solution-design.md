@@ -1,5 +1,5 @@
 ---
-version: 0.70
+version: 0.71
 status: draft
 project: forge
 audience: whoever realises the solution, a person or an agent
@@ -458,8 +458,9 @@ boundary kept by hand or an order of work.
   making's record; `stale`, a write of the specification not followed by
   a making; `by hand`, a `changed` record `state: by hand` on the
   principal's word when he has worked the file and does not want it
-  remade. `CLAUDE.md` carries the kind in the Document kinds table,
-  `work/` in the layout and the command in the Commands table; the check
+  remade. `CLAUDE.md` carries the kind in the Document kinds table and
+  `work/` in the layout; the command stands in the table of commands,
+  `.claude/reference/commands.md`; the check
   `light` verifies the Work table against the directory as it does the
   other tables. Realises: POS.1520. Choice: one command for the
   specification and the file against two, as `/recipe` and `/render`
@@ -633,7 +634,7 @@ boundary kept by hand or an order of work.
   still fails; one record per call against a batch, the cost being many
   calls in a large round. Where: `scripts/forge-record.py`,
   `scripts/forge_docs.py`, `tests/test_forge_record.py`, `CLAUDE.md`
-  (Versioning & status, Repository layout).
+  (Versioning & status), `.claude/reference/repository-layout.md`.
 - **SOL.0960 The skill of threads.** `/thread [text | THR.NNNN]
   [slug]`, `.claude/skills/thread/SKILL.md`: bare, the open threads
   printed from the ledger; with a text, the birth, one draft of one or

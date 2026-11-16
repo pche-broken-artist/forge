@@ -2,7 +2,7 @@
 project: forge
 purpose: readme
 audience: humans arriving at the repository
-version: 0.81
+version: 0.82
 output: /README.md
 ---
 
@@ -22,6 +22,9 @@ shape only. -->
                                  # the contents
 - RELEASE-NOTES.md               # the newest approved section: what
                                  # the major closed and what was added
+- projects/forge/renders/forge-evolution.png   # the picture of Planned
+                                 # architecture, a render cited as a
+                                 # picture source
 
 ## Instructions
 - The README orients and points. It presents what Forge of Thought

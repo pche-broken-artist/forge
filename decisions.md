@@ -859,3 +859,27 @@ verdict on the whole ID, the rest a `changed` record of the history
   `Was` is the only copy of its wording; a record is never rewritten.
 - **Verdict:** FND.4730 rejected
 - **Date:** 2026-11-12
+
+## DEC.0510 — The fixed text of Planned architecture in the README recipe stands
+- **Decision:** FND.4770 rejected: steps 3 and 4 of the fixed text
+  Planned architecture of `recipes/readme.md` stand as written; the
+  picture `renders/forge-evolution.png` is declared among the recipe's
+  Inputs (0.82).
+- **Reason:** The principal's word of 2026-11-16: the text is his own
+  outlook, excepted from derivation by the recipe on purpose and given
+  to the reader as a plan under working names; the positions come when
+  the brief `engine-split` is mined.
+- **Verdict:** FND.4770 rejected
+- **Date:** 2026-11-16
+
+## DEC.0520 — The sentence on a question that asks the principal to decide stays in CLAUDE.md beside the walkthrough skill
+- **Decision:** FND.4840 rejected: the sentence stays written out in
+  CLAUDE.md, Working methods, Step by step, and in the walkthrough skill
+  that owns the shape of the verdict.
+- **Reason:** The principal's word of 2026-11-16, on the pattern of
+  DEC.0340: CLAUDE.md is in context at every prompt, the skill only when
+  a walkthrough runs, and the sentence rules every question, not a
+  walkthrough alone; whether it moves into the per-prompt hook is
+  decided in the round of THR.0240, with the Walkthrough paragraph.
+- **Verdict:** FND.4840 rejected
+- **Date:** 2026-11-16

@@ -144,6 +144,42 @@ skills in the per-prompt hook did not stop one case of a skill's work
 done by hand, the tests run beside another command in the middle of a
 turn, where the hook's reminder does not reach.
 
+2026-11-16, later that day. The day's changes were tested on the
+branch by four checks. The project check and the light check on
+this project conform. The engine check filed three findings
+(`reviews/2026-11-16-check-engine-2239-caa3.md`), one of them the
+day's own consequence: the solution design still places the table of
+commands and the layout in CLAUDE.md, and neither it nor the intent
+names `.claude/reference/` (FND.4760). The single-source check filed
+eleven
+(`reviews/2026-11-16-check-single-source-of-truth-2240-31c3.md`),
+none of them a second wording made by a move. Five immediate fixes
+are on disk and not saved, the tests green, 253 passed. A sixth, the
+comment of `templates/history.md` (FND.4830), was made and taken
+back: the light check compares that comment with its copy in every
+history companion, and it had been taken back once before
+(FND.4750). From it the third decision was taken up in a round on
+the intent, interrupted to finish the checks. Accepted by the
+principal and not yet written into the intent, a new position beside
+POS.1070: "A skeleton's comment stays in the skeleton. The comment
+of a template says how a file is made and kept, and is read there by
+whoever makes the file or checks it; no file made from the template
+carries it, a history companion and a resource index no more than an
+artefact. A rule a comment owns therefore stands once (POS.1070),
+and a change of a template's wording changes no file of any
+project." Proposed by Claude and not judged: new threads are born
+without the comment, open threads lose it at the migration, closed
+threads keep it, being immutable, and the check leaves them out.
+Still to be worked in that round: the solution design, where the
+fixture's histories and indexes carry the comments; the comparison
+in `scripts/forge-check.py`, turned into a finding on a file that
+still carries a comment; the migration that strips it. The findings
+of the two reports were walked and written the same day, one left
+open for that round (FND.4830). The principal's word of that day: when
+the slimming, or a phase of it, is done, the intent and the solution
+design are brought to where it got, and the folder
+`.claude/reference/` is worked in with that. Open now: that round.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:

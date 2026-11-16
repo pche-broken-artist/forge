@@ -335,3 +335,6 @@ word `<file> | changed | state: by hand`.
 - 2026-11-12 | 0.68 | PCHe | SOL.0960 | created
 - 2026-11-13 | 0.69 | PCHe | SOL.0960 | changed | the light check brought to POS.1680, intent 7.9
 - 2026-11-13 | 0.70 | PCHe | SOL.0960 | changed | the principal's word of 2026-11-13: the history template keeps its citation of the intent's definition, since a change of its comment is a change of every history companion of every project | Was: the intent's definition, the history template and the light check cite it.
+- 2026-11-16 | 0.71 | PCHe | SOL.0640 | changed | FND.4760: the table of commands moved to `.claude/reference/commands.md` on 2026-11-16 | Was: `CLAUDE.md` carries the kind in the Document kinds table, `work/` in the layout and the command in the Commands table;
+- 2026-11-16 | 0.71 | PCHe | SOL.0950 | changed | FND.4760: the layout of the engine's root moved to `.claude/reference/repository-layout.md` on 2026-11-16 | Was: `CLAUDE.md` (Versioning & status, Repository layout).
+- 2026-11-16 | 0.71 | PCHe | FND.4760 | closed | resolved: SOL.0640 and SOL.0950 name the two files of `.claude/reference/`; no item of its own for the folder, which the round of THR.0240 decides
