@@ -178,7 +178,20 @@ of the two reports were walked and written the same day, one left
 open for that round (FND.4830). The principal's word of that day: when
 the slimming, or a phase of it, is done, the intent and the solution
 design are brought to where it got, and the folder
-`.claude/reference/` is worked in with that. Open now: that round.
+`.claude/reference/` is worked in with that. Where that round stands
+for the next session: the position is accepted and not written into
+the intent; the second item was put and not judged, now with
+`decisions.md` in it: new files of every kind are born without the
+comment; open threads, history companions, the indexes and
+`decisions.md` lose it at the migration; closed threads keep it,
+being immutable, and the check leaves them out, no exception to
+immutability being made for it. Known of the size: the record of
+2026-11-10 at SOL.0950 says every `decisions.md` carries a copy too,
+and the record of 2026-11-13 in the intent's history counts 84 history
+companions across the projects. After that item come the solution
+design, the comparison in `scripts/forge-check.py`, the migration and
+its tests; then FND.4830 closes. The IDs cited in
+`work/engine-map.xlsx` were read by no check of the day.
 
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
