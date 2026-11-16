@@ -88,6 +88,14 @@ Claude's proposals until judged. The work runs on the branch
 `claude-md-optimisation` of both repositories. Open: the principal's
 judgement of the map (TBC.0300), then the boundary.
 
+2026-11-16: the cut is steps 1 and 4 of the plan in the brief
+`00-brief-engine-split.md` (0.5), section The plan. By the map
+(`work/engine-map.xlsx`, Claude's proposal, not judged) step 1 could
+take 292 lines the tree or an owner already says and 224 bound to a
+command, of 866. Not done yet: the cases in which the forge went
+worse, which the plan wants written down before step 1. Next: those
+cases, then step 1 group by group, on the branch.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:

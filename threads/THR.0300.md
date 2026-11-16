@@ -3,7 +3,7 @@ id: THR.0300
 concerns: intent
 origin: the principal
 owner: PCHe
-priority: low
+priority: high
 status: open
 ---
 
@@ -51,6 +51,23 @@ dispatcher reading instances from more than one root; the
 principal's word of the day: instances only, in his own repository
 beside the forge, a user-defined artefact of the chain conceivable.
 This thread closes when the brief is mined.
+
+2026-11-16: taken back out of the brief `00-brief-engine-split.md`
+(0.5), which now names it among the principal's other two
+priorities, a matter of its own and not a part of the split (its
+section The other two priorities). The sentence of 2026-11-13 on one
+mechanism with two consumers was not the reason it stood there.
+Priority raised to high with it; the thread no longer closes with
+the mining of the brief. Carried over from the brief's section,
+which is gone from it: the rosters of `/forge` and `/recipe` list
+what lies at the user's place as well; what is central and what is
+the user's is never mixed; one place lists every type that can be
+created; naming conventions against a collision of names. What the
+field does:
+`research/2026-10-03-user-extensions-kept-apart-from-the-core.md`.
+Open beside the points above: whether a user's modifications are a
+level of their own or a part of the split; the field treats them as
+a level of their own on the same mechanism.
 
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is

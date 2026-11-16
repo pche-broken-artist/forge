@@ -42,6 +42,12 @@ test; this is a leaning in an unfinished conversation, not a
 decision, and the order of the work in the brief `engine-split`
 stands unchanged. The probe: `tmp/conduct-probe.py`.
 
+2026-11-16: the plan in the brief `00-brief-engine-split.md` (0.5)
+carries no test of conduct before the cut; what stands in its place
+is said there, under what keeps it safe. The order of the work of
+2026-11-14 no longer stands. The re-test of the walls (CHL.0650)
+stays this thread's.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:

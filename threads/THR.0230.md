@@ -4,7 +4,7 @@ concerns: intent
 origin: the principal
 owner: PCHe
 priority: high
-blocks: the plugin (THR.0190), where a user's own definitions live (THR.0300)
+blocks: the plugin (THR.0190)
 status: open
 ---
 
@@ -195,6 +195,15 @@ rests on rules loaded per project, untried (TBC.0200 of
 The boundary and the rule of filling in the map's specification.
 Next: the principal's verdict on the rows of the reviewers, then the
 definitions.
+
+2026-11-16: the principal's firm plan stands in the brief
+`00-brief-engine-split.md` (0.5), section The plan, and the boundary
+as it is understood now in its section The boundary; the matter is
+worked from there. The walkthrough of the map over the boundary,
+begun 2026-11-15, is not continued row by row: until the separation
+the boundary is a way of sorting. Who owns the run of a reviewer and
+the dispatchers was put to him today and withdrawn; it waits for the
+separation. Next: step 1 of the plan (THR.0240).
 
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is

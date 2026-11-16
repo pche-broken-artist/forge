@@ -4,7 +4,6 @@ concerns: intent
 origin: the principal
 owner: PCHe
 priority: high
-blocks: the engine split (THR.0230)
 status: open
 ---
 
@@ -51,6 +50,17 @@ today are; every further type follows that name.
 section How a new type is added, which the split inherits; the
 remaining types are settled there. This thread closes when the
 brief is mined.
+
+2026-11-16: taken back out of the brief `00-brief-engine-split.md`
+(0.5), which now names it among the principal's other two
+priorities, a matter of its own and not a part of the split (its
+section The other two priorities). The firm plan of the brief has no
+step that waits on this thread, so it is no longer to be settled
+before the split and nothing is said to wait on it; it no longer
+closes with the mining of the brief. The brief's section said
+nothing this thread does not hold. Open as before: the one table of
+rules for how each type is created, and the types other than an
+artefact of the chain.
 
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
