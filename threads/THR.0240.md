@@ -110,24 +110,30 @@ release. The rest of step 1 is then taken by the sections of CLAUDE.md
 and no longer by the kind of verification, since the sentences of a
 section are interleaved: whatever of step 1 remains in a section is
 done together, a strike, a citation repointed, an owner completed.
-Done the same day: four pieces of the second batch, the sections
-Ledger and Persistence, and what could go of Versioning & status and
-of Document chain. Deferred and not decided, the principal's word of
-that day: the section Isolated reviewers, the one owner about
-thirty-five citations point to, where completing the owners would
-write one rule into three contracts every reviewer loads; five pieces
-of Versioning & status, the section being where the light check reads
-its rules at every save; and twelve pieces of Document chain, most
-because a citation or an owner sits in a template comment copied into
-the files of the projects. All return in step 4 or at the cut into two
-files. CLAUDE.md stands at 791 lines; 41 pieces are struck, 6 moved to
-their owners, 31 deferred with the reason, 24 wait. The map carries
-the record of what is done (`work/engine-map.xlsx`: the state of each
-piece, what was done to it, and a log of the steps), with two pages of
-the documentation to be looked at when it is made again on `main`.
-Next: the directives and methods with Document kinds, the ID scheme
-with the small sections, and last Repository layout and Commands with
-their readers.
+Step 1 is walked whole that day. Done: four pieces of the second
+batch, the sections Ledger and Persistence, the Spin-off rule, and
+what could go of Versioning & status and of Document chain: 41 pieces
+struck and 7 moved to their owners, CLAUDE.md from 920 lines to 784,
+the tests green at every save. Deferred and not decided, the
+principal's word of that day, 46 pieces and about 155 lines: they wait
+for three decisions and not for more striking. First, how the
+reviewers get the rules of isolation without three copies in their
+contracts: the section Isolated reviewers is the one owner about
+thirty-five citations point to. Second, where the checks read their
+rules if not in CLAUDE.md: the light check reads Versioning & status,
+the project check the ID scheme and prime directive 6, every rule
+there. Third, how a template comment copied into the files of the
+projects is changed: most of what is deferred in Document chain cites
+one or would be owned by one. Waiting as the last batch, 8 pieces and
+about 118 lines: the tree of Repository layout and the table of
+commands, which go only with their three readers rewritten, the
+manual, point 1 of the engine check and the page of the documentation
+that mirrors the tree; a round of its own with a short design first.
+The map carries the record of what is done (`work/engine-map.xlsx`:
+the state of each piece, what was done to it, and a log of the steps),
+with two pages of the documentation to be looked at when it is made
+again on `main`. Next: the principal's word on the three decisions and
+on the last batch.
 
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
