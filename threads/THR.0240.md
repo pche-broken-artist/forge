@@ -96,8 +96,18 @@ added to the per-prompt hook, and step 1 verified piece by piece in
 the map (`work/engine-map.xlsx`): 102 pieces and 412 lines of 866,
 26 a clean strike, 35 a strike with citations to repoint, 38 with
 their owner to be completed first, and three catalogues last, with
-their readers. Nothing is struck yet. Next: the first batch, the 26
-clean strikes, sentence by sentence, on the branch.
+their readers. The first batch is struck the same day: 23 of the 26
+clean strikes, CLAUDE.md from 920 lines to 863, the tests green.
+Three were left standing, the reason beside each in the map: 27, the
+whole of prime directive 8, whose strike would renumber directives
+cited by their number; 114, three lines of the layout tree that a
+page of the documentation mirrors; 215, a rule whose wording stands
+nowhere else. Before the strike the documentation map and the
+citations of a directive by its number were read, which the agents
+had not read; the recipes that take CLAUDE.md whole were not, and are
+covered by the renders made again on `main` and read before a
+release. Next: the second batch, the 35 strikes with citations to
+repoint.
 
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is

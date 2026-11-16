@@ -1,5 +1,5 @@
 ---
-version: 0.4
+version: 0.5
 status: draft
 project: forge
 file: work/engine-map.xlsx
@@ -64,6 +64,9 @@ The columns, their names and values carried by the file's legend:
 - for a piece of step 1, its verification: the verdict, and the
   evidence, the owner's file and line and whoever cites or reads the
   piece;
+- the state of a piece, struck, left standing or moved, empty while
+  it waits for its step, and what was done to it, when and in which
+  batch;
 - the verdict and the note, which are the principal's.
 
 The rules of filling:
@@ -109,6 +112,10 @@ The rules of filling:
 - A piece is struck by its sentences, not by its lines: the lines
   say where it stands, and several pieces share a line.
 - A line on the border of two pieces is counted to one of them.
+- Every step done on the cut is recorded in the file in the same
+  step: the state of each piece it touched and what was done to it,
+  and one row of the log for the step itself, also where the step
+  belongs to no one piece.
 - Everything in the target, the certainty, the effort, the impact,
   the step and the risk is a proposal of Claude's until the
   principal's verdict stands beside it; the verification is what the
@@ -135,7 +142,7 @@ the brief `engine-split` first.
 - **TBC.0300** (owner: PCHe) The first version is to be judged: whether the unit is right, which columns are missing or not needed, and the language of the file (ASM.0200, ASM.0210). Closed by: the principal's look at the file and the write of this specification that follows.
 
 ## Making
-Claude makes `work/engine-map.xlsx`, one workbook of four sheets, in
+Claude makes `work/engine-map.xlsx`, one workbook of five sheets, in
 Czech (ASM.0200). `Mapa` has one row per piece in the columns of the
 Method: filters on, the first three columns frozen, a list of the
 allowed values on every column that has them, the principal's two
@@ -143,10 +150,14 @@ columns marked. `Souhrn` sums `Mapa` by formula, so that it moves as
 the map is worked: the lines of CLAUDE.md by target carrier and
 layer, the rows by today's carrier and target layer, the certainty,
 the verdicts, the steps of the plan with their risk, the
-verification of step 1 by verdict. `Ověření` carries what the
+verification of step 1 by verdict, the pieces by their state, done
+and waiting. `Ověření` carries what the
 verifying agents noted beside the rows, group by group: the pieces
 that move together, the templates not to be touched, what was not
-established. `Legenda` says what each column and value means, which
+established. `Deník` is the log of the steps done on the cut, one
+row per step: the date, the step of the plan and its batch, what was
+done, where, the rows of the map it touched and what came of it.
+`Legenda` says what each column and value means, which
 columns are the principal's and that the targets are proposals. Of
 this specification the file carries the names of the columns and
 their values and the rule on what is a proposal, and nothing else.
