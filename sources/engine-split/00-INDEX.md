@@ -52,3 +52,11 @@ ingests it, each file immutable from its registration (POS.0180).
 - **Role:** the baseline before the rebuild of CLAUDE.md: the score of CLAUDE.md by the rubric of Anthropic's claude-md-management plugin, criterion by criterion.
 - **Use for:** the breakdown by criterion to compare with the same rubric after the rebuild; never the sum alone.
 
+### `conduct-baseline.md`
+- **What:** a measurement of how the forge behaved before and after the change of the model on 2026-11-09, made on 2026-11-16 from the session logs of Claude Code: the principal's messages by the model that answered before each, the share with a strong sign of dissatisfaction (3.5 %, 3.1 %, 6.6 %), his verdicts by letter with the share of modify and reject (9 %, 13 %, 32 %), the context at the start of a session, eight kinds of case with dated examples, and the limits of the count.
+- **Origin:** Claude, in the session, from local session logs by read-only scripts kept outside the project.
+- **Date:** 2026-11-16, from the content
+- **Form:** text
+- **Role:** the cases in which the forge went worse after the change of the model, written down before the first step of the plan of the brief `engine-split` and read again after each.
+- **Use for:** the two shares to count again after every step of the plan; the eight kinds as what to look for first when conduct slips.
+

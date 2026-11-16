@@ -259,7 +259,7 @@ to its own 00-INDEX.md. -->
 - **Use for:** the template of the render recipe of the user-stories layer; checking that a render pastes into Jira and Confluence with the story's parts on lines of their own
 
 ### `engine-split/`
-- **What:** measurements and outputs of checks made while the split of the forge into a base and layers is worked; a growing bundle, each file immutable from its registration, catalogued by its own `00-INDEX.md`. Holds the baseline of 2026-11-14 before the rebuild of CLAUDE.md: the output of `/context all`, the report of `/doctor`, the report of `/doctor prompt-audit` and the quality report of the plugin `claude-md-management`.
+- **What:** measurements and outputs of checks made while the split of the forge into a base and layers is worked; a growing bundle, each file immutable from its registration, catalogued by its own `00-INDEX.md`. Holds the baseline of 2026-11-14 before the rebuild of CLAUDE.md: the output of `/context all`, the report of `/doctor`, the report of `/doctor prompt-audit` and the quality report of the plugin `claude-md-management`. Since 2026-11-16 also the measurement of the forge's conduct before and after the change of the model, from the session logs.
 - **Origin:** sessions of the forge; outputs of Claude Code's own commands, pasted or written by Claude, ingested on the principal's word.
 - **Date:** 2026-11-14, from the ingest
 - **Form:** text
