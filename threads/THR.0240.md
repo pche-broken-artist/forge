@@ -89,14 +89,15 @@ Claude's proposals until judged. The work runs on the branch
 judgement of the map (TBC.0300), then the boundary.
 
 2026-11-16: the cut is steps 1 and 4 of the plan in the brief
-`00-brief-engine-split.md` (0.5), section The plan. By the map
-(`work/engine-map.xlsx`) step 1 takes 102 pieces and 412 lines of
-866; by the verification of 2026-11-16, 26 are a clean strike, 35 a
-strike with citations to repoint, 38 need their owner completed
-first, and three catalogues go last, with their readers. Not done
-yet: the cases in which
-the forge went worse, which the plan wants written down before step
-1. Next: those cases, then step 1 group by group, on the branch.
+`00-brief-engine-split.md` (0.6), section The plan. Done today: the
+cases in which the forge went worse written down
+(`sources/engine-split/conduct-baseline.md`), the line on skills
+added to the per-prompt hook, and step 1 verified piece by piece in
+the map (`work/engine-map.xlsx`): 102 pieces and 412 lines of 866,
+26 a clean strike, 35 a strike with citations to repoint, 38 with
+their owner to be completed first, and three catalogues last, with
+their readers. Nothing is struck yet. Next: the first batch, the 26
+clean strikes, sentence by sentence, on the branch.
 
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
