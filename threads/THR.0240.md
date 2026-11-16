@@ -110,30 +110,33 @@ release. The rest of step 1 is then taken by the sections of CLAUDE.md
 and no longer by the kind of verification, since the sentences of a
 section are interleaved: whatever of step 1 remains in a section is
 done together, a strike, a citation repointed, an owner completed.
-Step 1 is walked whole that day. Done: four pieces of the second
-batch, the sections Ledger and Persistence, the Spin-off rule, and
-what could go of Versioning & status and of Document chain: 41 pieces
-struck and 7 moved to their owners, CLAUDE.md from 920 lines to 784,
-the tests green at every save. Deferred and not decided, the
-principal's word of that day, 46 pieces and about 155 lines: they wait
-for three decisions and not for more striking. First, how the
-reviewers get the rules of isolation without three copies in their
-contracts: the section Isolated reviewers is the one owner about
+Step 1 is walked whole that day, no piece of it left untouched. Done:
+41 pieces struck and 15 moved, CLAUDE.md from 920 lines to 671, the
+tests green at every save. The last batch went the principal's way of
+that day: the table of commands and the layout of the engine's root
+moved word for word into files of their own read on demand,
+`.claude/reference/commands.md` and
+`.claude/reference/repository-layout.md`, which CLAUDE.md names by a
+path written as text, never as an import, and which their readers
+read there, the manual, the engine check and the documentation's
+planner. Not verified: that Claude Code loads nothing of that folder
+by itself; a new session on the branch will show. Deferred and not
+decided, the principal's word of that day, 46 pieces and about 152
+lines: they wait for three decisions and not for more striking. First,
+how the reviewers get the rules of isolation without three copies in
+their contracts: the section Isolated reviewers is the one owner about
 thirty-five citations point to. Second, where the checks read their
 rules if not in CLAUDE.md: the light check reads Versioning & status,
 the project check the ID scheme and prime directive 6, every rule
-there. Third, how a template comment copied into the files of the
-projects is changed: most of what is deferred in Document chain cites
-one or would be owned by one. Waiting as the last batch, 8 pieces and
-about 118 lines: the tree of Repository layout and the table of
-commands, which go only with their three readers rewritten, the
-manual, point 1 of the engine check and the page of the documentation
-that mirrors the tree; a round of its own with a short design first.
-The map carries the record of what is done (`work/engine-map.xlsx`:
-the state of each piece, what was done to it, and a log of the steps),
-with two pages of the documentation to be looked at when it is made
-again on `main`. Next: the principal's word on the three decisions and
-on the last batch.
+there; a file CLAUDE.md names may be the answer, at a higher risk,
+since a rule must hold when the file is not open. Third, how a
+template comment copied into the files of the projects is changed:
+most of what is deferred in Document chain cites one or would be owned
+by one. The map carries the record of what is done
+(`work/engine-map.xlsx`: the state of each piece, what was done to it,
+and a log of the steps), and its log names the pages of the
+documentation to be looked at when it is made again on `main`. Next:
+the principal's word on the three decisions, or step 2 of the plan.
 
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
