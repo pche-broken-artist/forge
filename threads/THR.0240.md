@@ -3,7 +3,7 @@ id: THR.0240
 concerns: intent
 origin: the principal
 owner: PCHe
-priority: medium
+priority: high
 status: open
 ---
 
