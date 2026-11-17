@@ -285,6 +285,48 @@ the same files kept as skills that are no commands, whose list the
 harness keeps; his word: tried next, on one file, the table of
 prefixes, as a step of its own saved apart from step 1.
 
+2026-11-17, the evening, for the next session. Step 1 is saved
+(engine 29d0159, project d64a9dd). The principal's order of work,
+his word: first the rules loaded with a kind of file are gone
+through and the templates mended again by them; `main` takes nothing
+before that; then the trial of a skill that is no command. Found
+that day and standing in no artefact: the project's own note
+`research/2026-10-03-anthropic-guidance-for-claude-code-and-where-the-forge-departs.md`,
+which the research index names for exactly this thread, was not
+opened in two days of the work. By it, verified on the documentation
+of 2026-10-03: a file of `.claude/rules/` with `paths` loads
+whenever a matching file is read or written, whatever command runs,
+which is the mechanism for the principal's concern of that morning,
+that Claude writes into a file made from a template without holding
+its shape; the note's caveat is that the mechanism is untried in
+projects that are repositories of their own outside the engine's
+git. The line `Shape:` and the two checks (POS.2030, SOL.0970) were
+designed without it and are to be judged again beside it. By the
+same note a skill with `user-invocable: false` is left to the model,
+its description always listed within a budget of one per cent of the
+context, the documentation naming skills as the place of
+instructions that need not be in context all the time; and a loaded
+skill is weaker late in a long session than the same rule in
+CLAUDE.md. The note is six weeks old: it is checked against today's
+documentation before it is built on, on the principal's word, since
+that touches the network. The trial of the skill, designed and not
+done: `.claude/reference/id-prefixes.md` becomes
+`.claude/skills/id-prefixes/SKILL.md`, the table word for word under
+a header with a description that says when it is reached for (an ID
+whose prefix is not at hand, a new ID, a new prefix) and
+`user-invocable: false`; six readers repointed, CLAUDE.md ID scheme,
+`templates/intent.md`, `/new-artefact` twice, the engine check and
+the project check; the engine check's exception of the reviewers'
+contracts, in its comparison of the skills with the table of
+commands, widened to every skill that is no command; saved as one
+commit; judged in a new session by three questions that do not name
+the file, what a rarely used prefix means, a new item with an ID,
+which prefixes a BRD may carry: it holds where the skill is loaded
+before the answer each time. Claude's proposal, not judged: a rule
+with `paths` over the engine's own operating layer (`.claude/**`,
+`CLAUDE.md`, `templates/**`, the hooks) that names the note, as the
+first trial of that mechanism, where the caveat does not apply.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:
