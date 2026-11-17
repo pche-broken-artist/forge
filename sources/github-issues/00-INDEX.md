@@ -35,3 +35,11 @@ ingests it, each file immutable from its registration (POS.0180).
 - **Form:** text
 - **Role:** the request from which the thread on a record of what was sent out of a project is opened; the author's sketch of a `sent.md` and his two questions, a tag and a ledger row.
 - **Use for:** what is wanted and why, in the author's words; the sketched shape of the record and its line; the two questions to answer when the thread is settled.
+
+### `issue-14-unreachable-origin.md`
+- **What:** GitHub issue #14, "/pull reports "up to date" when git cannot reach the origin (e.g. git's proxy not set), and blames a diverged history when the pull itself fails": behind a corporate proxy that git had not been given, `forge-status.py --remote` printed `remote: up to date` with exit code 0 while a plain `git fetch` failed, and `forge-pull.py` reported the failed pull as a diverged history; reproduced by giving git a dead proxy for one process; two causes named, the discarded result of the fetch in `remote_state()` of `scripts/forge_repos.py` and every non-zero exit of `git pull --ff-only` read as diverged in `scripts/forge-pull.py`; a fix proposed, a state for an origin that could not be reached, with tests on an origin that does not exist, and a pull request offered. With the principal's reply of 2026-11-17: the cause confirmed, the finding wider than reported since the gate of `/release`, `/publish` and `/document`, the migration and the save read the same state; the position in the intent first, then the fix.
+- **Origin:** https://github.com/pche-broken-artist/forge-of-thought/issues/14, opened by a visitor on 2026-11-16; downloaded with its one comment on 2026-11-17.
+- **Date:** 2026-11-16, from the content
+- **Form:** text
+- **Role:** the report from which the thread on an unreachable origin read as "up to date" was opened; the reporter's reproduction, the two causes he names and his proposed fix, with the principal's reply of 2026-11-17.
+- **Use for:** how the failure shows and how to reproduce it; the two sites in the scripts; the proposed state word and tests; what was promised to the reporter.

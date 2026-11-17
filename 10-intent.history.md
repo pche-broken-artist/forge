@@ -984,3 +984,5 @@ word `<file> | changed | state: by hand`.
 - 2026-11-17 | 7.13 | PCHe | FND.4920 | closed | resolved: POS.0950 names what a subagent receives and that it sees nothing of the conversation (intent 7.13)
 - 2026-11-17 | 7.13 | PCHe | FND.4350 | closed | resolved: the documentation run of 2026-11-17; the reason of Intent-first and "real sessions cut to a few minutes" are cut from their entries of the map and POS.1750 is among the inputs of docs/use/settle-a-conflict.md, read in the map
 - 2026-11-17 | 7.13 | PCHe | FND.4900 | closed | resolved: the documentation run of 2026-11-17; the map's heading is the one templates/docs-map.md gives and nothing stands between it and Paths, read in the map
+- 2026-11-17 | 7.13 | PCHe | THR.0900 | created
+- 2026-11-17 | 7.13 | PCHe | FND.5130 | closed | resolved: issue #14 registered in the bundle sources/github-issues/ and the origin of THR.0900 set to its path; the thread had been opened before the issue was stored
