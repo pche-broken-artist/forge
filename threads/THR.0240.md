@@ -241,6 +241,50 @@ would change 82 files and leaves six recipes whose genre the file
 does not tell, ba-intro, ceo-pitch, contributing, cto-pitch,
 executive-pitch and forge-evolution, for him to judge.
 
+2026-11-17, the afternoon: step 1 is walked whole and nothing of it
+is left put off; CLAUDE.md stands at 594 lines, 674 that morning,
+920 the morning before; the tests green, 260 passed. Of the 46 pieces
+put off on 2026-11-16, 23 are done, 19 moved to step 4 and 4 to step
+2, none of those decided, each standing where it will be worked
+(`work/engine-map.xlsx`, the state of each row and five rows of the
+log). The two decisions the pieces waited for, the principal's of
+that day: a check reads a rule at the owner its Lens names, and when
+a rule leaves CLAUDE.md the Lens gets the new owner in the same
+step, no new mechanism; the rules of isolation stay in CLAUDE.md,
+the one text every isolated agent receives, so that no copy stands
+in three contracts. Done by them: the comments' pieces (the bundles
+to the ingest skill, two sentences on recipes and one on the
+companion to the comments of their templates, the sentence on the
+README and the release notes struck, the two steps of an output
+shortened and not struck); two sentences held by a defect, the
+script of the light check no longer raising the principal's own file
+in `published/`; the table of prefixes word for word in
+`.claude/reference/id-prefixes.md`, the archive of an old history in
+the Lens of the light check, the language's exceptions at their
+owners; the section Isolated reviewers cut to the rules of isolation,
+one sentence on the three jobs and the paragraph on contracts. Found
+on the way and mended: the documentation's planner did not read
+`.claude/reference/`, since 2026-11-16; it does now, and the log of
+the map names the pages to be read when the documentation is made
+again on `main`. The two checks of that day, light and project, ran
+before the afternoon's changes and conform; the project check read
+the long files by their headings and fields, not whole, and found
+that recipes name their inputs from two bases, the engine's root and
+the project's, with no rule that fixes one. Not verified: no
+reviewer has run since the contracts and the commands took sentences
+from CLAUDE.md; how the map opens in Excel. Waiting: the principal's
+word on a thread for what a render and a publish are, his of that
+day, a render makes the content and sometimes the form, a publish
+the form alone; and, before `main` takes the step, the cases in
+which the forge went worse read again, the engine check, the merge
+by his hand, the release with the documentation made again and
+read, then the comments of his projects. The principal's thought of
+that day, for step 4: an index of what is read on demand, each file
+with the moment it is reached for, as a resource index has it, or
+the same files kept as skills that are no commands, whose list the
+harness keeps; his word: tried next, on one file, the table of
+prefixes, as a step of its own saved apart from step 1.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:
