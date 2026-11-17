@@ -986,3 +986,4 @@ word `<file> | changed | state: by hand`.
 - 2026-11-17 | 7.13 | PCHe | FND.4900 | closed | resolved: the documentation run of 2026-11-17; the map's heading is the one templates/docs-map.md gives and nothing stands between it and Paths, read in the map
 - 2026-11-17 | 7.13 | PCHe | THR.0900 | created
 - 2026-11-17 | 7.13 | PCHe | FND.5130 | closed | resolved: issue #14 registered in the bundle sources/github-issues/ and the origin of THR.0900 set to its path; the thread had been opened before the issue was stored
+- 2026-11-17 | 7.13 | PCHe | the operating layer | changed | the thread skill says that a thread from an issue or a discussion of the project's GitHub repository is opened after the issue is registered as a source, its origin the path of that file: the rule stood in the intent's model of collaboration alone, and THR.0900 was opened with an address for its origin before the issue was stored (FND.5130)
