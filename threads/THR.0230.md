@@ -205,6 +205,13 @@ the boundary is a way of sorting. Who owns the run of a reviewer and
 the dispatchers was put to him today and withdrawn; it waits for the
 separation. Next: step 1 of the plan (THR.0240).
 
+2026-11-17: step 1 of the plan is done and saved on the branch
+(THR.0240); `main` has not taken it, and steps 2 to 4 are not begun.
+The rules loaded with a kind of file, of the plan's step 4, were
+tried that day ahead of step 2, on the principal's word, and dropped
+for the shape of a file (THR.0240). Next by the plan: `main` takes
+step 1, then step 2.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:

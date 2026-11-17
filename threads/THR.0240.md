@@ -327,6 +327,53 @@ with `paths` over the engine's own operating layer (`.claude/**`,
 `CLAUDE.md`, `templates/**`, the hooks) that names the note, as the
 first trial of that mechanism, where the caveat does not apply.
 
+2026-11-17, a later session: the two matters left for it are tried
+and both dropped, the principal's decisions. The note of 2026-10-03
+was first checked against the documentation of Claude Code as it
+stands that day, by an agent reading the web; the page on memory was
+read whole, the pages on skills, subagents and hooks through a
+summary or by search, not word for word. A rule with `paths` loads
+when Read, Write or Edit touches a matching file, or `cat` or `head`
+on one file; Glob, Grep and a write by a script are not named; its
+patterns run from the directory that holds `.claude`; a compaction
+summarises it away and it loads again at the next touch, where a
+rule without `paths` and the root CLAUDE.md are put back from disk;
+of a repository nested and ignored nothing is said.
+`user-invocable: false` stands as the note has it; the list of
+descriptions has a budget of one per cent of the context and drops
+the descriptions of the least used skills first, the names staying.
+The note's sentence that a loaded skill is weaker late in a session
+was not found. Tried, one run each in a new session, with a rule
+over `projects/*/threads/*.md` carrying a made-up word: on a Read of
+a thread of this project the rule loaded, so the note's caveat on a
+repository of its own falls for reading; on a Write of a new file
+and on an Edit with no read before it the rule loaded only after the
+write. A hook was looked at as the way to be in time: by the
+documentation, what a hook before a tool adds to the context arrives
+with the tool's result, after the write, and only a deny acts before
+it; a deny the first time and a pass the second is no documented
+pattern and needs a state of its own, which is wrong after a
+compaction. Decided: no rule with `paths` and no hook is built for
+the shape of a file; the line `Shape:` and the two checks (POS.2030,
+SOL.0970), judged beside the mechanism, stand as built. Left as a
+candidate for step 4: a rule with `paths` for what Claude is to know
+when he reads a file. Not tried: a rule in an isolated agent, a rule
+after a compaction. The trial of a skill that is no command was not
+done. Measured first, today's arrangement, the file in
+`.claude/reference/` and the sentence of CLAUDE.md that says when it
+is reached for, answered the three questions of the trial's design
+in three new sessions, the file found unasked and each answer right:
+what SCR means, which prefixes a BRD may carry, the ID of a first
+fact of this intent. A skill has nothing to better there, and its
+description can fall out of the list where the sentence of CLAUDE.md
+cannot. `.claude/reference/` stays as it is and no reader is
+repointed; the sentences of CLAUDE.md that name its files are the
+index of what is read on demand the principal thought of for step 4.
+The files of the trials are deleted. Standing: `.claude/reference/`
+is worked into the intent and the solution design when a phase of
+the slimming is done. Next, before `main` takes the step: what the
+afternoon's paragraph lists.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:
