@@ -374,6 +374,19 @@ is worked into the intent and the solution design when a phase of
 the slimming is done. Next, before `main` takes the step: what the
 afternoon's paragraph lists.
 
+2026-11-17, the same session, before `main`: the cases in which the
+forge went worse are read again and counted the same way, now as a
+work product, `work/conduct-measure.md` with its specification, one
+table to which every later measurement adds rows; on Fable 5.2 the
+share of modify and reject among the principal's verdicts is 33 %
+before step 1, 19 % while it was done and 11 % after it was saved,
+the last from 18 verdicts, and the share of strong signs did not
+fall; the limits stand in the file. The engine check filed three low
+findings, all of the day's own work, and all three are resolved
+(FND.4860 to FND.4880), the tests green, 260 passed. The old branch
+`cut-forge-project` is deleted by the principal's hand. Waiting
+before the merge: his word on a tag of `main` as it stands.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:
