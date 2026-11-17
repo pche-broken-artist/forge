@@ -1,5 +1,5 @@
 ---
-version: 0.71
+version: 0.72
 status: draft
 project: forge
 audience: whoever realises the solution, a person or an agent
@@ -770,7 +770,10 @@ boundary kept by hand or an order of work.
   ledger script reports, dependencies, indexes, the one form of a source
   and a line carrying two sentences in `check-light` (SOL.0680); a
   missing `.gitattributes` or project file in `check-project` (SOL.0730,
-  SOL.0670); a document against its history in `check-history`.
+  SOL.0670); the shape of a file against the template it names, of
+  what a save added in `check-light` and of the whole in
+  `check-project` (SOL.0970); a document against its history in
+  `check-history`.
   Realises: POS.1140, POS.0540, POS.0570, POS.1070, POS.1010, POS.1020,
   POS.1040, POS.1910. Choice: the session files the report, and not the
   agent, so that the IDs are given at one place and a check that every
@@ -1455,9 +1458,9 @@ boundary kept by hand or an order of work.
   findings (one resolved by a record, one rejected by the verdict), a
   challenge with one open challenge, a source with its index, an
   empty research index, `recipes/readme.md` with its companion and
-  `README.md` as its render with provenance; the histories and the
-  indexes carry the skeletons' comments as they stand, so that the
-  light check finds nothing on it. No `ledger.md`: a test makes it.
+  `README.md` as its render with provenance; its files carry the line
+  that names their template (SOL.0970). No `ledger.md`: a test makes
+  it.
   Its README says that it is a test fixture and what it is for. A
   test never touches it: the `project` fixture of `tests/conftest.py`
   copies it into pytest's temporary directory and `repo` makes the
@@ -1536,6 +1539,33 @@ boundary kept by hand or an order of work.
   Realises: POS.1070. Choice: a skeleton against a second
   description. Where: `templates/`,
   `.claude/agents/check-single-source-of-truth.md`.
+- **SOL.0970 A file names its template.** Every file made from a
+  template carries one line, `<!-- Shape: templates/<name>.md -->`,
+  where the template has it, and nothing else of the template's
+  comments: whatever makes the file deletes them and keeps the line.
+  The checks read a file against the template it names at two depths.
+  `check-light`, at every save, reads what the save added: the
+  headers, the newest records of a history and of `decisions.md`.
+  `check-project`, at a release and on the principal's word, reads
+  every such file whole, the artefacts of the chain included: the
+  header, the fixed parts and fields in their order, the words the
+  template gives. `check-brd` and `check-user-stories` keep the links
+  to the parent and the style of the items and leave the shape to it.
+  A file made before this is known by its name and may keep the
+  comment it was born with; no check compares a comment with its
+  template. A step of `scripts/forge-migrate.py`, run on the owner's
+  word and never a condition of a write, replaces the comment by the
+  line in every file that is not immutable. Realises: POS.2030,
+  POS.1070, POS.1140. Choice: a line against the copied comment, whose
+  every change of wording was a finding in every project; against a
+  version of the template in the file, which nothing would read;
+  against a reminder at the write by a hook, not built until the line
+  is seen not to hold. Where: `templates/`,
+  `.claude/agents/check-light.md`, `.claude/agents/check-project.md`,
+  `.claude/agents/check-brd.md`,
+  `.claude/agents/check-user-stories.md`, `scripts/forge-check.py`,
+  `scripts/forge_check.py`, `scripts/forge-migrate.py`,
+  `tests/fixture/`.
 - **SOL.0620 The scripts and their platform.** The scripts are Python
   3.8 or newer, run as `python scripts/<name>.py`, and use nothing
   Windows-only: paths through `pathlib`, processes through `subprocess`

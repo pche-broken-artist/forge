@@ -68,6 +68,23 @@ read by what each protected for a reader of the project, the clauses
 that protected nothing cut, and only the remainder written as the
 program, so that the noise is not made free and permanent.
 
+2026-11-17: said in the round on the comments of the skeletons
+(THR.0240). The principal's stance: for a check a script may be a
+supplement, never a full replacement of the model. His reason: a
+program does not check a file against its template, it checks it
+against what was carried from the template into the program; the
+rule then stands twice, and a change of the template does not reach
+the program until someone carries it there. Read in
+`scripts/forge-check.py` that day: the keys of a header come from
+the template; the kinds of a record, the state words and the shapes
+of the fields are constants of the script. A model reads the
+template as it stands, its rules in words included, and reads
+selectively. Set aside by his word until the speed and the cost of
+the checks are taken up; the trial of the light check as a program
+waits with it. Claude's thought, not judged and not verified: a
+template that carried its structure in a form a program can read
+would let the script read the template itself.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:

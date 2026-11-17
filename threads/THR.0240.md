@@ -193,6 +193,26 @@ design, the comparison in `scripts/forge-check.py`, the migration and
 its tests; then FND.4830 closes. The IDs cited in
 `work/engine-map.xlsx` were read by no check of the day.
 
+2026-11-17: the third decision is taken and written: a file made
+from a template carries one line naming its template and none of the
+template's comments (POS.2030, intent 7.12; SOL.0970, solution design
+0.72). The shape of a file against its template is read at two
+depths, by the light check at a save for what the save added and by
+the project check at a release for the whole, the artefacts of the
+chain included. A file made before may keep its comment, no check
+reports it, and the owner of a project may have it replaced by the
+line. Nothing of it is built. The build, next: the templates with the
+line; the commands that make a file, which delete the comments and
+keep the line; the Lens of the light, project, brd and user-stories
+checks; the three comparisons of a comment out of
+`scripts/forge-check.py`; the step of `scripts/forge-migrate.py`; the
+fixture and the tests. FND.4830 closes with the build. Said by the
+principal that day and standing in no position: a template is never
+deleted, at most marked as no longer valid. The script as a part of a
+check is set aside in THR.0530. Seen in the session of that day, one
+session and no test: nothing of `.claude/reference/` was loaded into
+the context by itself.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:

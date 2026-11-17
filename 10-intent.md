@@ -1,5 +1,5 @@
 ---
-version: 7.11
+version: 7.12
 status: draft
 project: forge
 audience: principal + Claude only
@@ -2195,6 +2195,19 @@ position that already stands elsewhere.
   fact, not a defect (CLAUDE.md, Persistence)" — is not one, since it is
   what Claude reads when he acts and the citation keeps it honest
   (decided 2026-09-27).
+- **POS.2030 A skeleton's comment stays in the skeleton.** The comment
+  of a template says how a file is made and kept, and is read there by
+  whoever makes the file or checks it; no file made from the template
+  carries it, a history companion and a resource index no more than an
+  artefact. A file made from a template names its template in one
+  line, a citation and never the wording, so that whoever writes into
+  it knows it has a shape and where the shape stands. A rule a comment
+  owns therefore stands once (POS.1070), and a change of a template's
+  wording changes no file of any project. A file made before this may
+  keep the comment it was born with: nothing reads it, no check
+  reports it, and what holds is the template's wording alone; the
+  owner of a project may have it replaced by the line, nobody is made
+  to, and an immutable file keeps it. Decided 2026-11-17.
 - **POS.1090** The harness enforces the principal's word where it can.
   Claude is kept from the user's sensitive paths, and web access is
   approved by the user per domain. A command that writes, scaffolds,

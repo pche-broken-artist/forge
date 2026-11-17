@@ -338,3 +338,6 @@ word `<file> | changed | state: by hand`.
 - 2026-11-16 | 0.71 | PCHe | SOL.0640 | changed | FND.4760: the table of commands moved to `.claude/reference/commands.md` on 2026-11-16 | Was: `CLAUDE.md` carries the kind in the Document kinds table, `work/` in the layout and the command in the Commands table;
 - 2026-11-16 | 0.71 | PCHe | SOL.0950 | changed | FND.4760: the layout of the engine's root moved to `.claude/reference/repository-layout.md` on 2026-11-16 | Was: `CLAUDE.md` (Versioning & status, Repository layout).
 - 2026-11-16 | 0.71 | PCHe | FND.4760 | closed | resolved: SOL.0640 and SOL.0950 name the two files of `.claude/reference/`; no item of its own for the folder, which the round of THR.0240 decides
+- 2026-11-17 | 0.72 | PCHe | SOL.0970 | created
+- 2026-11-17 | 0.72 | PCHe | SOL.0830 | changed | the fixture's files carry the line that names their template in place of the skeletons' comments (POS.2030, SOL.0970) | Was: the histories and the indexes carry the skeletons' comments as they stand, so that the light check finds nothing on it
+- 2026-11-17 | 0.72 | PCHe | SOL.0330 | changed | the shape of a file against the template it names added to what the two checks verify (SOL.0970)
