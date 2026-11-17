@@ -213,6 +213,34 @@ check is set aside in THR.0530. Seen in the session of that day, one
 session and no test: nothing of `.claude/reference/` was loaded into
 the context by itself.
 
+2026-11-17, later that day: the build is done on the branch, the
+tests green, 260 passed. Built: the templates carry the line `<!--
+Shape: templates/<name>.md -->` above their comment, the thread's at
+its end, the two of a research among them; the rule for whatever
+makes a file stands once, in CLAUDE.md, Templates, and `/forge`,
+`/recipe` and `/work` cite it; the light check has a point for what a
+save added and the project check one for the whole of a file against
+its template, `check-brd` and `check-user-stories` leaving the shape
+to it; the three comparisons of a comment are out of
+`scripts/forge-check.py`; `scripts/forge-migrate.py --comments`
+replaces a skeleton's comment by the line, dry without `--apply`,
+described in `/migrate`; the fixture's files carry the line and
+`tests/test_forge_migrate_comments.py` tests the step (SOL.0970,
+solution design 0.73). FND.4830 is closed: the comment of
+`templates/history.md` cites the thread skill. Where the build left
+the plan: one test went with the helper only the comparisons used;
+`/thread`, `/ingest`, `/research` and `/new-project` were not
+changed, saying only "from the template"; the principal's word of
+that day, final: closed threads are left as they are, as every
+immutable file is, and no research that exists is touched. Not
+verified: no check by a model has run on the new Lens, no file has
+been made the new way, and whether the second engine of a research
+copies the line. Waiting: the migration of the principal's own
+projects, each on `main` on his word; a dry run on this project
+would change 82 files and leaves six recipes whose genre the file
+does not tell, ba-intro, ceo-pitch, contributing, cto-pitch,
+executive-pitch and forge-evolution, for him to judge.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:

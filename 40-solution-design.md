@@ -1,5 +1,5 @@
 ---
-version: 0.72
+version: 0.73
 status: draft
 project: forge
 audience: whoever realises the solution, a person or an agent
@@ -1553,19 +1553,26 @@ boundary kept by hand or an order of work.
   to the parent and the style of the items and leave the shape to it.
   A file made before this is known by its name and may keep the
   comment it was born with; no check compares a comment with its
-  template. A step of `scripts/forge-migrate.py`, run on the owner's
-  word and never a condition of a write, replaces the comment by the
-  line in every file that is not immutable. Realises: POS.2030,
+  template. `scripts/forge-migrate.py --comments`, a step of its own
+  run through `/migrate` on the owner's word and never a condition of
+  a write, replaces the comment by the line in every file that is not
+  immutable: a closed thread, an archive, a research and a source keep
+  what they have. The rule for whatever makes a file stands once, in
+  CLAUDE.md, Templates. Realises: POS.2030,
   POS.1070, POS.1140. Choice: a line against the copied comment, whose
   every change of wording was a finding in every project; against a
   version of the template in the file, which nothing would read;
   against a reminder at the write by a hook, not built until the line
-  is seen not to hold. Where: `templates/`,
+  is seen not to hold. Where: `templates/`, `CLAUDE.md` (Templates),
+  `.claude/skills/forge/SKILL.md`, `.claude/skills/recipe/SKILL.md`,
+  `.claude/skills/work/SKILL.md`, `.claude/skills/migrate/SKILL.md`,
+  `.claude/skills/check-contract/SKILL.md`,
   `.claude/agents/check-light.md`, `.claude/agents/check-project.md`,
   `.claude/agents/check-brd.md`,
   `.claude/agents/check-user-stories.md`, `scripts/forge-check.py`,
-  `scripts/forge_check.py`, `scripts/forge-migrate.py`,
-  `tests/fixture/`.
+  `scripts/forge_check.py`, `scripts/forge_docs.py`,
+  `scripts/forge-migrate.py`, `tests/fixture/`,
+  `tests/test_forge_migrate_comments.py`.
 - **SOL.0620 The scripts and their platform.** The scripts are Python
   3.8 or newer, run as `python scripts/<name>.py`, and use nothing
   Windows-only: paths through `pathlib`, processes through `subprocess`
