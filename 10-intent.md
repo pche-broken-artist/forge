@@ -1,5 +1,5 @@
 ---
-version: 7.12
+version: 7.13
 status: draft
 project: forge
 audience: principal + Claude only
@@ -2132,10 +2132,11 @@ position that already stands elsewhere.
   write that configuration and the one global guard, so that a commit in
   a repository on a host with no identity fails aloud instead of
   silently taking a default, and a save commits nothing until git
-  resolves an identity for the repository. A subagent sees the
-  session's whole context, CLAUDE.md as the session read it and the
-  assistant's memory included, and may take it for the file on disk;
-  so every agent that writes an outward-facing file says in its
+  resolves an identity for the repository. A subagent receives what
+  the session loaded at its start, CLAUDE.md as the session read it,
+  the instance file, the assistant's memory and the state of git, and
+  nothing of the conversation, and may take that copy for the file on
+  disk; so every agent that writes an outward-facing file says in its
   definition that instance facts are not material and that an input
   is read from disk, and the generated files are scanned mechanically
   before they are kept.

@@ -1,5 +1,5 @@
 ---
-version: 0.73
+version: 0.74
 status: draft
 project: forge
 audience: whoever realises the solution, a person or an agent
@@ -122,7 +122,7 @@ boundary kept by hand or an order of work.
   the walkthrough, the one-item rule itself, since 2026-09-27 with the
   verdict line that closes a proposition, and a pointer to
   `.claude/skills/walkthrough/SKILL.md` for the full shape when a
-  walkthrough or an interview runs, and four lines of conduct, the
+  walkthrough or an interview runs, and five lines of conduct, the
   principal's rules, worded in `scripts/hook-walkthrough.py`. The hook's
   command is anchored at the project root: `.claude/settings.json`
   invokes it in exec form, `python` with
@@ -494,9 +494,10 @@ boundary kept by hand or an order of work.
   no slug is special to the script, the repository a project's git is
   read from being its own or the engine's (SOL.0510). It reads only the
   files the recipes and the published companions name; the principal's
-  own files beside them get no row (POS.1910). It reads eleven kinds:
+  own files beside them get no row (POS.1910). It reads twelve kinds:
   the project file, the artefacts' headers, the histories, the
-  decisions, the resource indexes, the reviews and the challenges, the
+  decisions, the index of the sources, the research notes, the reviews
+  and the challenges, the
   provenance of the recipes and the renders, the published companions,
   the work specifications, the threads and `ledger.archive.md`, the
   archive read for every item without a record of the new shape, a newer
@@ -1195,8 +1196,9 @@ boundary kept by hand or an order of work.
   POS.1980): the engine, and the forge's own project beside it where
   it is a repository of its own, labelled `forge (engine)` and `forge
   (project)`; `forge-save forge` is two commits, both prefixed
-  `forge:`, the tag on the engine alone, the upgrade channel;
-  `forge-branch forge` switches both together, every repository
+  `forge:`, a tag on both under one name, so that one release is one
+  tag in both repositories; `forge-branch forge` switches both
+  together, every repository
   checked for unsaved changes before any is switched; `forge-status
   forge` shows both, and the bare sweep names the project once, as
   the project, a directory the engine tracks passed over in silence.
@@ -1499,7 +1501,7 @@ boundary kept by hand or an order of work.
   two numbers differ and merges silently where they are the same. A
   version given twice and an ID taken twice are settled as POS.1790
   says, the ledger
-  script reporting both (SOL.0680). Realises: POS.1710, POS.1750,
+  script reporting the ID alone (SOL.0680). Realises: POS.1710, POS.1750,
   POS.1790, POS.1560, POS.1770. Choice: the help in `/save` and the
   hook's ask against `/merge` with a script of its own and the worktree
   (REJ.0350, REJ.0360); against `forge-save --continue` alone, since the

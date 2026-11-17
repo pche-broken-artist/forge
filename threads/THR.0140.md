@@ -11,7 +11,7 @@ The delivery side. Whether the forge's output one day
 feeds a delivery chain as grown layers of the forge or hands over
 to a separate delivery framework is open and deliberately not
 worked on now; it is taken up when a subject project first needs
-the linkage — flow-ba is a natural candidate.
+the linkage — flow-ba is a natural candidate. Opened 2026-08-18.
 
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is

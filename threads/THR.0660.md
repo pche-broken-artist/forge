@@ -35,6 +35,10 @@ folder is flat and the list goes by the title cards. Open: bringing
 both to what is built, and the four ideas not taken up, asciicast, an
 animated SVG, GitLab Pages, the documentation as a web.
 
+2026-11-17: the documentation run filed the gap between SOL.0660 and
+the screenplay genre as FND.4950, parked until this thread is taken
+up (the decision of that day); it closes with the thread's write.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:

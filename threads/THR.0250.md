@@ -16,7 +16,7 @@ brief to see how far the whole intent drifted. The `essence` lens of
 the critic (POS.0410) is that mechanism applied to every adjacent pair
 of the chain; whether an end-to-end distillation is a further thing or
 the same lens run brief-to-last-layer is open. The expander has a name
-only. Parked until more detail arrives.
+only. Parked until more detail arrives. Opened 2026-09-03.
 
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is

@@ -33,7 +33,7 @@ issue and of a pull request, are not written; `CONTRIBUTING.md` is
 (POS.1440). The brief `documentation` deferred two pages and dropped
 neither: a tutorial with a worked example, once this exemplar exists,
 and a troubleshooting page, once there is material for it
-(2026-10-10, FND.1350).
+(2026-10-10, FND.1350). Opened 2026-08-29.
 
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is

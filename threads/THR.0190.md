@@ -22,7 +22,9 @@ the forge `CLAUDE.md` into a user's works but carries only
 `CLAUDE.md`, not commands and agents. No preparation now; taken up
 when `forge-pull` proves an insufficient upgrade channel. Research:
 `2026-08-29-claude-code-packaging.md`,
-`2026-08-29-framework-distribution-in-the-field.md`.
+`2026-08-29-framework-distribution-in-the-field.md`. Opened
+2026-08-29.
+
 2026-09-14: to be merged into the brief `engine-split` (THR.0230),
 after THR.0350 (closed 2026-10-11). The research
 above answered a different question — how
@@ -30,6 +32,7 @@ the forge reaches users with projects of their own, where the clone
 with nested repositories won (POS.0940), rightly — and is not
 reused for the three-layer question; that question gets research of
 its own.
+
 2026-09-28, from `00-brief-elicitation.md`: the objections
 recorded here largely fall once CLAUDE.md stays in the engine and
 a framework is a package of instances; for the brief

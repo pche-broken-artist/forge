@@ -14,7 +14,8 @@ positions and threads worked like the intent, states `open | merged
 | dropped`, merged into the intent with provenance or dropped to a
 REJ). To be taken up only if a brief in draft turns out to need
 structured, position-level work before the principal says to mine
-it (POS.0920); until then a draft brief is the branch.
+it (POS.0920); until then a draft brief is the branch. Opened
+2026-08-27.
 
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is

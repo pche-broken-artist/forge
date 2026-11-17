@@ -18,13 +18,14 @@ service. Open: whether to take the dependency at all, and global
 versus repository-local installation. The LLM route (a sibling of
 `md2pptx.ps1` on the `document-skills:docx` skill) was set aside on
 2026-09-12: it would end at a picture too, with less determinism.
-On 2026-09-27 the principal took that route for another purpose,
+Word to PDF is the recipient's, never the forge's (SOL.0440).
+Deferred 2026-09-12 by the principal — "needs more thought"; taken
+from the ledger into a thread. Opened 2026-09-14.
+
+2026-09-27: the principal took the LLM route for another purpose,
 the design of the document: it is the `claude` engine of
 `md2docx.py` behind `/publish` (POS.0590, SOL.0440). Mermaid in
 the plain file stands as it was.
-Word to PDF is the recipient's, never the forge's (SOL.0440).
-Deferred 2026-09-12 by the principal — "needs more thought"; opened
-as a thread 2026-09-14 from the ledger.
 
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is

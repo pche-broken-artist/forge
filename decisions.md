@@ -883,3 +883,38 @@ verdict on the whole ID, the rest a `changed` record of the history
   decided in the round of THR.0240, with the Walkthrough paragraph.
 - **Verdict:** FND.4840 rejected
 - **Date:** 2026-11-16
+
+## DEC.0530 — FND.4950 waits for the thread on the course of the videos
+- **Decision:** The gap between SOL.0660 and the screenplay genre on
+  what the sidebar of the player page lists is not mended in the design
+  now; it is settled when THR.0660 is taken up.
+- **Reason:** The course built since 2026-10-24 is brought into POS.1540
+  and SOL.0660 together, which is the thread's open matter; the design
+  alone is not mended ahead of the intent.
+- **Verdict:** FND.4950 parked until THR.0660 is taken up
+- **Date:** 2026-11-17
+
+## DEC.0540 — The creating command stays on the page of the templates; FND.3630 waits for the next documentation run
+- **Decision:** The field stays: the planner names the owners of the
+  fact among the inputs of docs/reference/templates.md at the next
+  documentation run.
+- **Reason:** Which procedure makes a file from a skeleton is stated by
+  CLAUDE.md (What this workspace is, Document chain, Isolated reviewers)
+  and by the reviewers' commands, so the fact has owners and dropping
+  the field would make the page poorer; for the scripts page the column
+  is gone and that part is settled.
+- **Verdict:** FND.3630 parked until the next documentation run
+- **Date:** 2026-11-17
+
+## DEC.0550 — The sentence on overwriting an existing page waits for the next change of the writer's definition
+- **Decision:** The sentence is agreed and goes into
+  .claude/agents/docs-writer.md with the next change of the writer's
+  definition or of the documentation contract: "Where the page you are
+  to write already exists, open its first line only, which the tool that
+  writes a file requires before it overwrites one, and take nothing from
+  it."
+- **Reason:** The definition is hashed with the inputs of every page, so
+  the sentence alone would make all 108 pages stale for a change that
+  alters no page.
+- **Verdict:** FND.5000 parked until the writer's definition or the documentation contract is next changed
+- **Date:** 2026-11-17

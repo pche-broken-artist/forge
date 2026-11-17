@@ -14,7 +14,7 @@ would work is an open point for the future; deliberately not being
 worked on now. One case named 2026-09-06 (CHL.0140, POS.0700): an
 assignment handed to a colleague's instance as his brief — how it
 is seeded, how the IDs continue, where the essence lens finds a
-parent; this thread's, when it is taken up.
+parent; this thread's, when it is taken up. Opened 2026-08-02.
 
 Several people on one project is answered by the brief
 `collaboration`, mined 2026-10-17 (POS.1560 to POS.1750): branches or
