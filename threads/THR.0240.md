@@ -384,8 +384,29 @@ the last from 18 verdicts, and the share of strong signs did not
 fall; the limits stand in the file. The engine check filed three low
 findings, all of the day's own work, and all three are resolved
 (FND.4860 to FND.4880), the tests green, 260 passed. The old branch
-`cut-forge-project` is deleted by the principal's hand. Waiting
-before the merge: his word on a tag of `main` as it stands.
+`cut-forge-project` is deleted by the principal's hand. The state of
+`main` before the merge is tagged `v7-before-slimming` on both
+repositories, on his word.
+
+2026-11-17, the same session, the release: `main` took step 1. The
+branch was merged into `main` by hand in both repositories, with no
+conflict. Two tests of the record script failed on `main` after the
+change of branch, the fixture written out with the line breaks of
+the machine; both now read the line break the file carries, 260
+passed. The documentation was made again in another session, 108
+pages, two of them new, and its check filed 25 findings, walked
+there: the intent 7.13 and the solution design 0.74 carry what was
+resolved, three findings are parked by decision (DEC.0530 to
+DEC.0550). The README and the release notes are rendered again, the
+notes with thirteen new sections, 7.1 to 7.13. Released as 7.13 and
+pushed; the state render first landed in the engine's repository by
+Claude's mistake and was moved to the project in a save of its own.
+The announcement of the release, the principal's story of the worse
+conduct after the change of the model and of the plan, is agreed
+and waits for the release on GitHub. Next by the plan of the brief:
+step 2, the cut in two. Open: the comments of the templates in the
+principal's own projects, each on his word; the next measurement of
+conduct after more sessions on the new version.
 
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
