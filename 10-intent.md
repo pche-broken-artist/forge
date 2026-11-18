@@ -1,5 +1,5 @@
 ---
-version: 7.13
+version: 7.14
 status: draft
 project: forge
 audience: principal + Claude only
@@ -84,6 +84,11 @@ solution is the kind of content, never the amount.
   lets them read every project the same way. English is the notation
   throughout — ID prefixes, status words, front-matter keys; the verb of
   a requirement follows the language of the artefact (POS.0250). The
+  names of the forge's own things and of what it runs on, a thread, a
+  hook, a state word, a render, a branch, are notation too: a
+  conversation in another language keeps them as they are and translates
+  none, since a translated name is a second word for one thing and hides
+  which mechanism is meant. The
   single exception among the artefacts is the briefs (`00-brief*.md`),
   kept in whatever language they are written in; a render may be in any
   language its recipe declares, a translation being a render. The
@@ -91,7 +96,7 @@ solution is the kind of content, never the amount.
   system rule: it is set in `CLAUDE.local.md` (POS.0950) and read from
   there by every command — never written into the operating layer, and
   never presented outward. The README and other outward-facing renders
-  state only the output-language rule. Present shape 2026-11-08.
+  state only the output-language rule. Present shape 2026-11-18.
 - **POS.0070** Claude's contribution to content is to criticise,
   challenge, inspire and lay out options; the composition is the
   principal's. He assembles what the forge offers into his own
@@ -1744,8 +1749,9 @@ position that already stands elsewhere.
   forge's biggest chore: the checks and their agents without asking, the
   documentation on the one question it asks before anything runs, the
   renders and the save with the drafted message; it stops only where a
-  thing is serious, a repository behind or diverged, a finding that
-  would change a position or a rule, a new instance fact in a render,
+  thing is serious, a repository behind, diverged or unreachable, a
+  finding that would change a position or a rule, a new instance fact
+  in a render,
   and always at the tag of a major, which is a deliberate act; `critique
   essence` is not run. With `--auto` the release stops once more, before
   the save: one proposition carrying what it fixed on its own, one line
@@ -1769,7 +1775,7 @@ position that already stands elsewhere.
   REJ.0170). A release of the engine runs the tests (POS.1930); a red
   test stops it; where they cannot run it says so and goes on only on
   the principal's word. A save never runs them: every push runs them in CI
-  (POS.1960). Present shape 2026-11-08 (brief `tests`).
+  (POS.1960). Present shape 2026-11-18 (brief `tests`, THR.0900).
 - **POS.1110** Branches are voluntary and belong to git. Whoever wants
   one gets it through one forge command — `forge-branch <slug> <name>`
   creates the branch or switches to it, `forge-branch <slug> main`
@@ -1880,9 +1886,19 @@ position that already stands elsewhere.
   of way 2 on main, refuse a repository that is behind or diverged,
   since `merge=ours` turns round in the rebase of `/save`: a fresh
   README would silently lose to an older one and a major's tag mark a
-  wrong state (CHL.0290). Present shape 2026-10-23 (brief
-  `collaboration` 0.9), in place of `/merge` (REJ.0350) and of the abort
-  (THR.0700).
+  wrong state (CHL.0290). A release refuses as well a repository whose
+  origin could not be reached (POS.1490): it ends with the push and the
+  tag and cannot finish without the origin, and what it made meanwhile
+  would stand on a main nobody compared. The documentation refuses it
+  too: its pages are taken as `ours` at a merge, and made on a main
+  nobody compared they would silently lose to older ones. A publish does
+  not refuse it: where the origin could not be reached it says so, with
+  git's reason, and goes on only on the principal's word, since a
+  published file is made to be handed over now, its binary conflicts
+  aloud and is never merged silently, and a file made from an older
+  render is shown as stale once the origin is seen again. Present shape
+  2026-11-18 (brief `collaboration` 0.9, THR.0900), in place of `/merge`
+  (REJ.0350) and of the abort (THR.0700).
 - **POS.1740** A release that changes the shape of files comes with a
   migration, run always on the user's word: `/migrate [slug]`, one
   command, a script for every deterministic step and Claude within the
@@ -1893,8 +1909,10 @@ position that already stands elsewhere.
   reported; it commits nothing, `/save` follows; a run can be undone,
   nothing it did left behind and nothing it did not make removed. It
   refuses to run when the repository is not clean, is behind its origin
-  or is not on main: the migration is one large change and runs once, on
-  one clone; everyone else pulls before working on. A project outside
+  or could not reach it, or is not on main: the migration is one large
+  change and runs once, on one clone, and a clone that cannot see the
+  origin cannot know it is the one; everyone else pulls before working
+  on. A project outside
   git (POS.0550) is migrated the same, since being outside git is a
   property, not a defect: none of the refusals of git applies, the way
   back is the backup the user is told to take before the migration is
@@ -1908,8 +1926,8 @@ position that already stands elsewhere.
   project, here and in every colleague's clone, and must come out the
   same everywhere. The way back from a migration is always the engine
   and every project together, since the engine refuses the old shape
-  once released (CHL.0420). Present shape 2026-10-22 (brief
-  `collaboration`, THR.0730).
+  once released (CHL.0420). Present shape 2026-11-18 (brief
+  `collaboration`, THR.0730, THR.0900).
 - **POS.1750** What the forge promises. One person on one project:
   `/save` and `/pull`, as today. Two people, or two branches: the
   derived state is made anew at read time and never conflicts; a
@@ -2089,18 +2107,32 @@ position that already stands elsewhere.
   or merges on its own. The `/forge` map and `/pull` ask `forge-status
   --remote` for the state of the engine and of the project against its
   origin and say it as a fact: up to date, behind, ahead, diverged, no
-  origin, and beside it what waits on GitHub outside git (POS.1970).
-  Each state has one offer: behind and clean, `/pull`; behind
-  with unsaved work, `/save` first; ahead, `/save`; diverged, the user
-  merges `origin/main` into main by his own hand or lets `/save` rebase
-  his own linear commits onto the remote, a conflict settled in the step
-  of a conflict (POS.1710), and nothing is pulled until he has. The user
-  knows and decides; the forge runs none of it unasked. Why: the
-  principal works on more than one machine, so a clone behind its origin
-  is the normal case and a map drawn from it is a map of the wrong
-  state; and a pull or a merge made on Claude's judgement would be work
-  done without the principal's word (POS.1460). The state is the map's
-  last word (POS.1710). Decided 2026-10-11 (THR.0490).
+  upstream, unreachable, no origin, and beside it what waits on GitHub
+  outside git (POS.1970). A state is said only of an origin the forge
+  has just seen: where git could not reach it, the state is unreachable,
+  said with git's own reason, and nothing is said of the branch against
+  it. No upstream is said where the origin was reached and has no such
+  branch, a branch never pushed; unreachable is said only where the
+  origin itself could not be reached. Each state has one offer: behind
+  and clean, `/pull`; behind with unsaved work, `/save` first; ahead,
+  `/save`; no upstream, `/save`, which pushes the branch (POS.1710);
+  unreachable, to mend git's way to the origin and look again, nothing
+  taken as current until then; diverged, the user merges `origin/main`
+  into main by his own hand or lets `/save` rebase his own linear
+  commits onto the remote, a conflict settled in the step of a conflict
+  (POS.1710), and nothing is pulled until he has. Where a look or a pull
+  runs over several repositories, one that could not be reached is said
+  and left, and the others are looked at and pulled as if it were not
+  there. The user knows and decides; the forge runs none of it unasked.
+  Why: the principal works on more than one machine, so a clone behind
+  its origin is the normal case and a map drawn from it is a map of the
+  wrong state; an origin that was not seen and is read as up to date is
+  that same map of the wrong state, invisible exactly when the rest of
+  the machine is online
+  (`sources/github-issues/issue-14-unreachable-origin.md`); and a pull
+  or a merge made on Claude's judgement would be work done without the
+  principal's word (POS.1460). The state is the map's last word
+  (POS.1710). Present shape 2026-11-18 (THR.0490, THR.0900).
 - **POS.1500** A session ends with `/end`: it says what lives only in
   the conversation and would be lost - an unwritten round, carried
   verdicts, a promise - offers the write, reports every repository

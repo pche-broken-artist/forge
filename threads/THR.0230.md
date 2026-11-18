@@ -212,6 +212,10 @@ tried that day ahead of step 2, on the principal's word, and dropped
 for the shape of a file (THR.0240). Next by the plan: `main` takes
 step 1, then step 2.
 
+2026-11-18: `main` took step 1 on 2026-11-17, after the paragraph
+above was written, and it was released as 7.13 (THR.0240). Steps 2 to
+4 are not begun. Next by the plan: step 2.
+
 <!-- A thread (POS.1680), one file per thread in threads/; the header
 is its state: what it concerns, where it came from, whether it is
 open. The rules of a thread, its life and its closing:

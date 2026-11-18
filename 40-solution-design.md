@@ -1,5 +1,5 @@
 ---
-version: 0.74
+version: 0.75
 status: draft
 project: forge
 audience: whoever realises the solution, a person or an agent
@@ -1221,9 +1221,29 @@ boundary kept by hand or an order of work.
   state against the origin is one function of `forge_repos.py`, which
   status and pull share. `forge-pull` prints where it moved from and to
   and the subjects of the commits between, so that the releases crossed
-  can be read off. Realises: POS.0550, POS.1060, POS.1110, POS.0940,
-  POS.1490. Choice: scripts as the only door to a write against git
-  typed by the model. Where: `scripts/forge-*.py`,
+  can be read off. Not built (THR.0900): the function checks its fetch
+  and says a state only of an origin it reached. Where git could not
+  reach the origin it returns `unreachable` with the first line of git's
+  error; where the origin was reached and has no such branch,
+  `no upstream`; the two are told apart by asking the origin for the
+  branch, one failing with no connection and the other with no such ref.
+  `forge-status --remote` prints `unreachable` as any other state and
+  goes on. `forge-pull` looks before it pulls, says `unreachable` for a
+  repository it could not reach, goes on with the others and ends with
+  an error after the last, and says diverged only of histories that
+  diverged. `forge-migrate --apply` refuses on it and the dry run says
+  it would (SOL.0800). `/release` and `/document` refuse on it and
+  `/publish` goes on only on the principal's word, each reading the line
+  of `forge-status` (SOL.0530, SOL.0460, SOL.0420). Tested on the
+  fixture with an origin on a path that does not exist and with a branch
+  the origin does not have. Realises: POS.0550, POS.1060, POS.1110,
+  POS.0940, POS.1490. Choice: scripts as the only door to a write
+  against git typed by the model; of what is not built, `forge-status`
+  ending green on `unreachable`, a state reported being no failure of
+  the report, against the non-zero exit the issue proposed, and the two
+  states told apart by asking the origin against reading the text of
+  git's error, which changes with git's language and version, both the
+  judgement Claude's. Where: `scripts/forge-*.py`,
   `scripts/forge_repos.py`, `scripts/docs-state.py`,
   `.claude/skills/import-project/SKILL.md`.
 - **SOL.0520 The wall.** Protection relies on Claude Code's permission

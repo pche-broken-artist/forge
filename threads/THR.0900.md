@@ -32,4 +32,17 @@ once the position is written. Closed when the position stands in the
 intent, the fix is built and tested, and the issue is answered and
 closed. Opened 2026-11-17.
 
+2026-11-18: tried on the live repositories with a dead proxy given to
+git for one command, and on a throwaway copy of the fixture: what the
+issue says holds, and `forge-save` already ends aloud, the commit kept.
+What each command does is decided and stands in the intent 7.14
+(POS.1490, POS.1710, POS.1740, POS.1100) and in the design 0.75
+(SOL.0510). The fix is built the same day by the forge, not by the
+reporter's pull request: the scripts, seven tests on the fixture, the
+wording of the skills and of CLAUDE.md, Persistence; the whole suite
+passes. Open now: the save and the release that carries it, where the
+mark Not built of SOL.0510 is turned over; the answer in the issue,
+which also tells the reporter that his pull request is no longer
+needed.
+
 <!-- Shape: templates/thread.md -->
