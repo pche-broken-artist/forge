@@ -40,9 +40,11 @@ What each command does is decided and stands in the intent 7.14
 (SOL.0510). The fix is built the same day by the forge, not by the
 reporter's pull request: the scripts, seven tests on the fixture, the
 wording of the skills and of CLAUDE.md, Persistence; the whole suite
-passes. Open now: the save and the release that carries it, where the
-mark Not built of SOL.0510 is turned over; the answer in the issue,
-which also tells the reporter that his pull request is no longer
-needed.
+passes. Saved and pushed the same day (engine `ee7318b`, the project
+`a6378a1`) and answered in the issue. Open now: the release that
+carries it, where the mark Not built of SOL.0510 is turned over and
+the documentation is made again, five of its pages still describing
+the states as they were; the reporter's word that it reads right
+behind his proxy, and then the issue closed.
 
 <!-- Shape: templates/thread.md -->
