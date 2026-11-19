@@ -5,7 +5,7 @@ origin: sources/github-issues/issue-14-unreachable-origin.md
 owner: PCHe
 priority: high
 blocks: the fix of issue 14 and the reporter's offered pull request
-status: open
+status: closed
 ---
 
 An origin that cannot be reached is read as "up to date". Reported
@@ -46,5 +46,15 @@ carries it, where the mark Not built of SOL.0510 is turned over and
 the documentation is made again, five of its pages still describing
 the states as they were; the reporter's word that it reads right
 behind his proxy, and then the issue closed.
+
+2026-11-19: closed. The issue was closed by the principal the same
+day without the reporter's word, on his rule that an issue is closed
+when it is fixed and reopened if the reporter says it did not hold.
+What was decided stands in POS.1490, POS.1710, POS.1740 and POS.1100
+of the intent and in SOL.0510 of the design; the fix is on main
+(engine `ee7318b`). Left to the release that carries it, by its own
+walkthrough and its documentation run: the mark Not built of SOL.0510
+turned over (SOL.0530) and the five pages of the documentation that
+still describe the states as they were.
 
 <!-- Shape: templates/thread.md -->
