@@ -51,3 +51,11 @@ ingests it, each file immutable from its registration (POS.0180).
 - **Form:** text
 - **Role:** *(inferred)* the report from which the thread on the open questions of a BRD the ledger does not show is opened; the author's case, the places he traced the cause to and his two proposals, with the principal's reply of 2026-11-11.
 - **Use for:** how the gap shows in a real BRD; the sites in the definition, the script and the template; the two proposals to judge when the thread is settled; what was promised to the author.
+
+### `discussion-13-fork-cannot-follow-the-engine.md`
+- **What:** GitHub discussion #13 (Ideas), "A forked repo cannot follow the original one from the Forge in terminal: "/pull" reads the fork only": CONTRIBUTING sends a contributor to a fork and says that the fork's main stays clean for the upgrades of the engine, while the forge has no way to bring them in; `scripts/forge-pull.py` reads the remote named `origin` and no other, on a fork the fork, which does not move when the engine does, so `/pull` says "up to date" while the engine has gone on, until the fork is synced on GitHub or git is run by hand against a second remote; read from the script and from how a fork works, not from a release missed; the wish, that a fork follows the engine through the forge's own door, or at least that `/pull` says the origin is a fork and cannot tell whether the engine has moved. With the principal's two replies of 2026-11-19: the finding real; bringing the upgrade in not wanted in the forge now, the forge being no wrapper around GitHub, a fork kept current by hand; the smaller half to be considered, not now; CONTRIBUTING corrected and the discussion closed.
+- **Origin:** https://github.com/pche-broken-artist/forge-of-thought/discussions/13, opened by a visitor on 2026-11-13; downloaded with its two comments on 2026-11-19.
+- **Date:** 2026-11-13, from the content
+- **Form:** text
+- **Role:** *(inferred)* the report from which the thread on a fork that cannot follow the engine is opened; answered and closed on 2026-11-19.
+- **Use for:** how the gap shows on a fork and where the script reads the origin; the two levels of the author's wish; what the principal answered and what he left to be considered.
