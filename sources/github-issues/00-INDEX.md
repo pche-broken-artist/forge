@@ -43,3 +43,11 @@ ingests it, each file immutable from its registration (POS.0180).
 - **Form:** text
 - **Role:** the report from which the thread on an unreachable origin read as "up to date" was opened; the reporter's reproduction, the two causes he names and his proposed fix, with the principal's reply of 2026-11-17.
 - **Use for:** how the failure shows and how to reproduce it; the two sites in the scripts; the proposed state word and tests; what was promised to the reporter.
+
+### `discussion-10-unassigned-tbc-missing-from-ledger.md`
+- **What:** GitHub discussion #10 (Ideas), "BRD questions with unassigned owners are missing from the ledger": in a first BRD made from an intent Claude raised seven open questions (TBC.0010 to TBC.0070), four from open threads of the intent and three found while drafting; six carry `owner: unassigned` and three block estimation, yet none stands under Waiting on principal, where only the four threads show; the cause traced to the rule and the script, the BRD definition giving `unassigned` as an owner while `scripts/forge-ledger.py` and the ledger template take only a TBC whose owner is the principal, and `blocks estimation` read by nothing; with the threads closed the overview could say that nothing waits; two proposals, `owner: unassigned` taken into Waiting on principal, and a separate `Estimation blockers` section for the questions that have an owner but block estimation. With the principal's reply of 2026-11-11: the matter in work, an answer promised with what changes.
+- **Origin:** https://github.com/pche-broken-artist/forge-of-thought/discussions/10, opened by a visitor on 2026-11-09; downloaded with its one comment on 2026-11-19.
+- **Date:** 2026-11-09, from the content
+- **Form:** text
+- **Role:** *(inferred)* the report from which the thread on the open questions of a BRD the ledger does not show is opened; the author's case, the places he traced the cause to and his two proposals, with the principal's reply of 2026-11-11.
+- **Use for:** how the gap shows in a real BRD; the sites in the definition, the script and the template; the two proposals to judge when the thread is settled; what was promised to the author.

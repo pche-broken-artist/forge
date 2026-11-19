@@ -1,5 +1,5 @@
 ---
-version: 7.14
+version: 7.15
 status: draft
 project: forge
 audience: principal + Claude only
@@ -1381,16 +1381,23 @@ position that already stands elsewhere.
   are read from the hand-kept ledger, frozen, a newer record overriding
   it. Decided 2026-10-17 (brief `collaboration`).
 - **POS.1620** Waiting on principal is a rule, not a hand-kept list: the
-  open threads; the TBCs whose owner is the principal; the open findings
-  of a critic and the open challenges, which wait for his verdict; not
-  the open findings of a check, which Claude mends in a walkthrough; the
-  parked findings and challenges under a heading of their own with their
-  DEC, since no script can judge whether the event a parking waits for
-  has come; a decision with an unfinished action becomes a thread. Free
-  text without an ID has no place there. A thread's line is its first
-  sentence and its last dated paragraph. Why: the hand-kept list
-  differed from any rule in both directions. Decided 2026-10-17 (brief
-  `collaboration`).
+  open threads; the open questions a document is not finished with, a
+  TBC whose answer is the principal's own, one that has no owner and
+  one its document marks as blocking, whoever is named as its owner;
+  the open findings of a critic and the open challenges, which wait for
+  his verdict; not the open findings of a check, which Claude mends in
+  a walkthrough; the parked findings and challenges under a heading of
+  their own with their DEC, since no script can judge whether the event
+  a parking waits for has come; a decision with an unfinished action
+  becomes a thread. Free text without an ID has no place there. A
+  thread's line is its first sentence and its last dated paragraph; a
+  question's line says why it stands there, no owner or what it blocks,
+  and its first sentence. A question that has an owner and blocks
+  nothing stays in its document, which is complete with it. Why: the
+  hand-kept list differed from any rule in both directions; and the
+  list says what a document still lacks, never who owes it, since the
+  one who completes a document is the one who writes it. Present shape
+  2026-11-19.
 - **POS.1630** A record of state only, a mining, a work product's state,
   a finding closed, a thread closed, carries the current version and
   does not raise it, so a round that only closes findings after a check

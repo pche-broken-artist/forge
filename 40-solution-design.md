@@ -1,5 +1,5 @@
 ---
-version: 0.75
+version: 0.76
 status: draft
 project: forge
 audience: whoever realises the solution, a person or an agent
@@ -504,7 +504,12 @@ boundary kept by hand or an order of work.
   record overriding. Waiting on principal by the rule of POS.1620, the
   open threads those something waits on first, then by priority, a
   thread's line its priority and what waits on it in brackets, its
-  first sentence and its last dated paragraph. It
+  first sentence and its last dated paragraph; of the TBC it takes the
+  one written `owner: principal` or `the principal`, the one written
+  `owner: unassigned` and the one that says `blocks estimation: yes` or
+  `Blocks realisation: yes`, reading no other owner, the unowned and
+  the blocking first, a question's line `no owner` and what it blocks
+  in brackets and its first sentence. It
   reports a duplicate ID, a closed thread touched by a later commit
   (through `forge_repos`), and a THR cited in any file of the project
   with neither a thread file nor a `closed` record (POS.1640). An
