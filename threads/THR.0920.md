@@ -5,7 +5,7 @@ origin: sources/github-issues/discussion-10-unassigned-tbc-missing-from-ledger.m
 owner: PCHe
 priority: high
 blocks: the answer promised in discussion 10
-status: open
+status: closed
 ---
 
 The open questions of a BRD that have no owner stand nowhere under
@@ -50,5 +50,14 @@ overview shows the questions by owner, neither tried. Opened
 it, the way in the record of POS.1620; built the same day,
 `templates/ledger.md`, `scripts/forge-ledger.py` and its test, the
 suite green. Open now: the answer in the discussion.
+
+2026-11-19: closed. Answered in the discussion the same day, with
+what changed and why the second proposal became a mark in the same
+list and no section of its own
+(https://github.com/pche-broken-artist/forge-of-thought/discussions/10#discussioncomment-19756259).
+What was decided stands in POS.1620 of the intent (7.15) and in
+SOL.0680 of the design (0.76), what was known and left as it is in
+the record of POS.1620; the build is `scripts/forge-ledger.py`,
+`templates/ledger.md` and `tests/test_forge_ledger.py`.
 
 <!-- Shape: templates/thread.md -->
