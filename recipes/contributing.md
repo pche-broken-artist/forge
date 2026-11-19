@@ -2,7 +2,7 @@
 project: forge
 purpose: CONTRIBUTING.md of the engine's repository - how a visitor gives feedback, brings an idea or sends a change
 audience: a visitor of the repository on GitHub who has used the forge or read about it and wants to say, ask or change something; he arrives from the Contributing tab, the sidebar, or the page where an issue or a pull request is created
-version: 0.11
+version: 0.12
 output: /CONTRIBUTING.md
 ---
 
@@ -60,9 +60,13 @@ output: /CONTRIBUTING.md
   more than a few lines, make a branch first, `python
   scripts/forge-branch.py forge <name>`, work and `/save` on it (the
   save pushes that branch to your fork), and open the pull request
-  from the branch: your fork's `main` stays clean for the upgrades of
-  the engine, and the branch goes away with the merge. Say plainly
-  that whoever is unsure stops at a discussion and I make the change.
+  from the branch: your fork's `main` then carries no commits of your
+  own, and the branch goes away with the merge. Say plainly that a
+  fork does not follow the engine by itself and that the forge brings
+  no upgrade into it: the reader keeps it current by hand, "Sync
+  fork" on the fork's page on GitHub, for each fork, and then `/pull`,
+  which brings the synced `main` down. Say plainly that whoever is
+  unsure stops at a discussion and I make the change.
 - Right after the opening, before the reader says anything, one
   short section "Find your way" says where things are: the
   documentation in `docs/` (link to docs/README.md), pages of one
