@@ -552,6 +552,12 @@ cards, item by item, with what the principal took of it:
   and stays in the language it arrived in; the rule that research is
   written in English is not applied to an outside report kept word
   for word.
+- A comparison of the two outside reports with the synthesis was made
+  by Claude in the session on the principal's word of 2026-11-21 and
+  placed in the bundle as `deep-research-comparison.md`, beside the
+  reports and no part of the synthesis. No source of a report was
+  opened for it. With it, a line of the Notes and this entry were
+  written into the head after its filing.
 
 ## Synthesis (2026-11-21)
 
@@ -1848,3 +1854,8 @@ are those of the second round; the note of the session model of card
   questions in the order of their groups, the rules for sources and
   the shape of report asked for. The two reports beside it are what
   came back. Placed in the bundle after the synthesis, with them.
+- `deep-research-comparison.md`: no note of a card and made from no
+  packet. The comparison of the two outside reports with the
+  synthesis, made by Claude in the session on 2026-11-21 from the
+  texts of this bundle alone; checked by no script. Placed in the
+  bundle after the synthesis.

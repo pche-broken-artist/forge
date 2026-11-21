@@ -45,4 +45,26 @@ plan's confirmation, and the reports beside the notes and out of the
 synthesis, since they cannot be checked as the notes are. Opened
 2026-11-21.
 
+2026-11-21: a comparison was tried by hand, on the principal's word:
+the two reports read against the synthesis and the assignment, the
+result placed in the bundle as `deep-research-comparison.md`, beside
+the reports and out of the synthesis, with an entry in its
+Deviations. What the trial showed for the third point: a comparison
+is one reading of four texts and gives what the synthesis cannot take
+in, the coverage of the assignment question by question, the places
+where a report repeats as settled what the notes hold contested, and
+a short list of leads. One report reached the bundle's verdict and
+nearly its first shape alone, at a fraction of the size, with twenty
+sources named and no address; the other did not keep the shape of
+report asked for and names no source. Neither can be checked as the
+notes are, by the citation script or by the measure of independence,
+so a report is a lead throughout. For the second point, two things of
+form the trial met: the Gemini file has no line of origin where the
+Copilot file has one, and the Copilot file's origin names the
+assignment under `tmp/`, which now lies in the bundle. Open now: all
+five points as a rule, the name and the step of a comparison among
+them; this one file was placed on the principal's word and settles
+none. Claude's view, his own: the trial speaks for a comparison of
+its own beside the synthesis, made once the reports are registered.
+
 <!-- Shape: templates/thread.md -->
