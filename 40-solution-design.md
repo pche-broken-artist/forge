@@ -1,5 +1,5 @@
 ---
-version: 0.77
+version: 0.78
 status: draft
 project: forge
 audience: whoever realises the solution, a person or an agent
@@ -1204,8 +1204,8 @@ boundary kept by hand or an order of work.
   the word `forge` names the whole (`forge_repos.forge_repos`,
   POS.1980): the engine, and the forge's own project beside it where
   it is a repository of its own, labelled `forge (engine)` and `forge
-  (project)`; `forge-save forge` is two commits, both prefixed
-  `forge:`, a tag on both under one name, so that one release is one
+  (project)`; `forge-save forge` is two commits with one message
+  (SOL.0990), a tag on both under one name, so that one release is one
   tag in both repositories; `forge-branch forge` switches both
   together, every repository
   checked for unsaved changes before any is switched; `forge-status
@@ -1338,6 +1338,34 @@ boundary kept by hand or an order of work.
   alternatives REJ.0160 and REJ.0170; the cost is a README stale between
   releases, visibly. Where: `.claude/skills/save/SKILL.md`,
   `.claude/skills/release/SKILL.md`, `scripts/forge-save.py`.
+- **SOL.0990 The commit message.** A message is a subject, a blank
+  line and a body. The subject is one clause in the imperative,
+  opening in lower case and without a full stop, of at most about 72
+  characters, where the lists of commits cut it (`git log --oneline`
+  in a terminal, GitHub's lists): `write an open question one way
+  across the chain`. The body is sentences wrapped at about 72 columns
+  like the forge's prose (CLAUDE.md, Document kinds), a paragraph for
+  each thing it says: what changed and why, with the items and their
+  versions; what was built and what the tests said; where the matter
+  came from, a source, a thread or a check. A commit whose subject
+  says all has no body. The subject of a release opens with `release
+  <intent version>:` and goes on with what the release brings, its
+  body the rounds since the last release; a library's carries no
+  version. With `forge` one message serves both commits. The shape is
+  the save skill's, step 2, which the release skill cites;
+  `forge-save.py` takes the whole message through `-m`, its line
+  breaks with it, and after the commit prints the subject alone; the
+  message it makes from the files when it is given none has the same
+  shape, `save N file(s)` and the files in the body, one to a line.
+  Realises: POS.2050, POS.1100, POS.1980. Choice: a short subject
+  with a body against the one line that held the round; a length the
+  tools set against the 50 characters of the convention, which the
+  forge's own names outgrow; `-m` alone against a second argument that
+  takes the message from a file, the forge kept thin. Not taken: a
+  type and a scope (REJ.0570), a check (REJ.0580). Decided 2026-11-24
+  (discussion 15). Where: `.claude/skills/save/SKILL.md`,
+  `.claude/skills/release/SKILL.md`, `scripts/forge-save.py`,
+  `tests/test_git_scripts.py`.
 - **SOL.0550 The commit identity.** No roster file and no local
   `git config user.*` at a project's creation or import. The
   identity is resolved per git host by the user's own `includeIf`

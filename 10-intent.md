@@ -1,5 +1,5 @@
 ---
-version: 7.16
+version: 7.17
 status: draft
 project: forge
 audience: principal + Claude only
@@ -1803,6 +1803,24 @@ position that already stands elsewhere.
   test stops it; where they cannot run it says so and goes on only on
   the principal's word. A save never runs them: every push runs them in CI
   (POS.1960). Present shape 2026-11-18 (brief `tests`, THR.0900).
+- **POS.2050 A commit message is a subject and a body.** The subject
+  says the one thing the commit does, a short clause in the imperative
+  that stands whole wherever commits are listed; whatever else the
+  round holds goes into the body below it: what changed and why, the
+  items and their versions, what was built and tested, where the
+  matter came from. The subject opens with what the commit does: no
+  prefix names the repository, which every list of commits names
+  beside it, and no type or scope sorts the commit (REJ.0570); the one
+  fixed opening is the release's (POS.1100), by which the releases
+  crossed are read off a pull. `/save` and `/release` draft the
+  message from the records (POS.0310) and the principal confirms it
+  word for word (POS.1200); nothing checks its shape (REJ.0580), and a
+  commit made before keeps its message. Reason: the first line had
+  come to hold the whole round, so that every list of commits, git's,
+  GitHub's and the forge's own, showed a cut sentence or a wall of
+  text; the rule names the kind of content each part holds, not a
+  length. The notation is the solution design's. Decided 2026-11-24
+  (`sources/github-issues/discussion-15-commit-message-shape.md`).
 - **POS.1110** Branches are voluntary and belong to git. Whoever wants
   one gets it through one forge command — `forge-branch <slug> <name>`
   creates the branch or switches to it, `forge-branch <slug> main`
@@ -2126,10 +2144,10 @@ position that already stands elsewhere.
   so a release of the engine lands in two commits. In the commands of
   git, `/save`, `/pull`, `forge-branch` and `/release`, `forge` names the
   whole, the engine's repository and the project beside it where it is
-  cloned, each its own commit with the prefix `forge:` and a tag of a
-  release on both with one name, so that one release is one tag in both
-  repositories; in the commands over documents `forge` is the project.
-  Present shape 2026-11-10 (THR.0780).
+  cloned, each its own commit and a tag of a release on both with one
+  name, so that one release is one tag in both repositories; in the
+  commands over documents `forge` is the project. Present shape
+  2026-11-24.
 - **POS.1490** The forge looks at the remote and offers, it never pulls
   or merges on its own. The `/forge` map and `/pull` ask `forge-status
   --remote` for the state of the engine and of the project against its
@@ -3095,6 +3113,24 @@ worked out by Claude; what Claude has worked out is never a FCT
   every item; and the definitions of the assignment and of the work
   specification name nothing an open question could keep them from, so
   the mark would be filled there without meaning (POS.2040).
+- **REJ.0570** The type of Conventional Commits at the head of a
+  commit's subject, `feat`, `fix`, `docs` and the like, with a type of
+  its own for a release
+  (`sources/github-issues/discussion-15-commit-message-shape.md`).
+  Dropped 2026-11-24: nothing would read it, the release notes and the
+  version coming from the records and the intent (POS.0310, POS.0730);
+  a save is one round and holds changes of several kinds, which the
+  standard answers by splitting the commit; the forge's rules are
+  prose, so that `docs`, `fix` or `feat` would be a judgement at every
+  save; and in a thought project nearly every commit would carry the
+  same type (POS.2050).
+- **REJ.0580** A check of the shape of a commit message, in `/save`,
+  in the script or by a linter in CI
+  (`sources/github-issues/discussion-15-commit-message-shape.md`).
+  Dropped 2026-11-24: the forge is kept thin and bound to no further
+  tool; a check would come after the commit or stop the save, and
+  could read the length alone, never whether the subject says one
+  thing (POS.2050).
 
 ## Candidate structure for the layer below
 
