@@ -1,5 +1,5 @@
 ---
-version: 0.79
+version: 0.80
 status: draft
 project: forge
 audience: whoever realises the solution, a person or an agent
@@ -1353,15 +1353,17 @@ boundary kept by hand or an order of work.
   body the rounds since the last release; a library's carries no
   version. With `forge` one message serves both commits. The shape is
   the save skill's, step 2, which the release skill cites;
-  `forge-save.py` takes the whole message through `-m`, its line
-  breaks with it, and after the commit prints the subject alone; the
+  `forge-save.py` reads the message from a file through `-F`, the way
+  a message with a body reaches it in one short command, or takes it
+  through `-m`, and after the commit prints the subject alone; the
   message it makes from the files when it is given none has the same
   shape, `save N file(s)` and the files in the body, one to a line.
   Realises: POS.2050, POS.1100, POS.1980. Choice: a short subject
   with a body against the one line that held the round; a length the
   tools set against the 50 characters of the convention, which the
-  forge's own names outgrow; `-m` alone against a second argument that
-  takes the message from a file, the forge kept thin. Not taken: a
+  forge's own names outgrow; a file for a message with a body against
+  `-m` alone, which needs a construction of the shell around it that
+  Claude Code stops at for consent at every save. Not taken: a
   type and a scope (REJ.0570), a check (REJ.0580). Decided 2026-11-24
   (discussion 15). Where: `.claude/skills/save/SKILL.md`,
   `.claude/skills/release/SKILL.md`, `scripts/forge-save.py`,
