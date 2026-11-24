@@ -1,5 +1,5 @@
 ---
-version: 7.17
+version: 7.18
 status: draft
 project: forge
 audience: principal + Claude only
@@ -1868,8 +1868,10 @@ position that already stands elsewhere.
 
 - **POS.1690** Every project carries from the engine what tells git the
   way of merging each of its files (POS.1560), and what keeps out of git
-  what never belongs there: the ledger, made at read time, and the lock
-  files an office program leaves beside an open document. The engine
+  what never belongs there: the ledger, made at read time, the lock
+  files an office program leaves beside an open document, and the files
+  an operating system leaves in a folder by itself, on Windows, Linux
+  and macOS alike (POS.0830). The engine
   carries the same for the way-2 files at its own root (CHL.0350).
   `/save` rebases one's own commits onto the remote only where both
   sides moved on, the histories diverged; a branch merely ahead of the
@@ -1888,8 +1890,7 @@ position that already stands elsewhere.
   `/save`, the integrator's clone and the step of a conflict (POS.1710),
   in the roles of POS.1770; at the state diverged `/pull` offers the
   merge of POS.1490; a merge request is for reading and for the merge
-  that needs no hand. Present shape 2026-11-08 (brief `collaboration`
-  0.9).
+  that needs no hand. Present shape 2026-11-24.
 - **POS.1700** Two windows of one person take a slug: a bare `/save` is
   for one window, since it commits every repository with changes, the
   other window's half-written work included. On two projects the windows

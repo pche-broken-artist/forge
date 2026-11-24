@@ -1,5 +1,5 @@
 ---
-version: 0.78
+version: 0.79
 status: draft
 project: forge
 audience: whoever realises the solution, a person or an agent
@@ -1404,8 +1404,11 @@ boundary kept by hand or an order of work.
   files left it at the cut of POS.1980; the forge's own project carries
   `templates/gitattributes` like every project (SOL.0930). Every project
   carries `.gitignore` from `templates/gitignore`, created by
-  `/new-project` beside `.gitattributes`: the ledger and the lock files
-  Office leaves beside an open document.
+  `/new-project` beside `.gitattributes`: the ledger, the lock files
+  Office leaves beside an open document and the noise of the operating
+  systems, macOS, Linux and Windows, its rules selected from
+  gitignore.io; the engine's own `.gitignore` carries the same block
+  and, for `scripts/` and `tests/`, the caches of Python's tools.
   `check-project` reports a project without the file, with the fix.
   CLAUDE.md, Persistence, carries the ways and the promise. Realises:
   POS.1560, POS.1690, POS.1750. Choice: the attributes per project
@@ -1413,7 +1416,7 @@ boundary kept by hand or an order of work.
   the repository and the registration (SOL.0740) does not. Built
   2026-10-19 in the first release (the cutover plan, R1.07, R1.02).
   Where: `templates/gitattributes`, `templates/gitignore`,
-  `.gitattributes`,
+  `.gitattributes`, `.gitignore`,
   `CLAUDE.md` (Persistence), `.claude/skills/new-project/SKILL.md`,
   `.claude/agents/check-project.md`.
 - **SOL.0740 The registration on the machine.** `/setup` registers
