@@ -1,5 +1,5 @@
 ---
-version: 7.15
+version: 7.16
 status: draft
 project: forge
 audience: principal + Claude only
@@ -1086,16 +1086,20 @@ position that already stands elsewhere.
   under fixed English labels: `Edge cases` (situation → what happens),
   `Risks` (each with its mitigation or its consequences), `Note` (a link
   to an attachment or a technical analysis with what lies behind it),
-  `Questions` (question → owner), `Reference`. Reference is the one part
-  every story has: the BR, NFR, UC or DEP it serves, or in a small
-  change the POS; a dependency is a DEP in the Reference, or a question.
-  No vague word in a criterion, no priority, no estimate, no technical
-  solution, no section of notes, dependencies or introduction. A quality
-  cutting across the whole is a story of its own, one concerning one
-  function a criterion of its story. Reason: the shape of the instance's
-  export, kept by the render, and the principal's word at the brief of
-  2026-11-02; a section of dependencies was rejected since the Reference
-  carries them. Decided 2026-11-02.
+  `Questions` (each a TBC item with its owner and whether it blocks the
+  delivery, POS.2040), `Reference`. Reference is the one part every
+  story has: the BR, NFR, UC or DEP it serves, or in a small change the
+  POS; a dependency is a DEP in the Reference, or a question. No vague
+  word in a criterion, no priority, no estimate, no technical solution,
+  no section of notes, dependencies or introduction. A quality cutting
+  across the whole is a story of its own, one concerning one function a
+  criterion of its story. Reason: the shape of the instance's export,
+  kept by the render, and the principal's word at the brief of
+  2026-11-02; a question is an item with an ID because the export's
+  shape binds the render, not the source, and a question without an ID
+  could be neither cited by the item of the parent that takes its answer
+  nor seen by the ledger; a section of dependencies was rejected since
+  the Reference carries them. Present shape 2026-11-24.
 - **POS.2020 The reviewers of the stories.** No new critic and no new
   persona: `clarity` reads the stories with their Story style, `essence`
   compares them with their parent, and a challenger already in the
@@ -1103,14 +1107,15 @@ position that already stands elsewhere.
   check `user-stories` verifies the mechanics: every in-scope item of
   the parent served or said not to be, counted and never judged; every
   story with a Reference to an item that exists; the shape and the order
-  of the parts, none present and empty; questions with an owner, risks
-  with a mitigation or consequences, notes with a link; no vague word or
-  conditional in a criterion; no skeleton residue. The stakeholders'
-  approval of the whole is the instance's act, recorded in
-  `decisions.md` where the principal wants it kept. Reason: what a story
-  can get wrong mechanically is what the check finds; what a
-  persona would hunt in stories, the business-analyst persona already
-  hunts in the BRD above them. Decided 2026-11-02.
+  of the parts, none present and empty; questions as TBC items with an
+  owner and their mark of blocking, risks with a mitigation or
+  consequences, notes with a link; no vague word or conditional in a
+  criterion; no skeleton residue. The stakeholders' approval of the
+  whole is the instance's act, recorded in `decisions.md` where the
+  principal wants it kept. Reason: what a story can get wrong
+  mechanically is what the check finds; what a persona would hunt in
+  stories, the business-analyst persona already hunts in the BRD above
+  them. Present shape 2026-11-24.
 
 ### Structure and style of an assignment
 - **POS.0200** Structured items with stable IDs beat prose, even at very
@@ -1158,10 +1163,10 @@ position that already stands elsewhere.
 - **POS.0230** Prefix vocabulary, aligned with the group BRD standard
   where an equivalent exists: REQ, OOS, CON, ASM, DEL, TBC, SCR in the
   assignment; BR, UC, DEP, NFR with OOS, ASM, TBC, SCR in the BRD
-  (POS.1830); US in the user stories (POS.2010); POS, THR, REJ, FCT in
-  the intent; SOL and TBC in the solution design (POS.1420); ASM and
-  TBC in a work specification (POS.1520); FND, CHL, DEC internally. No
-  universal standard for prefixes exists; this is a house convention
+  (POS.1830); US with TBC in the user stories (POS.2010); POS, THR, REJ,
+  FCT in the intent; SOL and TBC in the solution design (POS.1420); ASM
+  and TBC in a work specification (POS.1520); FND, CHL, DEC internally.
+  No universal standard for prefixes exists; this is a house convention
   derived from the group's own. A fact (FCT) is what is the case —
   stated by the principal on his word, or by a source cited to its
   file; verification is never demanded. A position (POS) is what the
@@ -1175,6 +1180,21 @@ position that already stands elsewhere.
   Origin is marked from 2026-09-14 on, the principal's word being the
   default that needs no mark; no retrofit
   (`sources/forge-run-record-health.md`, P.08, F.04).
+- **POS.2040 An open question is written one way.** Wherever a document
+  of the chain or a work specification holds an open question, it is a
+  TBC item with its owner, the questions of a story among them
+  (POS.2010). Where a layer's definition says what an open question can
+  keep the document from, estimation for a BRD, realisation for a
+  solution design, delivery for the user stories, the item says whether
+  it does by one mark, the same in every such layer; what done means
+  stays the definition's. A layer whose definition names nothing of the
+  kind carries no mark, the assignment and the work specification
+  today. What would close a question is said where that is more than its
+  owner's answer, in the solution design and the work specification.
+  Reason: a mark worded per layer made the rule of Waiting on principal
+  (POS.1620), the ledger's skeleton and its script name every layer's
+  wording, and each new layer would have added its own; a field nothing
+  reads is filled without meaning. Decided 2026-11-24.
 - **POS.0240** Every assignment carries a Terms section, so it can be
   forwarded without oral tradition. Defined Terms are capitalised in
   item text.
@@ -1391,13 +1411,13 @@ position that already stands elsewhere.
   a parking waits for has come; a decision with an unfinished action
   becomes a thread. Free text without an ID has no place there. A
   thread's line is its first sentence and its last dated paragraph; a
-  question's line says why it stands there, no owner or what it blocks,
+  question's line says why it stands there, no owner or that it blocks,
   and its first sentence. A question that has an owner and blocks
   nothing stays in its document, which is complete with it. Why: the
   hand-kept list differed from any rule in both directions; and the
   list says what a document still lacks, never who owes it, since the
   one who completes a document is the one who writes it. Present shape
-  2026-11-19.
+  2026-11-24.
 - **POS.1630** A record of state only, a mining, a work product's state,
   a finding closed, a thread closed, carries the current version and
   does not raise it, so a round that only closes findings after a check
@@ -3067,6 +3087,14 @@ worked out by Claude; what Claude has worked out is never a FCT
   2026-11-02: it would not travel with git, every clone depending on its
   owner remembering a setup of his own; the line travels in every
   project's own `.gitignore` instead (POS.1690).
+- **REJ.0560** One set of fields for a TBC in every layer, the owner,
+  what would close it and the mark of blocking, whatever the layer
+  (`sources/github-issues/discussion-17-one-tbc-shape-across-the-chain.md`).
+  Dropped 2026-11-24: in an assignment, a BRD and a story a question is
+  closed by its owner's answer, so the field would repeat the owner on
+  every item; and the definitions of the assignment and of the work
+  specification name nothing an open question could keep them from, so
+  the mark would be filled there without meaning (POS.2040).
 
 ## Candidate structure for the layer below
 

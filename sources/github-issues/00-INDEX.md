@@ -59,3 +59,11 @@ ingests it, each file immutable from its registration (POS.0180).
 - **Form:** text
 - **Role:** *(inferred)* the report from which the thread on a fork that cannot follow the engine is opened; answered and closed on 2026-11-19.
 - **Use for:** how the gap shows on a fork and where the script reads the origin; the two levels of the author's wish; what the principal answered and what he left to be considered.
+
+### `discussion-17-one-tbc-shape-across-the-chain.md`
+- **What:** GitHub discussion #17 (Ideas), "Open questions in user stories should be TBC items — and one TBC shape across the chain": an open question is written in different shapes across the chain, and a user story carries its questions as free text, `<question> → <owner>` (POS.2010, `templates/user-stories.md`), so that a question in a story cannot be cited by the item of the parent that takes its answer, cannot be marked as blocking the delivery and is not seen by the ledger, whose Waiting on principal takes no free text without an ID (POS.1620); the reason POS.2010 gives, the shape of the export, is held to bind the render and not the source; a table of the fields a TBC carries in each layer; two proposals, a question of a story as a TBC item inside its story, and one set of fields for a TBC in every layer, `owner`, `closed by` and a single `blocker: yes | no` in place of `blocks estimation` and `Blocks realisation`, what done means staying in each layer's definition; two questions to the maintainer, whether the inline form in stories was a deliberate choice beyond the export format and whether the differences between the layers have a reason not written down.
+- **Origin:** https://github.com/pche-broken-artist/forge-of-thought/discussions/17, opened by a visitor on 2026-11-24; downloaded without comments on 2026-11-24.
+- **Date:** 2026-11-24, from the content
+- **Form:** text
+- **Role:** *(inferred)* the proposal that a question of a user story becomes a TBC item and that a TBC carries one set of fields in every layer; the author's case, the table of the fields each layer carries today, his two proposals and his two questions to the maintainer.
+- **Use for:** what the author found and why, in his words; the fields each layer carried on 2026-11-24; the two proposals to judge and the two questions to answer when the discussion is answered.

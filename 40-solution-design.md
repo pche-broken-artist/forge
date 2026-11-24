@@ -1,5 +1,5 @@
 ---
-version: 0.76
+version: 0.77
 status: draft
 project: forge
 audience: whoever realises the solution, a person or an agent
@@ -504,12 +504,13 @@ boundary kept by hand or an order of work.
   record overriding. Waiting on principal by the rule of POS.1620, the
   open threads those something waits on first, then by priority, a
   thread's line its priority and what waits on it in brackets, its
-  first sentence and its last dated paragraph; of the TBC it takes the
-  one written `owner: principal` or `the principal`, the one written
-  `owner: unassigned` and the one that says `blocks estimation: yes` or
-  `Blocks realisation: yes`, reading no other owner, the unowned and
-  the blocking first, a question's line `no owner` and what it blocks
-  in brackets and its first sentence. It
+  first sentence and its last dated paragraph; of the TBC, read in the
+  shape of SOL.0980 wherever a document holds one, it takes the one
+  written `owner: principal` or `the principal`, the one written
+  `owner: unassigned` and the one whose brackets say `blocker: yes`,
+  reading no other owner, the unowned and the blocking first, a
+  question's line `no owner` and `blocks` in brackets and its first
+  sentence. It
   reports a duplicate ID, a closed thread touched by a later commit
   (through `forge_repos`), and a THR cited in any file of the project
   with neither a thread file nor a `closed` record (POS.1640). An
@@ -696,11 +697,14 @@ boundary kept by hand or an order of work.
   recipe genre `user-stories-export` with its skeleton
   `templates/recipe-user-stories-export.md`, which renders the stories
   as the instance's export, one heading per story with its parts on
-  lines of their own and no line wrapped, and leaves out every POS; the
-  clarity lens reads the stories with their Story style, a sentence of
-  `critic-clarity.md`; stories from a file put in are a work product of
-  SOL.0640, never `35-user-stories.md`. The prefix US widened the
-  pattern of the scripts from three letters to two or three
+  lines of their own and no line wrapped, leaves out every POS and
+  prints a story's questions, items of SOL.0980 in the artefact, one to
+  a line as `TBC.NNNN <question> → <owner>`, a blocking one ending in
+  `(blocker)`; the clarity lens reads the stories with their Story
+  style, a sentence of `critic-clarity.md`; stories from a file put in
+  are a work product of SOL.0640, never `35-user-stories.md`. The
+  prefix US widened the pattern of the scripts from three letters to
+  two or three
   (`docs_map.py`, `forge-ledger.py`, `forge-check.py`, `forge_check.py`,
   `forge_docs.py`, `forge-history.py`). Built 2026-11-02 from the brief
   `user-stories` before the positions (POS.1780). Realises: POS.1990, POS.2000, POS.2010, POS.2020, POS.0220,
@@ -1600,6 +1604,49 @@ boundary kept by hand or an order of work.
   `scripts/forge_check.py`, `scripts/forge_docs.py`,
   `scripts/forge-migrate.py`, `tests/fixture/`,
   `tests/test_forge_migrate_comments.py`.
+- **SOL.0980 The item of an open question.** A TBC is one list item
+  wherever it stands, `- **TBC.NNNN** (owner: <who>) <the question>`,
+  its number the project's next free one. In the layers whose
+  definition says what an open question can keep the document from, the
+  brackets carry the mark after the owner,
+  `(owner: <who>; blocker: yes | no)`: the BRD, where it keeps from
+  estimation, the solution design, from realisation, and the user
+  stories, from delivery, each said in its definition's Aim; the
+  templates of the assignment and of the work specification carry the
+  owner alone. A story's questions stand under its label
+  `**Questions:**` as such items. What would close a question follows
+  its text as `Closed by: <what>.` in the solution design and the work
+  specification. The ledger reads the owner and the mark from the
+  brackets and nothing else of the item (SOL.0680); `check-brd` and
+  `check-user-stories` verify that every TBC of their document has
+  both. `scripts/forge-migrate.py --blocker`, a step of its own as
+  `--comments` is (SOL.0970), run through `/migrate` on the owner's word
+  and never a condition of a write, brings a document written before to
+  the mark: `blocks estimation: X` in the brackets becomes `blocker: X`,
+  and `Blocks realisation: X.` at the end of an item moves into the
+  brackets; an item where text follows the old mark is printed and left
+  to the hand; immutable files are not read. The ledger script reads the
+  two old wordings as the mark for one release (POS.1600). Realises:
+  POS.2040, POS.2010, POS.1620, POS.1740. Choice: one word in the
+  brackets against a wording per layer, which the ledger's rule, its
+  skeleton and its script each had to name and every new layer would
+  have extended; the cost is that a question's line in the ledger says
+  that it blocks and no longer what. The brackets against the item's
+  text, where the solution design had it: the script reads the owner
+  there already. A step of the migration against the tolerance of the
+  script alone, after which a blocking question written the old way
+  would leave Waiting on principal in silence. Not taken: every field in
+  every layer (REJ.0560). Decided 2026-11-24 (discussion 17). Where:
+  `templates/brd.md`, `templates/solution-design.md`,
+  `templates/user-stories.md`, `templates/recipe-user-stories-export.md`,
+  `templates/ledger.md`, `.claude/skills/forge/states/brd.md`,
+  `.claude/skills/forge/states/solution-design.md`,
+  `.claude/skills/forge/states/user-stories.md`,
+  `.claude/skills/migrate/SKILL.md`, `.claude/agents/check-brd.md`,
+  `.claude/agents/check-user-stories.md`,
+  `.claude/reference/id-prefixes.md`, `.claude/reference/commands.md`,
+  `scripts/forge-ledger.py`, `scripts/forge-migrate.py`,
+  `tests/test_forge_ledger.py`, `tests/test_forge_migrate_blocker.py`.
 - **SOL.0620 The scripts and their platform.** The scripts are Python
   3.8 or newer, run as `python scripts/<name>.py`, and use nothing
   Windows-only: paths through `pathlib`, processes through `subprocess`
@@ -1768,28 +1815,26 @@ boundary kept by hand or an order of work.
   `.gitignore`, `.gitattributes`.
 
 ## Open
-- **TBC.0010** (owner: principal) Mermaid diagrams in a Word file:
-  rendering them to pictures needs `mermaid-cli`, a further
+- **TBC.0010** (owner: principal; blocker: no) Mermaid diagrams in a
+  Word file: rendering them to pictures needs `mermaid-cli`, a further
   dependency not decided on (THR.0370; Waiting on principal in the
-  ledger). Closed by: the principal's
-  decision on the dependency. Blocks realisation: no.
-- **TBC.0020** (owner: principal) Which check keeps this design true
-  against what realises it; POS.1420 wants one and none exists. With
-  it, how a layer is told to have fallen behind the intent it was
-  brought to, since an artefact names no version of the intent
-  (THR.0520, closed 2026-10-22). Closed by: the principal's decision
-  on the check. Blocks realisation: no.
-- **TBC.0030** (owner: principal) The reviewers on a different model
-  family (POS.0800) are not built: the link exists (SOL.0870) and the
-  research runs on it; `/challenge` and `/critique` on it, the
-  consultation and the spool have no part here (THR.0740). Closed by:
-  their design when the principal takes them up. Blocks realisation:
-  no.
+  ledger). Closed by: the principal's decision on the dependency.
+- **TBC.0020** (owner: principal; blocker: no) Which check keeps this
+  design true against what realises it; POS.1420 wants one and none
+  exists. With it, how a layer is told to have fallen behind the intent
+  it was brought to, since an artefact names no version of the intent
+  (THR.0520, closed 2026-10-22). Closed by: the principal's decision on
+  the check.
+- **TBC.0030** (owner: principal; blocker: no) The reviewers on a
+  different model family (POS.0800) are not built: the link exists
+  (SOL.0870) and the research runs on it; `/challenge` and `/critique`
+  on it, the consultation and the spool have no part here (THR.0740).
+  Closed by: their design when the principal takes them up.
 
-- **TBC.0100** (owner: Claude) `forge-branch` creates a local branch
-  from the current state even when the origin has a branch of that name;
-  it should track `origin/<branch>` where it exists (found at R6.03,
-  2026-10-23, the second clone of the fixture opening on `master`).
-  Closed by: the script changed and tried on the fixture. Blocks
-  realisation: no; `forge-pull` brings the branch to the origin's and
-  `forge-save` sets the upstream at the push.
+- **TBC.0100** (owner: Claude; blocker: no) `forge-branch` creates a
+  local branch from the current state even when the origin has a branch
+  of that name; it should track `origin/<branch>` where it exists (found
+  at R6.03, 2026-10-23, the second clone of the fixture opening on
+  `master`). Nothing waits on it: `forge-pull` brings the branch to the
+  origin's and `forge-save` sets the upstream at the push. Closed by:
+  the script changed and tried on the fixture.
