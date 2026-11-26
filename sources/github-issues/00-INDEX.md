@@ -83,3 +83,11 @@ ingests it, each file immutable from its registration (POS.0180).
 - **Form:** text
 - **Role:** the proposal from which the thread on one head against several is opened; set aside for deeper thought, the principal's word of 2026-11-26.
 - **Use for:** the author's premise and his five requirements with their reasons, in his words; what to answer in the discussion when the thread is settled.
+
+### `issue-16-profile-without-login.md`
+- **What:** GitHub issue #16, "forge-engine.py: the per-run profile does not carry the antigravity login, so every run stops at "Authentication required"": `/research --deep --engine antigravity`, which runs `scripts/forge-engine.py antigravity` with the per-run profile, ends at every run with `Authentication required` and `Waiting for authentication` and waits until the timeout, the run being non-interactive with stdin closed; a packet of one sentence fails the same way and passes at once with `--no-profile`; the cause as the reporter sees it, `agy` keeping its login in files at the root of `~/.gemini` (`oauth_creds.json`, `jetski-standalone-oauth-token`) while the profile the script builds under `tmp/research/.home/.gemini` holds only `antigravity-cli/` and `config/`; why the check of 2026-10-24 in the script's header found the login, he does not know; two suggestions, the profile reaching the login files without the deny rules opened, and an authentication answer recognised so that a run stops at once with a plain message; seen on macOS 27.2.1 with agy 1.5.4, 1.5.13 and 1.5.16, Forge 7.0 at intent 7.11.
+- **Origin:** https://github.com/pche-broken-artist/forge-of-thought/issues/16, opened by a visitor on 2026-11-24; downloaded without comments on 2026-11-26.
+- **Date:** 2026-11-24, from the content
+- **Form:** text
+- **Role:** the report from which the missing login of the per-run profile is worked.
+- **Use for:** how the failure shows and how the reporter isolated it; where he found the login files and what the profile holds; his two suggestions; the versions and the system it was seen on.
