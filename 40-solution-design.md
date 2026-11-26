@@ -1,5 +1,5 @@
 ---
-version: 0.81
+version: 0.82
 status: draft
 project: forge
 audience: whoever realises the solution, a person or an agent
@@ -1819,12 +1819,16 @@ boundary kept by hand or an order of work.
   `.github/workflows/tests.yml`, `.claude/skills/test/SKILL.md`.
 - **SOL.0910 What waits on GitHub.** `forge-status --remote` tries, for
   each repository with an origin, to read what lies there outside git:
-  the open pull requests (number, title, author, date, files changed)
-  and the discussions nobody of the repository has answered (number,
-  title, author, date), through `gh` resolved from PATH like every
-  external tool, in one GraphQL query. What it reads it prints as a
-  `github:` line under the `remote:` line, the counts and one line per
-  item. Whatever keeps it from reading, no `gh`, an origin that is not
+  the open pull requests (number, title, author, date, files changed),
+  the open issues (number, title, author, date) and the discussions
+  nobody of the repository has answered (number, title, author, date),
+  through `gh` resolved from PATH like every external tool, in one
+  GraphQL query. What it reads it prints as a `github:` line under the
+  `remote:` line, the counts and one line per item, the pull requests
+  first, then the issues, then the discussions. The count of the issues
+  is GitHub's own; the newest twenty are listed, and a line after them
+  says how many older ones are not. Whatever keeps it from reading, no
+  `gh`, an origin that is not
   GitHub, no login, no network, is one line saying that it could not
   read and why, in gh's own words where it has them, and the script
   goes on: nothing is blocked and no case has a version of its own.
@@ -1835,12 +1839,14 @@ boundary kept by hand or an order of work.
   map (step 5) and `/pull` (step 1) say the line beside the state of
   the branch. Tested on the fixture, whose origin is a local bare
   repository that no gh can read: the could-not-read line, the script
-  green, on a machine with gh or without one. Realises: POS.1970.
+  green, on a machine with gh or without one; and with GitHub stood in
+  for by a function of the test: the lines of the three kinds, and the
+  issues beyond the twenty counted and said. Realises: POS.1970.
   Choice: `gh` rather than the REST API by `urllib`, because the login
   and the token are gh's and the forge keeps no credential (POS.0950).
   Where: `scripts/forge-status.py`, `scripts/forge_repos.py`,
-  `tests/test_git_scripts.py`, `.claude/skills/forge/SKILL.md`,
-  `.claude/skills/pull/SKILL.md`.
+  `tests/test_git_scripts.py`, `tests/test_forge_repos.py`,
+  `.claude/skills/forge/SKILL.md`, `.claude/skills/pull/SKILL.md`.
 - **SOL.0930 The forge's own project beside the engine.** `projects/
   forge` is a git repository of its own, public under the engine's
   account and named `forge`, so that `/import-project` brings it into
@@ -1912,8 +1918,3 @@ boundary kept by hand or an order of work.
   `master`). Nothing waits on it: `forge-pull` brings the branch to the
   origin's and `forge-save` sets the upstream at the push. Closed by:
   the script changed and tried on the fixture.
-- **TBC.0120** (owner: principal; blocker: no) The map reads the open
-  pull requests and the unanswered discussions and no issue, while
-  `/github` takes up an issue as well: an issue nobody answered is
-  seen on GitHub alone. Closed by: the decision whether the map reads
-  it, POS.1970 first.

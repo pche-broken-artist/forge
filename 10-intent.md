@@ -1,5 +1,5 @@
 ---
-version: 7.19
+version: 7.20
 status: draft
 project: forge
 audience: principal + Claude only
@@ -2426,10 +2426,12 @@ position that already stands elsewhere.
   2026-11-06 (brief `tests`).
 - **POS.1970 The map says what waits on the remote.** Where a repository
   has an origin, the forge also reads from GitHub what lies there
-  outside git: the open pull requests and
+  outside git: the open pull requests, the open issues and
   the discussions nobody of the repository has answered, each with its
   number, title, author and date, a pull request with the count of files
-  it changes. The `/forge` map and `/pull` say it as a fact beside the
+  it changes. An issue is listed for as long as it is open, answered or
+  not, and leaves the map when it is closed, by hand on GitHub
+  (POS.2060). The `/forge` map and `/pull` say it as a fact beside the
   state of the branch, with one offer: look at it before anything is
   written into the project. The map reads it only; the forge merges and
   closes nothing there (POS.1490), and what it does with an issue or a
