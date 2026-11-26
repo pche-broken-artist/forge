@@ -1,5 +1,5 @@
 ---
-version: 0.83
+version: 0.84
 status: draft
 project: forge
 audience: whoever realises the solution, a person or an agent
@@ -1824,14 +1824,21 @@ boundary kept by hand or an order of work.
   each repository with an origin, to read what lies there outside git:
   the open pull requests (number, title, author, date, files changed,
   the state of what ran on it, SOL.1010),
-  the open issues (number, title, author, date) and the discussions
-  nobody of the repository has answered (number, title, author, date),
+  the open issues (number, title, author, date) and the open
+  discussions nobody of the repository has answered (number, title,
+  author, date),
   through `gh` resolved from PATH like every external tool, in one
   GraphQL query. What it reads it prints as a `github:` line under the
   `remote:` line, the counts and one line per item, the pull requests
-  first, then the issues, then the discussions. The count of the issues
-  is GitHub's own; the newest twenty are listed, and a line after them
-  says how many older ones are not. Whatever keeps it from reading, no
+  first, then the issues, then the discussions. The counts of the pull
+  requests and of the issues are GitHub's own; the newest twenty of
+  each are listed, and a line after them says how many older ones are
+  not. The discussions are the fifty last updated, each read to its
+  first fifty comments and their first fifty replies: a last line says
+  how many discussions were not read, and an unanswered discussion
+  with more comments than were read says so on its line. Reading them
+  page by page was left out, the price a request more at every map.
+  Whatever keeps it from reading, no
   `gh`, an origin that is not
   GitHub, no login, no network, is one line saying that it could not
   read and why, in gh's own words where it has them, and the script
@@ -1844,8 +1851,10 @@ boundary kept by hand or an order of work.
   the branch. Tested on the fixture, whose origin is a local bare
   repository that no gh can read: the could-not-read line, the script
   green, on a machine with gh or without one; and with GitHub stood in
-  for by a function of the test: the lines of the three kinds, and the
-  issues beyond the twenty counted and said. Realises: POS.1970.
+  for by a function of the test: the lines of the three kinds, the
+  pull requests and the issues beyond the twenty counted and said, a
+  closed discussion left out, and what of the discussions was not
+  read said. Realises: POS.1970.
   Choice: `gh` rather than the REST API by `urllib`, because the login
   and the token are gh's and the forge keeps no credential (POS.0950).
   Where: `scripts/forge-status.py`, `scripts/forge_repos.py`,
