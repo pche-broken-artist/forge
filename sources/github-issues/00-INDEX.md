@@ -75,3 +75,11 @@ ingests it, each file immutable from its registration (POS.0180).
 - **Form:** text
 - **Role:** *(inferred)* the proposal that every commit message of the forge is drafted in one shape, a short subject with a Conventional Commits type and a wrapped body, without the prefix `forge:`; the author's reasons, his example of one commit in both shapes and his four questions to the maintainer.
 - **Use for:** what the author proposes and why, in his words; the example of one commit as it is and in the proposed shape; the four questions to answer when the discussion is answered.
+
+### `discussion-19-overview-beside-the-walkthrough.md`
+- **What:** GitHub discussion #19 (Ideas), "Change The Conversation Paradigm": a proposal of a working method "Overview" beside the walkthrough, one of the two to be chosen; a list of open items, findings, challenges, threads and TBC items, can today be worked only as a walkthrough (POS.0850), one item per message in Claude's order of weight, while many items cannot be decided by the principal alone, the answer lying with a stakeholder offline, so that the principal needs to see the whole list first and decide what to take up, when and with whom; five requirements, each with why and why it works, headed as found by the forge itself: all open items seen at once, one line each with the file that holds the full text; the items grouped by the person who can answer them; the principal selecting which items are worked now and in what order, a selection being no verdict; every verdict still given in a walkthrough, one item per message; the items not selected staying open, not parked; the answers obtained offline coming back through `/ingest` and then the intent by the principal's explicit act, with provenance.
+- **Origin:** https://github.com/pche-broken-artist/forge-of-thought/discussions/19, opened by a visitor on 2026-11-25; downloaded without comments on 2026-11-26.
+- **Date:** 2026-11-25, from the content
+- **Form:** text
+- **Role:** the proposal from which the thread on one head against several is opened; set aside for deeper thought, the principal's word of 2026-11-26.
+- **Use for:** the author's premise and his five requirements with their reasons, in his words; what to answer in the discussion when the thread is settled.
