@@ -1,5 +1,5 @@
 ---
-version: 0.84
+version: 0.85
 status: draft
 project: forge
 audience: whoever realises the solution, a person or an agent
@@ -1806,8 +1806,10 @@ boundary kept by hand or an order of work.
   two planted defects found; `test_conversions.py`, md2pptx, md2docx
   and doc2md failing on an empty PATH naming their tool. CI is
   `.github/workflows/tests.yml`: at every push and pull request,
-  `ubuntu-latest` and `windows-latest`, Python 3.8 and the newest
-  stable, `3.x`, resolved by `setup-python` at each run, `pip install
+  Linux and Windows, Python 3.8 and the newest stable, `3.x`, resolved
+  by `setup-python` at each run; the images are `ubuntu-latest` and
+  `windows-latest`, but for Python 3.8 on Linux, which runs on
+  `ubuntu-24.04`, the last image `setup-python` has a 3.8 for, `pip install
   pytest`, `python -m pytest`; the run's token has `contents: read`
   and nothing more. `/release` of the engine runs
   `/test` as its step 1a; `/save` never. Realises: POS.1930, POS.1950,
