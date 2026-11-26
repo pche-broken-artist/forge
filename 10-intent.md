@@ -1,5 +1,5 @@
 ---
-version: 7.20
+version: 7.21
 status: draft
 project: forge
 audience: principal + Claude only
@@ -1761,8 +1761,9 @@ position that already stands elsewhere.
   map shows staleness, and a render is regenerated only on the
   principal's word (POS.0810).
 - **POS.1100** Save and release are two commands. `/save` runs the
-  `light` check (POS.1140) and then commits and pushes on whatever
-  branch is checked out, no render, seconds.
+  `light` check (POS.1140), commits and pushes on whatever
+  branch is checked out, no render, seconds, and then says how what
+  the push started on the remote ended (POS.2070).
   `/save --quick` leaves the `light` check out and nothing else: the
   message is drafted from the records and confirmed as always, or given
   with `-m`; the quick way is the principal's for a save he wants on the
@@ -1777,6 +1778,7 @@ position that already stands elsewhere.
   documentation on the one question it asks before anything runs, the
   renders and the save with the drafted message; it stops only where a
   thing is serious, a repository behind, diverged or unreachable, a
+  red run at the origin's head (POS.2070), a
   finding that would change a position or a rule, a new instance fact
   in a render,
   and always at the tag of a major, which is a deliberate act; `critique
@@ -2429,7 +2431,8 @@ position that already stands elsewhere.
   outside git: the open pull requests, the open issues and
   the discussions nobody of the repository has answered, each with its
   number, title, author and date, a pull request with the count of files
-  it changes. An issue is listed for as long as it is open, answered or
+  it changes and the state of what ran on it (POS.2070). An issue is
+  listed for as long as it is open, answered or
   not, and leaves the map when it is closed, by hand on GitHub
   (POS.2060). The `/forge` map and `/pull` say it as a fact beside the
   state of the branch, with one offer: look at it before anything is
@@ -2461,6 +2464,23 @@ position that already stands elsewhere.
   composed anew, which POS.1070 forbids; and an act that leaves the
   forge is safe to run without the principal watching each command
   only through a door that can do nothing else. Decided 2026-11-26.
+- **POS.2070 What GitHub runs on a commit is read, never assumed.** A
+  push starts runs the forge does not see end: the tests in CI
+  (POS.1960), a deployment, whatever a repository has set up. The forge
+  reads how they ended and says it. After every push, a save's and a
+  release's alike, it waits for what runs on the pushed commit and says
+  passing or failing, a failed job with its workflow, the step it
+  stopped at and what says why. The map and `/pull` say the same of the
+  origin's head, beside what waits on the remote (POS.1970), and of
+  each open pull request, so that a red run is seen by whoever opens
+  the map, whoever caused it. A release does not start from a red head
+  but on the principal's word. A red run is said again at every map and
+  after every push until it is green; nothing is fixed unasked and a
+  red run refuses no save: the fix is a round of its own. Where the
+  result cannot be read, the line says so and why, as POS.1970 has it,
+  and a repository GitHub runs nothing on says nothing. Why: a run
+  nobody reads tests nothing, and a run left red hides the next real
+  failure. Decided 2026-11-26.
 
 ### Naming
 - **POS.0600** The system is named **Forge of Thought**: thoughts are

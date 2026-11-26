@@ -1,5 +1,5 @@
 ---
-version: 0.82
+version: 0.83
 status: draft
 project: forge
 audience: whoever realises the solution, a person or an agent
@@ -1344,7 +1344,10 @@ boundary kept by hand or an order of work.
 - **SOL.0530 Save and release.** `/release` runs its checks (SOL.0330),
   settles their findings, renders the README and the release notes
   unconditionally, with no staleness test, and ends by running `/save`
-  with the release message and tag: not a second procedure. The order
+  with the release message and tag: not a second procedure. After its
+  push a save says how what GitHub ran on the commit ended, and a
+  release does not start from a failing head but on the principal's
+  word (SOL.1010, POS.2070). The order
   inside every release, by hand or with `--auto`, is the tests of the
   engine, checks, documentation, README and release notes, state render,
   save: the README reads the documentation's index, so the documentation
@@ -1819,7 +1822,8 @@ boundary kept by hand or an order of work.
   `.github/workflows/tests.yml`, `.claude/skills/test/SKILL.md`.
 - **SOL.0910 What waits on GitHub.** `forge-status --remote` tries, for
   each repository with an origin, to read what lies there outside git:
-  the open pull requests (number, title, author, date, files changed),
+  the open pull requests (number, title, author, date, files changed,
+  the state of what ran on it, SOL.1010),
   the open issues (number, title, author, date) and the discussions
   nobody of the repository has answered (number, title, author, date),
   through `gh` resolved from PATH like every external tool, in one
@@ -1847,6 +1851,57 @@ boundary kept by hand or an order of work.
   Where: `scripts/forge-status.py`, `scripts/forge_repos.py`,
   `tests/test_git_scripts.py`, `tests/test_forge_repos.py`,
   `.claude/skills/forge/SKILL.md`, `.claude/skills/pull/SKILL.md`.
+- **SOL.1010 What GitHub ran on a commit, read.** One function of
+  `forge_repos.py`, `github_ci(path, sha)`, asks GitHub in one GraphQL
+  request for everything it ran on the commit, what GitHub calls the
+  checks of the commit: the jobs of the workflows and the statuses of
+  other services. It gives a word, passing, failing, running, none or
+  unread, and the lines to print: the word with the commit and the
+  count of jobs, and under it every failed job with its workflow, the
+  step it stopped at and what says why. What says why is what GitHub
+  noted at the job where that is more than the exit code of a command;
+  else the part of the job's log that says it, pytest's short summary
+  down to the sum of the run or the lines GitHub marks as errors, the
+  log read through `gh_rest`, the one reading of GitHub's REST API,
+  beside `gh_graphql` (SOL.1000); else the note of the exit code. A
+  job cancelled, skipped or neutral is no failure. `forge-status
+  --remote` prints the lines as `ci:` under `github:` for the commit
+  the origin's branch stands at after its fetch, and nothing where the
+  `github:` line already said it could not read; an open pull
+  request's line of SOL.0910 ends with the state of its last commit,
+  read in the same request as the map. `scripts/forge-ci.py` is the
+  reading after a push: for one repository or for all, the commit the
+  upstream of the checked-out branch stands at as git last saw it, no
+  fetch; with `--wait` it reads again every quarter of a minute until
+  no job runs, a repository that carries workflows and shows no job
+  yet waited for as well, for the two minutes GitHub may take to start
+  one; after `--limit` minutes, twenty where not given, it says that
+  jobs still run and ends. It ends green whatever the jobs did, a
+  state said being no failure of the report. `/save` runs it with
+  `--wait` in the background after its push and relays what it
+  printed (step 5); `/release` reads the `ci:` line of its first step
+  and does not start from a failing head but on the principal's word,
+  `--auto` stopping there, and its save waits as every save does.
+  Tested with GitHub stood in for by a function of the test: the
+  words with their lines, GitHub's note before the log, the summary of
+  pytest from a log, a status of another service, the waiting, its
+  start and its limit with the test's own clock; and on the fixture,
+  whose origin no gh reads. Tried on the engine on 2026-11-26: failing
+  at `ef7aa36`, one of seven jobs, with GitHub's note. The reading of
+  a job's log ran against the stand-in alone, no test being red in CI
+  that day. Realises: POS.2070, POS.1070. Choice: everything GitHub ran
+  on the commit rather than the runs of one workflow, so that a
+  deployment and a status of another service are read by the same
+  request; GitHub's note before the log, so that a second request is
+  made only where the note says nothing; the waiting in a script of
+  its own rather than in `forge-save`, whose work ends when the commit
+  is safe on the origin; the name `forge-ci` rather than GitHub's word
+  checks, which the forge has for its own (`forge-check.py`,
+  `/check`). Where: `scripts/forge_repos.py`, `scripts/forge-ci.py`,
+  `scripts/forge-status.py`, `tests/test_forge_repos.py`,
+  `tests/test_forge_ci.py`, `tests/test_git_scripts.py`,
+  `.claude/skills/save/SKILL.md`, `.claude/skills/release/SKILL.md`,
+  `.claude/reference/repository-layout.md`.
 - **SOL.0930 The forge's own project beside the engine.** `projects/
   forge` is a git repository of its own, public under the engine's
   account and named `forge`, so that `/import-project` brings it into
