@@ -1,5 +1,5 @@
 ---
-version: 0.80
+version: 0.81
 status: draft
 project: forge
 audience: whoever realises the solution, a person or an agent
@@ -365,6 +365,45 @@ boundary kept by hand or an order of work.
   differently every time; the cost is one more script. Decided
   2026-10-11. Where: `.claude/skills/history/SKILL.md`, `scripts/forge-
   history.py`, `scripts/docs_map.py`.
+- **SOL.1000 An issue or a discussion taken up.** `/github [number]
+  [slug]`, `.claude/skills/github/SKILL.md`: bare, what waits on
+  GitHub as SOL.0910 prints it; with a number, the item read and, each
+  on the principal's word, registered as a source through `/ingest`, a
+  thread opened through `/thread`, a reply posted. Reading and posting
+  are `scripts/forge-github.py`, on the origin of the engine or, with
+  `--project`, of a project; it takes no address. `read <number>`
+  asks for a discussion first and then for an issue and prints the
+  item in the shape of a file of the bundle `sources/github-issues/`:
+  a heading with the kind, the number and the title; Source, Author,
+  Opened, a discussion's Category, the State at download with the
+  count of the comments and the day; the text as written, the line
+  breaks brought to one form; each comment under `## Comment by
+  <login>, <day> <time> UTC`, a reply to it under `### Reply by`;
+  `-o` writes a new file and refuses one that exists. The comments
+  are read page by page; a comment with more replies than one request
+  returns is refused, never a cut file. `reply <number> -F <file>`
+  posts the text of the file as one comment under gh's login and
+  prints its address; `--dry-run` prints the target, the login and
+  the text and posts nothing; an answer without the address of a
+  comment is said as not posted. It refuses an origin that is not on
+  GitHub before gh is looked for, a number that is neither kind, a
+  pull request among them, and whatever gh could not do, in gh's
+  words. `forge_repos.github_origin` is the one reading of a GitHub
+  address and `forge_repos.gh_graphql` the one request through gh,
+  handed over as JSON on standard input; SOL.0910 uses both. Tested
+  with GitHub stood in for by a function of the test and, for the
+  foreign origin, on the fixture; the posting itself was run against
+  the stand-in alone. Built 2026-11-26 before the positions
+  (POS.1780). Realises: POS.2060, POS.1070, POS.1460. Choice: a
+  script of two operations against raw `gh` composed anew each time,
+  and against a permission rule for `gh`, which cannot tell a reading
+  from a deletion; the price is one more script and `gh` needed for
+  it. No address as an argument, so that nothing reaches a repository
+  not cloned here. Closing left out, the price an issue closed by
+  hand on GitHub. Where: `.claude/skills/github/SKILL.md`,
+  `scripts/forge-github.py`, `scripts/forge_repos.py`,
+  `tests/test_forge_github.py`, `.claude/reference/commands.md`,
+  `.claude/reference/repository-layout.md`.
 
 ### The documents of a project
 - **SOL.0200 The history log.** A record is written as a list item, in
@@ -1789,8 +1828,10 @@ boundary kept by hand or an order of work.
   GitHub, no login, no network, is one line saying that it could not
   read and why, in gh's own words where it has them, and the script
   goes on: nothing is blocked and no case has a version of its own.
-  The reading is one function of `forge_repos.py`, beside the state
-  against the origin; without `--remote` nothing is asked. The `/forge`
+  The reading is one function of `forge_repos.py`, `github_waiting`,
+  beside the state against the origin; the address and the request
+  through gh are the two functions it shares with `forge-github`
+  (SOL.1000); without `--remote` nothing is asked. The `/forge`
   map (step 5) and `/pull` (step 1) say the line beside the state of
   the branch. Tested on the fixture, whose origin is a local bare
   repository that no gh can read: the could-not-read line, the script
@@ -1871,3 +1912,8 @@ boundary kept by hand or an order of work.
   `master`). Nothing waits on it: `forge-pull` brings the branch to the
   origin's and `forge-save` sets the upstream at the push. Closed by:
   the script changed and tried on the fixture.
+- **TBC.0120** (owner: principal; blocker: no) The map reads the open
+  pull requests and the unanswered discussions and no issue, while
+  `/github` takes up an issue as well: an issue nobody answered is
+  seen on GitHub alone. Closed by: the decision whether the map reads
+  it, POS.1970 first.

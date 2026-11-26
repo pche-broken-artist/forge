@@ -1,5 +1,5 @@
 ---
-version: 7.18
+version: 7.19
 status: draft
 project: forge
 audience: principal + Claude only
@@ -2431,15 +2431,34 @@ position that already stands elsewhere.
   number, title, author and date, a pull request with the count of files
   it changes. The `/forge` map and `/pull` say it as a fact beside the
   state of the branch, with one offer: look at it before anything is
-  written into the project. The forge reads it only; it merges, answers
-  and closes nothing (POS.1490). Whatever keeps it from reading, the
+  written into the project. The map reads it only; the forge merges and
+  closes nothing there (POS.1490), and what it does with an issue or a
+  discussion is POS.2060's. Whatever keeps it from reading, the
   line says so and the map goes on; the remote read is GitHub's for now,
   and a project on another host gets the one line that it could not be
   read, in the words of whatever kept it from reading (CHL.0720). Why: a
   contribution seen on
   the morning it arrives costs nothing, the same contribution seen after
   a week of one's own rounds costs renumbered items, re-dated versions
-  and a conflict at the merge (THR.0790). Present shape 2026-11-08.
+  and a conflict at the merge (THR.0790). Present shape 2026-11-26.
+- **POS.2060 What a visitor wrote on GitHub is taken up through one
+  command.** `/github <number>` reads one issue or discussion of a
+  repository's origin with its comments and says what it asks. On the
+  principal's word it is registered as a source in the growing bundle
+  of the project the repository belongs to, the engine's in the
+  forge's own project (POS.0180), a thread is opened from it
+  (POS.1680), and a reply is posted. A reply is the principal's act:
+  Claude drafts it, the principal sees the text whole, and it goes
+  out on his word, one reply one word (POS.1460), under the login he
+  is signed in with; the forge keeps no credential (POS.0950). On
+  GitHub the forge reads and posts that one comment and nothing else:
+  it edits, closes and deletes nothing, closing an issue stays the
+  principal's own act there, and a pull request is merged with git
+  (POS.1490). It reaches no repository but one cloned here. Why: an
+  issue was read, registered and answered by hand each time, the way
+  composed anew, which POS.1070 forbids; and an act that leaves the
+  forge is safe to run without the principal watching each command
+  only through a door that can do nothing else. Decided 2026-11-26.
 
 ### Naming
 - **POS.0600** The system is named **Forge of Thought**: thoughts are
