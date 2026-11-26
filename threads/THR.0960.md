@@ -41,4 +41,11 @@ its login in a place the two variables do not move. THR.0740 is the
 open thread of the link itself and holds what was built on
 2026-10-24. Opened 2026-11-26.
 
+2026-11-26: answered in the issue
+(https://github.com/pche-broken-artist/forge-of-thought/issues/16#issuecomment-7204036530):
+the cause confirmed from the script, stopping at once agreed, the
+constraint on the login said, a pull request for the login half
+invited, and a change promised for the reporter to try when the
+thread is taken up. Open now: both halves, nothing built yet.
+
 <!-- Shape: templates/thread.md -->
